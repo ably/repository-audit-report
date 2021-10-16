@@ -62,6 +62,8 @@
 | [queue-demo](https://github.com/ably/queue-demo) | :green_circle: | [:red_circle:](#queue-demo-check-b) | :green_circle: | [:red_circle:](#queue-demo-check-d) |
 | [realtime-pong](https://github.com/ably/realtime-pong) | :green_circle: | [:red_circle:](#realtime-pong-check-b) | :green_circle: | [:red_circle:](#realtime-pong-check-d) |
 | [realtime-use-case-devrel-collaborations](https://github.com/ably/realtime-use-case-devrel-collaborations) | :green_circle: | [:red_circle:](#realtime-use-case-devrel-collaborations-check-b) | :green_circle: | [:red_circle:](#realtime-use-case-devrel-collaborations-check-d) |
+| [repository-audit](https://github.com/ably/repository-audit) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
+| [repository-audit-report](https://github.com/ably/repository-audit-report) | :green_circle: | [:red_circle:](#repository-audit-report-check-b) | [:red_circle:](#repository-audit-report-check-c) | :green_circle: |
 | [sdk-upload-action](https://github.com/ably/sdk-upload-action) | :green_circle: | [:yellow_circle:](#sdk-upload-action-check-b) | :green_circle: | :green_circle: |
 | [sysdig-chisels](https://github.com/ably/sysdig-chisels) | :green_circle: | [:red_circle:](#sysdig-chisels-check-b) | :green_circle: | [:red_circle:](#sysdig-chisels-check-d) |
 | [tutorials](https://github.com/ably/tutorials) | :green_circle: | [:red_circle:](#tutorials-check-b) | :green_circle: | [:red_circle:](#tutorials-check-d) |
@@ -618,6 +620,16 @@ Validates the configuration of the Merge button.
 - :red_circle: Does not automatically delete head branches.
 - :red_circle: Allows rebase merging.
 - :red_circle: Allows squash merging.
+
+### [repository-audit-report](https://github.com/ably/repository-audit-report) check B
+
+:red_circle: There is no branch protection rule defined for pattern `main`.
+
+### [repository-audit-report](https://github.com/ably/repository-audit-report) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Issues are disabled.
 
 ### [sdk-upload-action](https://github.com/ably/sdk-upload-action) check B
 
