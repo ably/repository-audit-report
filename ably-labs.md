@@ -7,6 +7,7 @@
 | [Ablingo](https://github.com/ably-labs/Ablingo) | :green_circle: | [:red_circle:](#ablingo-check-b) | [:red_circle:](#ablingo-check-c) | [:red_circle:](#ablingo-check-d) |
 | [AblyD](https://github.com/ably-labs/AblyD) | :green_circle: | [:red_circle:](#ablyd-check-b) | [:red_circle:](#ablyd-check-c) | [:red_circle:](#ablyd-check-d) |
 | [Club](https://github.com/ably-labs/Club) | :green_circle: | [:red_circle:](#club-check-b) | :green_circle: | :green_circle: |
+| [Gophercon-Hackathon](https://github.com/ably-labs/Gophercon-Hackathon) | :green_circle: | [:red_circle:](#gophercon-hackathon-check-b) | [:red_circle:](#gophercon-hackathon-check-c) | [:red_circle:](#gophercon-hackathon-check-d) |
 | [LED-Matrix-Jumper](https://github.com/ably-labs/LED-Matrix-Jumper) | [:red_circle:](#led-matrix-jumper-check-a) | [:red_circle:](#led-matrix-jumper-check-b) | [:red_circle:](#led-matrix-jumper-check-c) | [:red_circle:](#led-matrix-jumper-check-d) |
 | [NextJS-chat-app](https://github.com/ably-labs/NextJS-chat-app) | :green_circle: | [:red_circle:](#nextjs-chat-app-check-b) | [:red_circle:](#nextjs-chat-app-check-c) | [:red_circle:](#nextjs-chat-app-check-d) |
 | [PubCrawler](https://github.com/ably-labs/PubCrawler) | :green_circle: | [:red_circle:](#pubcrawler-check-b) | :green_circle: | :green_circle: |
@@ -55,11 +56,11 @@
 | [vonage-vercel-voting](https://github.com/ably-labs/vonage-vercel-voting) | :green_circle: | [:red_circle:](#vonage-vercel-voting-check-b) | [:red_circle:](#vonage-vercel-voting-check-c) | [:red_circle:](#vonage-vercel-voting-check-d) |
 | [websockets-cursor-sharing](https://github.com/ably-labs/websockets-cursor-sharing) | :green_circle: | [:red_circle:](#websockets-cursor-sharing-check-b) | [:red_circle:](#websockets-cursor-sharing-check-c) | [:red_circle:](#websockets-cursor-sharing-check-d) |
 | [whiteboard](https://github.com/ably-labs/whiteboard) | :green_circle: | [:red_circle:](#whiteboard-check-b) | [:red_circle:](#whiteboard-check-c) | [:red_circle:](#whiteboard-check-d) |
-| Pass | 40 | 0 | 3 | 3 |
+| Pass | 41 | 0 | 3 | 3 |
 | Warn | 0 | 0 | 0 | 0 |
-| Fail | 11 | 51 | 48 | 48 |
+| Fail | 11 | 52 | 49 | 49 |
 
-Repository Count: 51
+Repository Count: 52
 
 ## Checks
 
@@ -122,6 +123,25 @@ Validates the configuration of the Merge button.
 ### [Club](https://github.com/ably-labs/Club) check B
 
 :red_circle: There is no branch protection rule defined for pattern `main`.
+
+### [Gophercon-Hackathon](https://github.com/ably-labs/Gophercon-Hackathon) check B
+
+:red_circle: There is no branch protection rule defined for pattern `main`.
+
+### [Gophercon-Hackathon](https://github.com/ably-labs/Gophercon-Hackathon) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Projects are enabled.
+- :red_circle: Wiki is enabled.
+
+### [Gophercon-Hackathon](https://github.com/ably-labs/Gophercon-Hackathon) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
 
 ### [LED-Matrix-Jumper](https://github.com/ably-labs/LED-Matrix-Jumper) check A
 
