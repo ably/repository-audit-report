@@ -56,6 +56,11 @@
 | [vonage-vercel-voting](https://github.com/ably-labs/vonage-vercel-voting) | :green_circle: | [:red_circle:](#vonage-vercel-voting-check-b) | [:red_circle:](#vonage-vercel-voting-check-c) | [:red_circle:](#vonage-vercel-voting-check-d) |
 | [websockets-cursor-sharing](https://github.com/ably-labs/websockets-cursor-sharing) | :green_circle: | [:red_circle:](#websockets-cursor-sharing-check-b) | [:red_circle:](#websockets-cursor-sharing-check-c) | [:red_circle:](#websockets-cursor-sharing-check-d) |
 | [whiteboard](https://github.com/ably-labs/whiteboard) | :green_circle: | [:red_circle:](#whiteboard-check-b) | [:red_circle:](#whiteboard-check-c) | [:red_circle:](#whiteboard-check-d) |
+| Pass | 41 | 0 | 3 | 3 |
+| Warn | 0 | 0 | 0 | 0 |
+| Fail | 11 | 52 | 49 | 49 |
+
+Repository Count: 52
 
 ## Checks
 

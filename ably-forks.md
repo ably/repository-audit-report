@@ -135,6 +135,11 @@
 | [wobserver](https://github.com/ably-forks/wobserver) | [:red_circle:](#wobserver-check-a) | [:red_circle:](#wobserver-check-b) | [:red_circle:](#wobserver-check-c) | [:red_circle:](#wobserver-check-d) |
 | [ws](https://github.com/ably-forks/ws) | [:red_circle:](#ws-check-a) | [:red_circle:](#ws-check-b) | [:red_circle:](#ws-check-c) | [:red_circle:](#ws-check-d) |
 | [xdelta](https://github.com/ably-forks/xdelta) | [:red_circle:](#xdelta-check-a) | [:red_circle:](#xdelta-check-b) | [:red_circle:](#xdelta-check-c) | [:red_circle:](#xdelta-check-d) |
+| Pass | 5 | 0 | 2 | 0 |
+| Warn | 3 | 1 | 0 | 0 |
+| Fail | 123 | 130 | 129 | 131 |
+
+Repository Count: 131
 
 ## Checks
 
