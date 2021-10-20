@@ -139,6 +139,8 @@
 | Warn | 3 | 1 | 0 | 0 |
 | Fail | 123 | 130 | 129 | 131 |
 
+Repository Count: 131
+
 ## Checks
 
 ### Check: A

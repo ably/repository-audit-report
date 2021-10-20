@@ -59,6 +59,8 @@
 | Warn | 0 | 0 | 0 | 0 |
 | Fail | 11 | 51 | 48 | 48 |
 
+Repository Count: 51
+
 ## Checks
 
 ### Check: A

@@ -74,6 +74,8 @@
 | Warn | 1 | 8 | 0 | 0 |
 | Fail | 0 | 43 | 10 | 39 |
 
+Repository Count: 66
+
 ## Checks
 
 ### Check: A
