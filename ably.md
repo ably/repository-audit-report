@@ -70,6 +70,9 @@
 | [tutorials](https://github.com/ably/tutorials) | :green_circle: | [:red_circle:](#tutorials-check-b) | :green_circle: | [:red_circle:](#tutorials-check-d) |
 | [wiki-site](https://github.com/ably/wiki-site) | :green_circle: | [:red_circle:](#wiki-site-check-b) | :green_circle: | [:red_circle:](#wiki-site-check-d) |
 | [xdelta-async-nodejs-addon](https://github.com/ably/xdelta-async-nodejs-addon) | :green_circle: | [:red_circle:](#xdelta-async-nodejs-addon-check-b) | :green_circle: | [:red_circle:](#xdelta-async-nodejs-addon-check-d) |
+| Pass | 65 | 15 | 56 | 27 |
+| Warn | 1 | 8 | 0 | 0 |
+| Fail | 0 | 43 | 10 | 39 |
 
 ## Checks
 
