@@ -31,6 +31,7 @@
 | [boot2docker-vagrant-box](https://github.com/ably-forks/boot2docker-vagrant-box) | [:red_circle:](#boot2docker-vagrant-box-check-a) | [:red_circle:](#boot2docker-vagrant-box-check-b) | [:red_circle:](#boot2docker-vagrant-box-check-c) | [:red_circle:](#boot2docker-vagrant-box-check-d) |
 | [capsule_crm](https://github.com/ably-forks/capsule_crm) | [:red_circle:](#capsule_crm-check-a) | [:red_circle:](#capsule_crm-check-b) | [:red_circle:](#capsule_crm-check-c) | [:red_circle:](#capsule_crm-check-d) |
 | [cassandra](https://github.com/ably-forks/cassandra) | [:yellow_circle:](#cassandra-check-a) | [:red_circle:](#cassandra-check-b) | [:red_circle:](#cassandra-check-c) | [:red_circle:](#cassandra-check-d) |
+| [cloudflare-rails](https://github.com/ably-forks/cloudflare-rails) | :green_circle: | [:red_circle:](#cloudflare-rails-check-b) | [:red_circle:](#cloudflare-rails-check-c) | [:red_circle:](#cloudflare-rails-check-d) |
 | [cloudyscripts](https://github.com/ably-forks/cloudyscripts) | [:red_circle:](#cloudyscripts-check-a) | [:red_circle:](#cloudyscripts-check-b) | [:red_circle:](#cloudyscripts-check-c) | [:red_circle:](#cloudyscripts-check-d) |
 | [committee](https://github.com/ably-forks/committee) | [:red_circle:](#committee-check-a) | [:red_circle:](#committee-check-b) | [:red_circle:](#committee-check-c) | [:red_circle:](#committee-check-d) |
 | [compass](https://github.com/ably-forks/compass) | [:red_circle:](#compass-check-a) | [:red_circle:](#compass-check-b) | [:red_circle:](#compass-check-c) | [:red_circle:](#compass-check-d) |
@@ -135,11 +136,11 @@
 | [wobserver](https://github.com/ably-forks/wobserver) | [:red_circle:](#wobserver-check-a) | [:red_circle:](#wobserver-check-b) | [:red_circle:](#wobserver-check-c) | [:red_circle:](#wobserver-check-d) |
 | [ws](https://github.com/ably-forks/ws) | [:red_circle:](#ws-check-a) | [:red_circle:](#ws-check-b) | [:red_circle:](#ws-check-c) | [:red_circle:](#ws-check-d) |
 | [xdelta](https://github.com/ably-forks/xdelta) | [:red_circle:](#xdelta-check-a) | [:red_circle:](#xdelta-check-b) | [:red_circle:](#xdelta-check-c) | [:red_circle:](#xdelta-check-d) |
-| Pass | 5 | 0 | 2 | 0 |
+| Pass | 6 | 0 | 2 | 0 |
 | Warn | 3 | 1 | 0 | 0 |
-| Fail | 123 | 130 | 129 | 131 |
+| Fail | 123 | 131 | 130 | 132 |
 
-Repository Count: 131
+Repository Count: 132
 
 ## Checks
 
@@ -785,6 +786,26 @@ Validates the configuration of the Merge button.
 - :red_circle: Projects are enabled.
 
 ### [cassandra](https://github.com/ably-forks/cassandra) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
+
+### [cloudflare-rails](https://github.com/ably-forks/cloudflare-rails) check B
+
+:red_circle: There is no branch protection rule defined for pattern `main`.
+
+### [cloudflare-rails](https://github.com/ably-forks/cloudflare-rails) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Issues are disabled.
+- :red_circle: Projects are enabled.
+- :red_circle: Wiki is enabled.
+
+### [cloudflare-rails](https://github.com/ably-forks/cloudflare-rails) check D
 
 :red_circle: Merge button switches:
 
