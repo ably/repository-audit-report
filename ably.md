@@ -28,6 +28,7 @@
 | [ably-ruby](https://github.com/ably/ably-ruby) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
 | [ably-ruby-rest](https://github.com/ably/ably-ruby-rest) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
 | [ably-ui](https://github.com/ably/ably-ui) | :green_circle: | [:red_circle:](#ably-ui-check-b) | [:red_circle:](#ably-ui-check-c) | :green_circle: |
+| [ably.github.io](https://github.com/ably/ably.github.io) | :green_circle: | [:red_circle:](#ably.github.io-check-b) | :green_circle: | :green_circle: |
 | [apns-cert-parser](https://github.com/ably/apns-cert-parser) | :green_circle: | [:red_circle:](#apns-cert-parser-check-b) | :green_circle: | [:red_circle:](#apns-cert-parser-check-d) |
 | [cassandra](https://github.com/ably/cassandra) | [:yellow_circle:](#cassandra-check-a) | [:red_circle:](#cassandra-check-b) | [:red_circle:](#cassandra-check-c) | [:red_circle:](#cassandra-check-d) |
 | [comply](https://github.com/ably/comply) | :green_circle: | [:red_circle:](#comply-check-b) | [:red_circle:](#comply-check-c) | [:red_circle:](#comply-check-d) |
@@ -71,11 +72,11 @@
 | [tutorials](https://github.com/ably/tutorials) | :green_circle: | [:red_circle:](#tutorials-check-b) | :green_circle: | [:red_circle:](#tutorials-check-d) |
 | [wiki-site](https://github.com/ably/wiki-site) | :green_circle: | [:red_circle:](#wiki-site-check-b) | :green_circle: | [:red_circle:](#wiki-site-check-d) |
 | [xdelta-async-nodejs-addon](https://github.com/ably/xdelta-async-nodejs-addon) | :green_circle: | [:red_circle:](#xdelta-async-nodejs-addon-check-b) | :green_circle: | [:red_circle:](#xdelta-async-nodejs-addon-check-d) |
-| Pass | 66 | 18 | 56 | 27 |
+| Pass | 67 | 18 | 57 | 28 |
 | Warn | 1 | 6 | 0 | 0 |
-| Fail | 0 | 43 | 11 | 40 |
+| Fail | 0 | 44 | 11 | 40 |
 
-Repository Count: 67
+Repository Count: 68
 
 ## Checks
 
@@ -189,6 +190,10 @@ Validates the configuration of the Merge button.
 :red_circle: GitHub feature switches:
 
 - :red_circle: Wiki is enabled.
+
+### [ably.github.io](https://github.com/ably/ably.github.io) check B
+
+:red_circle: There is no branch protection rule defined for pattern `main`.
 
 ### [apns-cert-parser](https://github.com/ably/apns-cert-parser) check B
 
