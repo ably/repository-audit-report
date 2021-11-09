@@ -15,6 +15,7 @@
 | [ably-airtable-starter-kit](https://github.com/ably-labs/ably-airtable-starter-kit) | :green_circle: | [:red_circle:](#ably-airtable-starter-kit-check-b) | [:red_circle:](#ably-airtable-starter-kit-check-c) | [:red_circle:](#ably-airtable-starter-kit-check-d) |
 | [ably-chat-component](https://github.com/ably-labs/ably-chat-component) | :green_circle: | [:red_circle:](#ably-chat-component-check-b) | [:red_circle:](#ably-chat-component-check-c) | [:red_circle:](#ably-chat-component-check-d) |
 | [ably-datadog-lambda](https://github.com/ably-labs/ably-datadog-lambda) | :green_circle: | [:red_circle:](#ably-datadog-lambda-check-b) | [:red_circle:](#ably-datadog-lambda-check-c) | [:red_circle:](#ably-datadog-lambda-check-d) |
+| [ably-locust](https://github.com/ably-labs/ably-locust) | :green_circle: | [:red_circle:](#ably-locust-check-b) | [:red_circle:](#ably-locust-check-c) | [:red_circle:](#ably-locust-check-d) |
 | [ably-postgres-connector](https://github.com/ably-labs/ably-postgres-connector) | :green_circle: | [:red_circle:](#ably-postgres-connector-check-b) | [:red_circle:](#ably-postgres-connector-check-c) | [:red_circle:](#ably-postgres-connector-check-d) |
 | [ably-react-examples](https://github.com/ably-labs/ably-react-examples) | [:red_circle:](#ably-react-examples-check-a) | [:red_circle:](#ably-react-examples-check-b) | [:red_circle:](#ably-react-examples-check-c) | [:red_circle:](#ably-react-examples-check-d) |
 | [ably-rock-paper-scissors](https://github.com/ably-labs/ably-rock-paper-scissors) | [:red_circle:](#ably-rock-paper-scissors-check-a) | [:red_circle:](#ably-rock-paper-scissors-check-b) | [:red_circle:](#ably-rock-paper-scissors-check-c) | [:red_circle:](#ably-rock-paper-scissors-check-d) |
@@ -57,11 +58,11 @@
 | [vonage-vercel-voting](https://github.com/ably-labs/vonage-vercel-voting) | :green_circle: | [:red_circle:](#vonage-vercel-voting-check-b) | [:red_circle:](#vonage-vercel-voting-check-c) | [:red_circle:](#vonage-vercel-voting-check-d) |
 | [websockets-cursor-sharing](https://github.com/ably-labs/websockets-cursor-sharing) | :green_circle: | [:red_circle:](#websockets-cursor-sharing-check-b) | [:red_circle:](#websockets-cursor-sharing-check-c) | [:red_circle:](#websockets-cursor-sharing-check-d) |
 | [whiteboard](https://github.com/ably-labs/whiteboard) | :green_circle: | [:red_circle:](#whiteboard-check-b) | [:red_circle:](#whiteboard-check-c) | [:red_circle:](#whiteboard-check-d) |
-| Pass | 42 | 0 | 3 | 3 |
+| Pass | 43 | 0 | 3 | 3 |
 | Warn | 0 | 0 | 0 | 0 |
-| Fail | 11 | 53 | 50 | 50 |
+| Fail | 11 | 54 | 51 | 51 |
 
-Repository Count: 53
+Repository Count: 54
 
 ## Checks
 
@@ -259,6 +260,25 @@ Validates the configuration of the Merge button.
 - :red_circle: Wiki is enabled.
 
 ### [ably-datadog-lambda](https://github.com/ably-labs/ably-datadog-lambda) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
+
+### [ably-locust](https://github.com/ably-labs/ably-locust) check B
+
+:red_circle: There is no branch protection rule defined for pattern `main`.
+
+### [ably-locust](https://github.com/ably-labs/ably-locust) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Projects are enabled.
+- :red_circle: Wiki is enabled.
+
+### [ably-locust](https://github.com/ably-labs/ably-locust) check D
 
 :red_circle: Merge button switches:
 
