@@ -53,16 +53,17 @@
 | [scalable-serverless-editable-chat-demo](https://github.com/ably-labs/scalable-serverless-editable-chat-demo) | :green_circle: | [:red_circle:](#scalable-serverless-editable-chat-demo-check-b) | [:red_circle:](#scalable-serverless-editable-chat-demo-check-c) | [:red_circle:](#scalable-serverless-editable-chat-demo-check-d) |
 | [sharded-channels](https://github.com/ably-labs/sharded-channels) | :green_circle: | [:red_circle:](#sharded-channels-check-b) | [:red_circle:](#sharded-channels-check-c) | [:red_circle:](#sharded-channels-check-d) |
 | [sms-in-the-browser](https://github.com/ably-labs/sms-in-the-browser) | :green_circle: | [:red_circle:](#sms-in-the-browser-check-b) | [:red_circle:](#sms-in-the-browser-check-c) | [:red_circle:](#sms-in-the-browser-check-d) |
+| [snowpack-plugin-dotenv-azure](https://github.com/ably-labs/snowpack-plugin-dotenv-azure) | :green_circle: | [:red_circle:](#snowpack-plugin-dotenv-azure-check-b) | [:red_circle:](#snowpack-plugin-dotenv-azure-check-c) | [:red_circle:](#snowpack-plugin-dotenv-azure-check-d) |
 | [spring-boot-auth0](https://github.com/ably-labs/spring-boot-auth0) | :green_circle: | [:red_circle:](#spring-boot-auth0-check-b) | [:red_circle:](#spring-boot-auth0-check-c) | [:red_circle:](#spring-boot-auth0-check-d) |
 | [tamagotrain](https://github.com/ably-labs/tamagotrain) | [:red_circle:](#tamagotrain-check-a) | [:red_circle:](#tamagotrain-check-b) | [:red_circle:](#tamagotrain-check-c) | [:red_circle:](#tamagotrain-check-d) |
 | [vonage-vercel-voting](https://github.com/ably-labs/vonage-vercel-voting) | :green_circle: | [:red_circle:](#vonage-vercel-voting-check-b) | [:red_circle:](#vonage-vercel-voting-check-c) | [:red_circle:](#vonage-vercel-voting-check-d) |
 | [websockets-cursor-sharing](https://github.com/ably-labs/websockets-cursor-sharing) | :green_circle: | [:red_circle:](#websockets-cursor-sharing-check-b) | [:red_circle:](#websockets-cursor-sharing-check-c) | [:red_circle:](#websockets-cursor-sharing-check-d) |
 | [whiteboard](https://github.com/ably-labs/whiteboard) | :green_circle: | [:red_circle:](#whiteboard-check-b) | [:red_circle:](#whiteboard-check-c) | [:red_circle:](#whiteboard-check-d) |
-| Pass | 43 | 0 | 3 | 3 |
+| Pass | 44 | 0 | 3 | 3 |
 | Warn | 0 | 0 | 0 | 0 |
-| Fail | 11 | 54 | 51 | 51 |
+| Fail | 11 | 55 | 52 | 52 |
 
-Repository Count: 54
+Repository Count: 55
 
 ## Checks
 
@@ -1004,6 +1005,25 @@ Validates the configuration of the Merge button.
 - :red_circle: Wiki is enabled.
 
 ### [sms-in-the-browser](https://github.com/ably-labs/sms-in-the-browser) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
+
+### [snowpack-plugin-dotenv-azure](https://github.com/ably-labs/snowpack-plugin-dotenv-azure) check B
+
+:red_circle: There is no branch protection rule defined for pattern `main`.
+
+### [snowpack-plugin-dotenv-azure](https://github.com/ably-labs/snowpack-plugin-dotenv-azure) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Projects are enabled.
+- :red_circle: Wiki is enabled.
+
+### [snowpack-plugin-dotenv-azure](https://github.com/ably-labs/snowpack-plugin-dotenv-azure) check D
 
 :red_circle: Merge button switches:
 
