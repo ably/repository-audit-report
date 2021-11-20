@@ -28,7 +28,6 @@
 | [ably-ruby](https://github.com/ably/ably-ruby) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
 | [ably-ruby-rest](https://github.com/ably/ably-ruby-rest) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
 | [ably-ui](https://github.com/ably/ably-ui) | :green_circle: | [:red_circle:](#ably-ui-check-b) | [:red_circle:](#ably-ui-check-c) | :green_circle: |
-| [ably.github.io](https://github.com/ably/ably.github.io) | :green_circle: | [:red_circle:](#ably.github.io-check-b) | :green_circle: | :green_circle: |
 | [apns-cert-parser](https://github.com/ably/apns-cert-parser) | :green_circle: | [:red_circle:](#apns-cert-parser-check-b) | :green_circle: | [:red_circle:](#apns-cert-parser-check-d) |
 | [cassandra](https://github.com/ably/cassandra) | [:yellow_circle:](#cassandra-check-a) | [:red_circle:](#cassandra-check-b) | [:red_circle:](#cassandra-check-c) | [:red_circle:](#cassandra-check-d) |
 | [comply](https://github.com/ably/comply) | :green_circle: | [:red_circle:](#comply-check-b) | [:red_circle:](#comply-check-c) | [:red_circle:](#comply-check-d) |
@@ -47,6 +46,7 @@
 | [demo-typescript-jspm](https://github.com/ably/demo-typescript-jspm) | :green_circle: | [:red_circle:](#demo-typescript-jspm-check-b) | :green_circle: | [:red_circle:](#demo-typescript-jspm-check-d) |
 | [design-patterns](https://github.com/ably/design-patterns) | :green_circle: | [:red_circle:](#design-patterns-check-b) | :green_circle: | [:red_circle:](#design-patterns-check-d) |
 | [docs](https://github.com/ably/docs) | :green_circle: | [:yellow_circle:](#docs-check-b) | :green_circle: | :green_circle: |
+| [engineering](https://github.com/ably/engineering) | :green_circle: | [:red_circle:](#engineering-check-b) | :green_circle: | :green_circle: |
 | [example-lambda-function](https://github.com/ably/example-lambda-function) | :green_circle: | [:red_circle:](#example-lambda-function-check-b) | :green_circle: | [:red_circle:](#example-lambda-function-check-d) |
 | [firehose-kinesis-tutorial](https://github.com/ably/firehose-kinesis-tutorial) | :green_circle: | [:red_circle:](#firehose-kinesis-tutorial-check-b) | [:red_circle:](#firehose-kinesis-tutorial-check-c) | [:red_circle:](#firehose-kinesis-tutorial-check-d) |
 | [firehose-sqs-tutorial](https://github.com/ably/firehose-sqs-tutorial) | :green_circle: | [:red_circle:](#firehose-sqs-tutorial-check-b) | [:red_circle:](#firehose-sqs-tutorial-check-c) | [:red_circle:](#firehose-sqs-tutorial-check-d) |
@@ -190,10 +190,6 @@ Validates the configuration of the Merge button.
 :red_circle: GitHub feature switches:
 
 - :red_circle: Wiki is enabled.
-
-### [ably.github.io](https://github.com/ably/ably.github.io) check B
-
-:red_circle: There is no branch protection rule defined for pattern `main`.
 
 ### [apns-cert-parser](https://github.com/ably/apns-cert-parser) check B
 
@@ -412,6 +408,10 @@ Validates the configuration of the Merge button.
 :yellow_circle: Default branch protection rule:
 
 - :yellow_circle: Does not require conversations to be resolved before merging.
+
+### [engineering](https://github.com/ably/engineering) check B
+
+:red_circle: There is no branch protection rule defined for pattern `main`.
 
 ### [example-lambda-function](https://github.com/ably/example-lambda-function) check B
 
