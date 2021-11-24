@@ -46,6 +46,7 @@
 | [ouija](https://github.com/ably-labs/ouija) | :green_circle: | [:red_circle:](#ouija-check-b) | [:red_circle:](#ouija-check-c) | [:red_circle:](#ouija-check-d) |
 | [presence-collection](https://github.com/ably-labs/presence-collection) | :green_circle: | [:red_circle:](#presence-collection-check-b) | [:red_circle:](#presence-collection-check-c) | [:red_circle:](#presence-collection-check-d) |
 | [react-hooks](https://github.com/ably-labs/react-hooks) | :green_circle: | [:red_circle:](#react-hooks-check-b) | [:red_circle:](#react-hooks-check-c) | [:red_circle:](#react-hooks-check-d) |
+| [realtime-midi-player](https://github.com/ably-labs/realtime-midi-player) | :green_circle: | [:red_circle:](#realtime-midi-player-check-b) | :green_circle: | :green_circle: |
 | [realtime-multiplayer-space-invaders](https://github.com/ably-labs/realtime-multiplayer-space-invaders) | [:red_circle:](#realtime-multiplayer-space-invaders-check-a) | [:red_circle:](#realtime-multiplayer-space-invaders-check-b) | [:red_circle:](#realtime-multiplayer-space-invaders-check-c) | [:red_circle:](#realtime-multiplayer-space-invaders-check-d) |
 | [realtime-quiz-framework](https://github.com/ably-labs/realtime-quiz-framework) | :green_circle: | [:red_circle:](#realtime-quiz-framework-check-b) | [:red_circle:](#realtime-quiz-framework-check-c) | [:red_circle:](#realtime-quiz-framework-check-d) |
 | [realtime-voting-angular](https://github.com/ably-labs/realtime-voting-angular) | [:red_circle:](#realtime-voting-angular-check-a) | [:red_circle:](#realtime-voting-angular-check-b) | [:red_circle:](#realtime-voting-angular-check-c) | [:red_circle:](#realtime-voting-angular-check-d) |
@@ -59,11 +60,11 @@
 | [vonage-vercel-voting](https://github.com/ably-labs/vonage-vercel-voting) | :green_circle: | [:red_circle:](#vonage-vercel-voting-check-b) | [:red_circle:](#vonage-vercel-voting-check-c) | [:red_circle:](#vonage-vercel-voting-check-d) |
 | [websockets-cursor-sharing](https://github.com/ably-labs/websockets-cursor-sharing) | :green_circle: | [:red_circle:](#websockets-cursor-sharing-check-b) | [:red_circle:](#websockets-cursor-sharing-check-c) | [:red_circle:](#websockets-cursor-sharing-check-d) |
 | [whiteboard](https://github.com/ably-labs/whiteboard) | :green_circle: | [:red_circle:](#whiteboard-check-b) | [:red_circle:](#whiteboard-check-c) | [:red_circle:](#whiteboard-check-d) |
-| Pass | 44 | 0 | 3 | 3 |
+| Pass | 45 | 0 | 4 | 4 |
 | Warn | 0 | 0 | 0 | 0 |
-| Fail | 11 | 55 | 52 | 52 |
+| Fail | 11 | 56 | 52 | 52 |
 
-Repository Count: 55
+Repository Count: 56
 
 ## Checks
 
@@ -870,6 +871,10 @@ Validates the configuration of the Merge button.
 - :red_circle: Does not automatically delete head branches.
 - :red_circle: Allows rebase merging.
 - :red_circle: Allows squash merging.
+
+### [realtime-midi-player](https://github.com/ably-labs/realtime-midi-player) check B
+
+:red_circle: There is no branch protection rule defined for pattern `main`.
 
 ### [realtime-multiplayer-space-invaders](https://github.com/ably-labs/realtime-multiplayer-space-invaders) check A
 
