@@ -44,6 +44,7 @@
 | [multiplayer-flappy-bird](https://github.com/ably-labs/multiplayer-flappy-bird) | [:red_circle:](#multiplayer-flappy-bird-check-a) | [:red_circle:](#multiplayer-flappy-bird-check-b) | [:red_circle:](#multiplayer-flappy-bird-check-c) | [:red_circle:](#multiplayer-flappy-bird-check-d) |
 | [multiplayer-games-scalable-networking-framework](https://github.com/ably-labs/multiplayer-games-scalable-networking-framework) | [:red_circle:](#multiplayer-games-scalable-networking-framework-check-a) | [:red_circle:](#multiplayer-games-scalable-networking-framework-check-b) | [:red_circle:](#multiplayer-games-scalable-networking-framework-check-c) | [:red_circle:](#multiplayer-games-scalable-networking-framework-check-d) |
 | [ouija](https://github.com/ably-labs/ouija) | :green_circle: | [:red_circle:](#ouija-check-b) | [:red_circle:](#ouija-check-c) | [:red_circle:](#ouija-check-d) |
+| [planning-poker-vue-app](https://github.com/ably-labs/planning-poker-vue-app) | :green_circle: | [:red_circle:](#planning-poker-vue-app-check-b) | [:red_circle:](#planning-poker-vue-app-check-c) | [:red_circle:](#planning-poker-vue-app-check-d) |
 | [presence-collection](https://github.com/ably-labs/presence-collection) | :green_circle: | [:red_circle:](#presence-collection-check-b) | [:red_circle:](#presence-collection-check-c) | [:red_circle:](#presence-collection-check-d) |
 | [react-hooks](https://github.com/ably-labs/react-hooks) | :green_circle: | [:red_circle:](#react-hooks-check-b) | [:red_circle:](#react-hooks-check-c) | [:red_circle:](#react-hooks-check-d) |
 | [realtime-midi-player](https://github.com/ably-labs/realtime-midi-player) | :green_circle: | [:red_circle:](#realtime-midi-player-check-b) | :green_circle: | :green_circle: |
@@ -60,11 +61,11 @@
 | [vonage-vercel-voting](https://github.com/ably-labs/vonage-vercel-voting) | :green_circle: | [:red_circle:](#vonage-vercel-voting-check-b) | [:red_circle:](#vonage-vercel-voting-check-c) | [:red_circle:](#vonage-vercel-voting-check-d) |
 | [websockets-cursor-sharing](https://github.com/ably-labs/websockets-cursor-sharing) | :green_circle: | [:red_circle:](#websockets-cursor-sharing-check-b) | [:red_circle:](#websockets-cursor-sharing-check-c) | [:red_circle:](#websockets-cursor-sharing-check-d) |
 | [whiteboard](https://github.com/ably-labs/whiteboard) | :green_circle: | [:red_circle:](#whiteboard-check-b) | [:red_circle:](#whiteboard-check-c) | [:red_circle:](#whiteboard-check-d) |
-| Pass | 45 | 0 | 4 | 4 |
+| Pass | 46 | 0 | 4 | 4 |
 | Warn | 0 | 0 | 0 | 0 |
-| Fail | 11 | 56 | 52 | 52 |
+| Fail | 11 | 57 | 53 | 53 |
 
-Repository Count: 56
+Repository Count: 57
 
 ## Checks
 
@@ -827,6 +828,25 @@ Validates the configuration of the Merge button.
 - :red_circle: Wiki is enabled.
 
 ### [ouija](https://github.com/ably-labs/ouija) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
+
+### [planning-poker-vue-app](https://github.com/ably-labs/planning-poker-vue-app) check B
+
+:red_circle: There is no branch protection rule defined for pattern `main`.
+
+### [planning-poker-vue-app](https://github.com/ably-labs/planning-poker-vue-app) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Projects are enabled.
+- :red_circle: Wiki is enabled.
+
+### [planning-poker-vue-app](https://github.com/ably-labs/planning-poker-vue-app) check D
 
 :red_circle: Merge button switches:
 
