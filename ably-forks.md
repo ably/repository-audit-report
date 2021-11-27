@@ -27,6 +27,7 @@
 | [aws-sdk-js](https://github.com/ably-forks/aws-sdk-js) | [:red_circle:](#aws-sdk-js-check-a) | [:red_circle:](#aws-sdk-js-check-b) | [:red_circle:](#aws-sdk-js-check-c) | [:red_circle:](#aws-sdk-js-check-d) |
 | [axon](https://github.com/ably-forks/axon) | [:red_circle:](#axon-check-a) | [:red_circle:](#axon-check-b) | [:red_circle:](#axon-check-c) | [:red_circle:](#axon-check-d) |
 | [axon-rpc](https://github.com/ably-forks/axon-rpc) | [:red_circle:](#axon-rpc-check-a) | [:red_circle:](#axon-rpc-check-b) | [:red_circle:](#axon-rpc-check-c) | [:red_circle:](#axon-rpc-check-d) |
+| [bloomit](https://github.com/ably-forks/bloomit) | :green_circle: | [:red_circle:](#bloomit-check-b) | [:red_circle:](#bloomit-check-c) | [:red_circle:](#bloomit-check-d) |
 | [boomer](https://github.com/ably-forks/boomer) | [:red_circle:](#boomer-check-a) | [:red_circle:](#boomer-check-b) | [:red_circle:](#boomer-check-c) | [:red_circle:](#boomer-check-d) |
 | [boot2docker-vagrant-box](https://github.com/ably-forks/boot2docker-vagrant-box) | [:red_circle:](#boot2docker-vagrant-box-check-a) | [:red_circle:](#boot2docker-vagrant-box-check-b) | [:red_circle:](#boot2docker-vagrant-box-check-c) | [:red_circle:](#boot2docker-vagrant-box-check-d) |
 | [capsule_crm](https://github.com/ably-forks/capsule_crm) | [:red_circle:](#capsule_crm-check-a) | [:red_circle:](#capsule_crm-check-b) | [:red_circle:](#capsule_crm-check-c) | [:red_circle:](#capsule_crm-check-d) |
@@ -136,11 +137,11 @@
 | [wobserver](https://github.com/ably-forks/wobserver) | [:red_circle:](#wobserver-check-a) | [:red_circle:](#wobserver-check-b) | [:red_circle:](#wobserver-check-c) | [:red_circle:](#wobserver-check-d) |
 | [ws](https://github.com/ably-forks/ws) | [:red_circle:](#ws-check-a) | [:red_circle:](#ws-check-b) | [:red_circle:](#ws-check-c) | [:red_circle:](#ws-check-d) |
 | [xdelta](https://github.com/ably-forks/xdelta) | [:red_circle:](#xdelta-check-a) | [:red_circle:](#xdelta-check-b) | [:red_circle:](#xdelta-check-c) | [:red_circle:](#xdelta-check-d) |
-| Pass | 6 | 0 | 2 | 0 |
+| Pass | 7 | 0 | 2 | 0 |
 | Warn | 3 | 1 | 0 | 0 |
-| Fail | 123 | 131 | 130 | 132 |
+| Fail | 123 | 132 | 131 | 133 |
 
-Repository Count: 132
+Repository Count: 133
 
 ## Checks
 
@@ -691,6 +692,26 @@ Validates the configuration of the Merge button.
 - :red_circle: Wiki is enabled.
 
 ### [axon-rpc](https://github.com/ably-forks/axon-rpc) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
+
+### [bloomit](https://github.com/ably-forks/bloomit) check B
+
+:red_circle: There is no branch protection rule defined for pattern `main`.
+
+### [bloomit](https://github.com/ably-forks/bloomit) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Issues are disabled.
+- :red_circle: Projects are enabled.
+- :red_circle: Wiki is enabled.
+
+### [bloomit](https://github.com/ably-forks/bloomit) check D
 
 :red_circle: Merge button switches:
 
