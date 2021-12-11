@@ -41,7 +41,6 @@
 | [live-caption-demo](https://github.com/ably-labs/live-caption-demo) | :green_circle: | [:red_circle:](#live-caption-demo-check-b) | [:red_circle:](#live-caption-demo-check-c) | [:red_circle:](#live-caption-demo-check-d) |
 | [live-cryptocurrency-streaming-flutter](https://github.com/ably-labs/live-cryptocurrency-streaming-flutter) | [:red_circle:](#live-cryptocurrency-streaming-flutter-check-a) | [:red_circle:](#live-cryptocurrency-streaming-flutter-check-b) | [:red_circle:](#live-cryptocurrency-streaming-flutter-check-c) | [:red_circle:](#live-cryptocurrency-streaming-flutter-check-d) |
 | [mapbox-gtfs](https://github.com/ably-labs/mapbox-gtfs) | :green_circle: | [:red_circle:](#mapbox-gtfs-check-b) | [:red_circle:](#mapbox-gtfs-check-c) | [:red_circle:](#mapbox-gtfs-check-d) |
-| [mulitplayer-webvr-ably-aframe](https://github.com/ably-labs/mulitplayer-webvr-ably-aframe) | :green_circle: | [:red_circle:](#mulitplayer-webvr-ably-aframe-check-b) | [:red_circle:](#mulitplayer-webvr-ably-aframe-check-c) | [:red_circle:](#mulitplayer-webvr-ably-aframe-check-d) |
 | [multiplayer-flappy-bird](https://github.com/ably-labs/multiplayer-flappy-bird) | [:red_circle:](#multiplayer-flappy-bird-check-a) | [:red_circle:](#multiplayer-flappy-bird-check-b) | [:red_circle:](#multiplayer-flappy-bird-check-c) | [:red_circle:](#multiplayer-flappy-bird-check-d) |
 | [multiplayer-games-scalable-networking-framework](https://github.com/ably-labs/multiplayer-games-scalable-networking-framework) | :green_circle: | [:red_circle:](#multiplayer-games-scalable-networking-framework-check-b) | [:red_circle:](#multiplayer-games-scalable-networking-framework-check-c) | [:red_circle:](#multiplayer-games-scalable-networking-framework-check-d) |
 | [ouija](https://github.com/ably-labs/ouija) | :green_circle: | [:red_circle:](#ouija-check-b) | [:red_circle:](#ouija-check-c) | [:red_circle:](#ouija-check-d) |
@@ -62,11 +61,11 @@
 | [vonage-vercel-voting](https://github.com/ably-labs/vonage-vercel-voting) | :green_circle: | [:red_circle:](#vonage-vercel-voting-check-b) | [:red_circle:](#vonage-vercel-voting-check-c) | [:red_circle:](#vonage-vercel-voting-check-d) |
 | [websockets-cursor-sharing](https://github.com/ably-labs/websockets-cursor-sharing) | :green_circle: | [:red_circle:](#websockets-cursor-sharing-check-b) | [:red_circle:](#websockets-cursor-sharing-check-c) | [:red_circle:](#websockets-cursor-sharing-check-d) |
 | [whiteboard](https://github.com/ably-labs/whiteboard) | :green_circle: | [:red_circle:](#whiteboard-check-b) | [:red_circle:](#whiteboard-check-c) | [:red_circle:](#whiteboard-check-d) |
-| Pass | 48 | 0 | 4 | 4 |
+| Pass | 47 | 0 | 4 | 4 |
 | Warn | 0 | 0 | 0 | 0 |
-| Fail | 10 | 58 | 54 | 54 |
+| Fail | 10 | 57 | 53 | 53 |
 
-Repository Count: 58
+Repository Count: 57
 
 ## Checks
 
@@ -764,25 +763,6 @@ Validates the configuration of the Merge button.
 - :red_circle: Wiki is enabled.
 
 ### [mapbox-gtfs](https://github.com/ably-labs/mapbox-gtfs) check D
-
-:red_circle: Merge button switches:
-
-- :red_circle: Does not automatically delete head branches.
-- :red_circle: Allows rebase merging.
-- :red_circle: Allows squash merging.
-
-### [mulitplayer-webvr-ably-aframe](https://github.com/ably-labs/mulitplayer-webvr-ably-aframe) check B
-
-:red_circle: There is no branch protection rule defined for pattern `main`.
-
-### [mulitplayer-webvr-ably-aframe](https://github.com/ably-labs/mulitplayer-webvr-ably-aframe) check C
-
-:red_circle: GitHub feature switches:
-
-- :red_circle: Projects are enabled.
-- :red_circle: Wiki is enabled.
-
-### [mulitplayer-webvr-ably-aframe](https://github.com/ably-labs/mulitplayer-webvr-ably-aframe) check D
 
 :red_circle: Merge button switches:
 
