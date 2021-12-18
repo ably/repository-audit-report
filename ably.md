@@ -45,7 +45,7 @@
 | [demo-tvos](https://github.com/ably/demo-tvos) | :green_circle: | [:red_circle:](#demo-tvos-check-b) | :green_circle: | [:red_circle:](#demo-tvos-check-d) |
 | [demo-typescript-jspm](https://github.com/ably/demo-typescript-jspm) | :green_circle: | [:red_circle:](#demo-typescript-jspm-check-b) | :green_circle: | [:red_circle:](#demo-typescript-jspm-check-d) |
 | [design-patterns](https://github.com/ably/design-patterns) | :green_circle: | [:red_circle:](#design-patterns-check-b) | :green_circle: | [:red_circle:](#design-patterns-check-d) |
-| [docs](https://github.com/ably/docs) | :green_circle: | [:yellow_circle:](#docs-check-b) | :green_circle: | :green_circle: |
+| [docs](https://github.com/ably/docs) | :green_circle: | [:yellow_circle:](#docs-check-b) | :green_circle: | [:red_circle:](#docs-check-d) |
 | [engineering](https://github.com/ably/engineering) | :green_circle: | [:red_circle:](#engineering-check-b) | :green_circle: | :green_circle: |
 | [example-lambda-function](https://github.com/ably/example-lambda-function) | :green_circle: | [:red_circle:](#example-lambda-function-check-b) | :green_circle: | [:red_circle:](#example-lambda-function-check-d) |
 | [firehose-kinesis-tutorial](https://github.com/ably/firehose-kinesis-tutorial) | :green_circle: | [:red_circle:](#firehose-kinesis-tutorial-check-b) | [:red_circle:](#firehose-kinesis-tutorial-check-c) | [:red_circle:](#firehose-kinesis-tutorial-check-d) |
@@ -72,9 +72,9 @@
 | [tutorials](https://github.com/ably/tutorials) | :green_circle: | [:red_circle:](#tutorials-check-b) | :green_circle: | [:red_circle:](#tutorials-check-d) |
 | [wiki-site](https://github.com/ably/wiki-site) | :green_circle: | [:red_circle:](#wiki-site-check-b) | :green_circle: | [:red_circle:](#wiki-site-check-d) |
 | [xdelta-async-nodejs-addon](https://github.com/ably/xdelta-async-nodejs-addon) | :green_circle: | [:red_circle:](#xdelta-async-nodejs-addon-check-b) | :green_circle: | [:red_circle:](#xdelta-async-nodejs-addon-check-d) |
-| Pass | 67 | 18 | 57 | 28 |
+| Pass | 67 | 18 | 57 | 27 |
 | Warn | 1 | 6 | 0 | 0 |
-| Fail | 0 | 44 | 11 | 40 |
+| Fail | 0 | 44 | 11 | 41 |
 
 Repository Count: 68
 
@@ -408,6 +408,12 @@ Validates the configuration of the Merge button.
 :yellow_circle: Default branch protection rule:
 
 - :yellow_circle: Does not require conversations to be resolved before merging.
+
+### [docs](https://github.com/ably/docs) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Allows squash merging.
 
 ### [engineering](https://github.com/ably/engineering) check B
 
