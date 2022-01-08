@@ -55,6 +55,7 @@
 | [grpc-memory-leak-test](https://github.com/ably/grpc-memory-leak-test) | :green_circle: | [:red_circle:](#grpc-memory-leak-test-check-b) | :green_circle: | [:red_circle:](#grpc-memory-leak-test-check-d) |
 | [heroku-buildpack-vmagent](https://github.com/ably/heroku-buildpack-vmagent) | :green_circle: | [:red_circle:](#heroku-buildpack-vmagent-check-b) | [:red_circle:](#heroku-buildpack-vmagent-check-c) | [:red_circle:](#heroku-buildpack-vmagent-check-d) |
 | [homepage-snippets](https://github.com/ably/homepage-snippets) | :green_circle: | [:yellow_circle:](#homepage-snippets-check-b) | :green_circle: | :green_circle: |
+| [jwt-auth-node-tutorial](https://github.com/ably/jwt-auth-node-tutorial) | :green_circle: | [:red_circle:](#jwt-auth-node-tutorial-check-b) | [:red_circle:](#jwt-auth-node-tutorial-check-c) | [:red_circle:](#jwt-auth-node-tutorial-check-d) |
 | [kafka-connect-ably](https://github.com/ably/kafka-connect-ably) | :green_circle: | [:red_circle:](#kafka-connect-ably-check-b) | [:red_circle:](#kafka-connect-ably-check-c) | [:red_circle:](#kafka-connect-ably-check-d) |
 | [masterclasses](https://github.com/ably/masterclasses) | :green_circle: | [:red_circle:](#masterclasses-check-b) | :green_circle: | [:red_circle:](#masterclasses-check-d) |
 | [open-specs](https://github.com/ably/open-specs) | :green_circle: | [:red_circle:](#open-specs-check-b) | :green_circle: | [:red_circle:](#open-specs-check-d) |
@@ -72,11 +73,11 @@
 | [tutorials](https://github.com/ably/tutorials) | :green_circle: | [:red_circle:](#tutorials-check-b) | :green_circle: | [:red_circle:](#tutorials-check-d) |
 | [wiki-site](https://github.com/ably/wiki-site) | :green_circle: | [:red_circle:](#wiki-site-check-b) | :green_circle: | [:red_circle:](#wiki-site-check-d) |
 | [xdelta-async-nodejs-addon](https://github.com/ably/xdelta-async-nodejs-addon) | :green_circle: | [:red_circle:](#xdelta-async-nodejs-addon-check-b) | :green_circle: | [:red_circle:](#xdelta-async-nodejs-addon-check-d) |
-| Pass | 67 | 18 | 57 | 27 |
+| Pass | 68 | 18 | 57 | 27 |
 | Warn | 1 | 6 | 0 | 0 |
-| Fail | 0 | 44 | 11 | 41 |
+| Fail | 0 | 45 | 12 | 42 |
 
-Repository Count: 68
+Repository Count: 69
 
 ## Checks
 
@@ -526,6 +527,24 @@ Validates the configuration of the Merge button.
 :yellow_circle: Default branch protection rule:
 
 - :yellow_circle: Does not require status checks to pass.
+
+### [jwt-auth-node-tutorial](https://github.com/ably/jwt-auth-node-tutorial) check B
+
+:red_circle: There is no branch protection rule defined for pattern `main`.
+
+### [jwt-auth-node-tutorial](https://github.com/ably/jwt-auth-node-tutorial) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Wiki is enabled.
+
+### [jwt-auth-node-tutorial](https://github.com/ably/jwt-auth-node-tutorial) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
 
 ### [kafka-connect-ably](https://github.com/ably/kafka-connect-ably) check B
 

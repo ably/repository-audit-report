@@ -62,11 +62,12 @@
 | [vonage-vercel-voting](https://github.com/ably-labs/vonage-vercel-voting) | :green_circle: | [:red_circle:](#vonage-vercel-voting-check-b) | [:red_circle:](#vonage-vercel-voting-check-c) | [:red_circle:](#vonage-vercel-voting-check-d) |
 | [websockets-cursor-sharing](https://github.com/ably-labs/websockets-cursor-sharing) | :green_circle: | [:red_circle:](#websockets-cursor-sharing-check-b) | [:red_circle:](#websockets-cursor-sharing-check-c) | [:red_circle:](#websockets-cursor-sharing-check-d) |
 | [whiteboard](https://github.com/ably-labs/whiteboard) | :green_circle: | [:red_circle:](#whiteboard-check-b) | [:red_circle:](#whiteboard-check-c) | [:red_circle:](#whiteboard-check-d) |
+| [word-game](https://github.com/ably-labs/word-game) | [:red_circle:](#word-game-check-a) | [:red_circle:](#word-game-check-b) | [:red_circle:](#word-game-check-c) | [:red_circle:](#word-game-check-d) |
 | Pass | 48 | 0 | 4 | 4 |
 | Warn | 0 | 0 | 0 | 0 |
-| Fail | 10 | 58 | 54 | 54 |
+| Fail | 11 | 59 | 55 | 55 |
 
-Repository Count: 58
+Repository Count: 59
 
 ## Checks
 
@@ -1165,6 +1166,29 @@ Validates the configuration of the Merge button.
 - :red_circle: Wiki is enabled.
 
 ### [whiteboard](https://github.com/ably-labs/whiteboard) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
+
+### [word-game](https://github.com/ably-labs/word-game) check A
+
+:red_circle: Non-standard name `master`. Assumed to be something non-inclusive.
+
+### [word-game](https://github.com/ably-labs/word-game) check B
+
+:red_circle: There is no branch protection rule defined for pattern `master`.
+
+### [word-game](https://github.com/ably-labs/word-game) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Projects are enabled.
+- :red_circle: Wiki is enabled.
+
+### [word-game](https://github.com/ably-labs/word-game) check D
 
 :red_circle: Merge button switches:
 
