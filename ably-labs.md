@@ -40,6 +40,7 @@
 | [homebrew-tap](https://github.com/ably-labs/homebrew-tap) | :green_circle: | [:red_circle:](#homebrew-tap-check-b) | [:red_circle:](#homebrew-tap-check-c) | [:red_circle:](#homebrew-tap-check-d) |
 | [ingester](https://github.com/ably-labs/ingester) | :green_circle: | [:red_circle:](#ingester-check-b) | [:red_circle:](#ingester-check-c) | [:red_circle:](#ingester-check-d) |
 | [jamstack-sync-stream-video](https://github.com/ably-labs/jamstack-sync-stream-video) | :green_circle: | [:red_circle:](#jamstack-sync-stream-video-check-b) | [:red_circle:](#jamstack-sync-stream-video-check-c) | [:red_circle:](#jamstack-sync-stream-video-check-d) |
+| [leader-election-demo](https://github.com/ably-labs/leader-election-demo) | :green_circle: | [:red_circle:](#leader-election-demo-check-b) | [:red_circle:](#leader-election-demo-check-c) | [:red_circle:](#leader-election-demo-check-d) |
 | [live-caption-demo](https://github.com/ably-labs/live-caption-demo) | :green_circle: | [:red_circle:](#live-caption-demo-check-b) | [:red_circle:](#live-caption-demo-check-c) | [:red_circle:](#live-caption-demo-check-d) |
 | [live-cryptocurrency-streaming-flutter](https://github.com/ably-labs/live-cryptocurrency-streaming-flutter) | [:red_circle:](#live-cryptocurrency-streaming-flutter-check-a) | [:red_circle:](#live-cryptocurrency-streaming-flutter-check-b) | [:red_circle:](#live-cryptocurrency-streaming-flutter-check-c) | [:red_circle:](#live-cryptocurrency-streaming-flutter-check-d) |
 | [mapbox-gtfs](https://github.com/ably-labs/mapbox-gtfs) | :green_circle: | [:red_circle:](#mapbox-gtfs-check-b) | [:red_circle:](#mapbox-gtfs-check-c) | [:red_circle:](#mapbox-gtfs-check-d) |
@@ -64,11 +65,11 @@
 | [websockets-cursor-sharing](https://github.com/ably-labs/websockets-cursor-sharing) | :green_circle: | [:red_circle:](#websockets-cursor-sharing-check-b) | [:red_circle:](#websockets-cursor-sharing-check-c) | [:red_circle:](#websockets-cursor-sharing-check-d) |
 | [whiteboard](https://github.com/ably-labs/whiteboard) | :green_circle: | [:red_circle:](#whiteboard-check-b) | [:red_circle:](#whiteboard-check-c) | [:red_circle:](#whiteboard-check-d) |
 | [word-game](https://github.com/ably-labs/word-game) | [:red_circle:](#word-game-check-a) | [:red_circle:](#word-game-check-b) | [:red_circle:](#word-game-check-c) | [:red_circle:](#word-game-check-d) |
-| Pass | 49 | 0 | 4 | 4 |
+| Pass | 50 | 0 | 4 | 4 |
 | Warn | 0 | 0 | 0 | 0 |
-| Fail | 11 | 60 | 56 | 56 |
+| Fail | 11 | 61 | 57 | 57 |
 
-Repository Count: 60
+Repository Count: 61
 
 ## Checks
 
@@ -743,6 +744,25 @@ Validates the configuration of the Merge button.
 - :red_circle: Wiki is enabled.
 
 ### [jamstack-sync-stream-video](https://github.com/ably-labs/jamstack-sync-stream-video) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
+
+### [leader-election-demo](https://github.com/ably-labs/leader-election-demo) check B
+
+:red_circle: There is no branch protection rule defined for pattern `main`.
+
+### [leader-election-demo](https://github.com/ably-labs/leader-election-demo) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Projects are enabled.
+- :red_circle: Wiki is enabled.
+
+### [leader-election-demo](https://github.com/ably-labs/leader-election-demo) check D
 
 :red_circle: Merge button switches:
 
