@@ -4,6 +4,7 @@
 
 | Repository | [A](#check-a) | [B](#check-b) | [C](#check-c) | [D](#check-d) |
 | ---------- | ------------- | ------------- | ------------- | ------------- |
+| [Ableye](https://github.com/ably-labs/Ableye) | :green_circle: | [:red_circle:](#ableye-check-b) | [:red_circle:](#ableye-check-c) | [:red_circle:](#ableye-check-d) |
 | [Ablingo](https://github.com/ably-labs/Ablingo) | :green_circle: | [:red_circle:](#ablingo-check-b) | [:red_circle:](#ablingo-check-c) | [:red_circle:](#ablingo-check-d) |
 | [AblyD](https://github.com/ably-labs/AblyD) | :green_circle: | [:red_circle:](#ablyd-check-b) | [:red_circle:](#ablyd-check-c) | [:red_circle:](#ablyd-check-d) |
 | [Club](https://github.com/ably-labs/Club) | :green_circle: | [:red_circle:](#club-check-b) | :green_circle: | :green_circle: |
@@ -54,7 +55,6 @@
 | [realtime-quiz-framework](https://github.com/ably-labs/realtime-quiz-framework) | :green_circle: | [:red_circle:](#realtime-quiz-framework-check-b) | [:red_circle:](#realtime-quiz-framework-check-c) | [:red_circle:](#realtime-quiz-framework-check-d) |
 | [realtime-voting-angular](https://github.com/ably-labs/realtime-voting-angular) | [:red_circle:](#realtime-voting-angular-check-a) | [:red_circle:](#realtime-voting-angular-check-b) | [:red_circle:](#realtime-voting-angular-check-c) | [:red_circle:](#realtime-voting-angular-check-d) |
 | [realtime-voting-js-ably-fusion-charts](https://github.com/ably-labs/realtime-voting-js-ably-fusion-charts) | :green_circle: | [:red_circle:](#realtime-voting-js-ably-fusion-charts-check-b) | [:red_circle:](#realtime-voting-js-ably-fusion-charts-check-c) | [:red_circle:](#realtime-voting-js-ably-fusion-charts-check-d) |
-| [rosie-demo](https://github.com/ably-labs/rosie-demo) | :green_circle: | [:red_circle:](#rosie-demo-check-b) | [:red_circle:](#rosie-demo-check-c) | [:red_circle:](#rosie-demo-check-d) |
 | [scalable-serverless-editable-chat-demo](https://github.com/ably-labs/scalable-serverless-editable-chat-demo) | :green_circle: | [:red_circle:](#scalable-serverless-editable-chat-demo-check-b) | [:red_circle:](#scalable-serverless-editable-chat-demo-check-c) | [:red_circle:](#scalable-serverless-editable-chat-demo-check-d) |
 | [sharded-channels](https://github.com/ably-labs/sharded-channels) | :green_circle: | [:red_circle:](#sharded-channels-check-b) | [:red_circle:](#sharded-channels-check-c) | [:red_circle:](#sharded-channels-check-d) |
 | [sms-in-the-browser](https://github.com/ably-labs/sms-in-the-browser) | :green_circle: | [:red_circle:](#sms-in-the-browser-check-b) | [:red_circle:](#sms-in-the-browser-check-c) | [:red_circle:](#sms-in-the-browser-check-d) |
@@ -90,6 +90,25 @@ Validates that fundamental GitHub features are enabled or disabled as appropriat
 Validates the configuration of the Merge button.
 
 ## Failure Details
+
+### [Ableye](https://github.com/ably-labs/Ableye) check B
+
+:red_circle: There is no branch protection rule defined for pattern `main`.
+
+### [Ableye](https://github.com/ably-labs/Ableye) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Projects are enabled.
+- :red_circle: Wiki is enabled.
+
+### [Ableye](https://github.com/ably-labs/Ableye) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
 
 ### [Ablingo](https://github.com/ably-labs/Ablingo) check B
 
@@ -1011,25 +1030,6 @@ Validates the configuration of the Merge button.
 - :red_circle: Wiki is enabled.
 
 ### [realtime-voting-js-ably-fusion-charts](https://github.com/ably-labs/realtime-voting-js-ably-fusion-charts) check D
-
-:red_circle: Merge button switches:
-
-- :red_circle: Does not automatically delete head branches.
-- :red_circle: Allows rebase merging.
-- :red_circle: Allows squash merging.
-
-### [rosie-demo](https://github.com/ably-labs/rosie-demo) check B
-
-:red_circle: There is no branch protection rule defined for pattern `main`.
-
-### [rosie-demo](https://github.com/ably-labs/rosie-demo) check C
-
-:red_circle: GitHub feature switches:
-
-- :red_circle: Projects are enabled.
-- :red_circle: Wiki is enabled.
-
-### [rosie-demo](https://github.com/ably-labs/rosie-demo) check D
 
 :red_circle: Merge button switches:
 
