@@ -654,7 +654,10 @@ Validates the configuration of the Merge button.
 
 ### [fully-featured-scalable-chat-app](https://github.com/ably-labs/fully-featured-scalable-chat-app) check B
 
-:red_circle: There is no branch protection rule defined for pattern `main`.
+:red_circle: Default branch protection rule:
+
+- :red_circle: Does not restrict push.
+- :yellow_circle: Does not require status checks to pass.
 
 ### [fully-featured-scalable-chat-app](https://github.com/ably-labs/fully-featured-scalable-chat-app) check C
 
