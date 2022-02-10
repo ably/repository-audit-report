@@ -46,7 +46,7 @@
 | [demo-typescript-jspm](https://github.com/ably/demo-typescript-jspm) | :green_circle: | [:red_circle:](#demo-typescript-jspm-check-b) | :green_circle: | [:red_circle:](#demo-typescript-jspm-check-d) |
 | [design-patterns](https://github.com/ably/design-patterns) | :green_circle: | [:red_circle:](#design-patterns-check-b) | :green_circle: | [:red_circle:](#design-patterns-check-d) |
 | [docs](https://github.com/ably/docs) | :green_circle: | [:yellow_circle:](#docs-check-b) | :green_circle: | [:red_circle:](#docs-check-d) |
-| [engineering](https://github.com/ably/engineering) | :green_circle: | [:red_circle:](#engineering-check-b) | :green_circle: | :green_circle: |
+| [engineering](https://github.com/ably/engineering) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
 | [example-lambda-function](https://github.com/ably/example-lambda-function) | :green_circle: | [:red_circle:](#example-lambda-function-check-b) | :green_circle: | [:red_circle:](#example-lambda-function-check-d) |
 | [firehose-kinesis-tutorial](https://github.com/ably/firehose-kinesis-tutorial) | :green_circle: | [:red_circle:](#firehose-kinesis-tutorial-check-b) | [:red_circle:](#firehose-kinesis-tutorial-check-c) | [:red_circle:](#firehose-kinesis-tutorial-check-d) |
 | [firehose-sqs-tutorial](https://github.com/ably/firehose-sqs-tutorial) | :green_circle: | [:red_circle:](#firehose-sqs-tutorial-check-b) | [:red_circle:](#firehose-sqs-tutorial-check-c) | [:red_circle:](#firehose-sqs-tutorial-check-d) |
@@ -73,9 +73,9 @@
 | [tutorials](https://github.com/ably/tutorials) | :green_circle: | [:red_circle:](#tutorials-check-b) | :green_circle: | [:red_circle:](#tutorials-check-d) |
 | [wiki-site](https://github.com/ably/wiki-site) | :green_circle: | [:red_circle:](#wiki-site-check-b) | :green_circle: | [:red_circle:](#wiki-site-check-d) |
 | [xdelta-async-nodejs-addon](https://github.com/ably/xdelta-async-nodejs-addon) | :green_circle: | [:red_circle:](#xdelta-async-nodejs-addon-check-b) | :green_circle: | [:red_circle:](#xdelta-async-nodejs-addon-check-d) |
-| Pass | 68 | 18 | 57 | 27 |
+| Pass | 68 | 19 | 57 | 27 |
 | Warn | 1 | 6 | 0 | 0 |
-| Fail | 0 | 45 | 12 | 42 |
+| Fail | 0 | 44 | 12 | 42 |
 
 Repository Count: 69
 
@@ -415,10 +415,6 @@ Validates the configuration of the Merge button.
 :red_circle: Merge button switches:
 
 - :red_circle: Allows squash merging.
-
-### [engineering](https://github.com/ably/engineering) check B
-
-:red_circle: There is no branch protection rule defined for pattern `main`.
 
 ### [example-lambda-function](https://github.com/ably/example-lambda-function) check B
 
