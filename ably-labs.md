@@ -23,6 +23,7 @@
 | [ably-postgres-connector](https://github.com/ably-labs/ably-postgres-connector) | :green_circle: | [:red_circle:](#ably-postgres-connector-check-b) | [:red_circle:](#ably-postgres-connector-check-c) | [:red_circle:](#ably-postgres-connector-check-d) |
 | [ably-react-examples](https://github.com/ably-labs/ably-react-examples) | [:red_circle:](#ably-react-examples-check-a) | [:red_circle:](#ably-react-examples-check-b) | [:red_circle:](#ably-react-examples-check-c) | [:red_circle:](#ably-react-examples-check-d) |
 | [ably-rock-paper-scissors](https://github.com/ably-labs/ably-rock-paper-scissors) | [:red_circle:](#ably-rock-paper-scissors-check-a) | [:red_circle:](#ably-rock-paper-scissors-check-b) | [:red_circle:](#ably-rock-paper-scissors-check-c) | [:red_circle:](#ably-rock-paper-scissors-check-d) |
+| [ably-rust](https://github.com/ably-labs/ably-rust) | :green_circle: | [:red_circle:](#ably-rust-check-b) | [:red_circle:](#ably-rust-check-c) | [:red_circle:](#ably-rust-check-d) |
 | [ably-serverless-auth](https://github.com/ably-labs/ably-serverless-auth) | :green_circle: | [:red_circle:](#ably-serverless-auth-check-b) | [:red_circle:](#ably-serverless-auth-check-c) | [:red_circle:](#ably-serverless-auth-check-d) |
 | [ably-spring-pubsub](https://github.com/ably-labs/ably-spring-pubsub) | :green_circle: | [:red_circle:](#ably-spring-pubsub-check-b) | [:red_circle:](#ably-spring-pubsub-check-c) | [:red_circle:](#ably-spring-pubsub-check-d) |
 | [ablyd-client](https://github.com/ably-labs/ablyd-client) | :green_circle: | [:red_circle:](#ablyd-client-check-b) | [:red_circle:](#ablyd-client-check-c) | [:red_circle:](#ablyd-client-check-d) |
@@ -67,11 +68,11 @@
 | [websockets-cursor-sharing](https://github.com/ably-labs/websockets-cursor-sharing) | :green_circle: | [:red_circle:](#websockets-cursor-sharing-check-b) | [:red_circle:](#websockets-cursor-sharing-check-c) | [:red_circle:](#websockets-cursor-sharing-check-d) |
 | [whiteboard](https://github.com/ably-labs/whiteboard) | :green_circle: | [:red_circle:](#whiteboard-check-b) | [:red_circle:](#whiteboard-check-c) | [:red_circle:](#whiteboard-check-d) |
 | [word-game](https://github.com/ably-labs/word-game) | :green_circle: | [:red_circle:](#word-game-check-b) | [:red_circle:](#word-game-check-c) | [:red_circle:](#word-game-check-d) |
-| Pass | 53 | 0 | 4 | 4 |
+| Pass | 54 | 0 | 4 | 4 |
 | Warn | 0 | 0 | 0 | 0 |
-| Fail | 10 | 63 | 59 | 59 |
+| Fail | 10 | 64 | 60 | 60 |
 
-Repository Count: 63
+Repository Count: 64
 
 ## Checks
 
@@ -429,6 +430,25 @@ Validates the configuration of the Merge button.
 - :red_circle: Wiki is enabled.
 
 ### [ably-rock-paper-scissors](https://github.com/ably-labs/ably-rock-paper-scissors) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
+
+### [ably-rust](https://github.com/ably-labs/ably-rust) check B
+
+:red_circle: There is no branch protection rule defined for pattern `main`.
+
+### [ably-rust](https://github.com/ably-labs/ably-rust) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Projects are enabled.
+- :red_circle: Wiki is enabled.
+
+### [ably-rust](https://github.com/ably-labs/ably-rust) check D
 
 :red_circle: Merge button switches:
 
