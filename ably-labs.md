@@ -6,6 +6,7 @@
 | ---------- | ------------- | ------------- | ------------- | ------------- |
 | [Ableye](https://github.com/ably-labs/Ableye) | :green_circle: | [:red_circle:](#ableye-check-b) | [:red_circle:](#ableye-check-c) | [:red_circle:](#ableye-check-d) |
 | [Ablingo](https://github.com/ably-labs/Ablingo) | :green_circle: | [:red_circle:](#ablingo-check-b) | [:red_circle:](#ablingo-check-c) | [:red_circle:](#ablingo-check-d) |
+| [Ably.Healthcheck](https://github.com/ably-labs/Ably.Healthcheck) | :green_circle: | [:red_circle:](#ably.healthcheck-check-b) | [:red_circle:](#ably.healthcheck-check-c) | [:red_circle:](#ably.healthcheck-check-d) |
 | [AblyD](https://github.com/ably-labs/AblyD) | :green_circle: | [:red_circle:](#ablyd-check-b) | [:red_circle:](#ablyd-check-c) | [:red_circle:](#ablyd-check-d) |
 | [Club](https://github.com/ably-labs/Club) | :green_circle: | [:red_circle:](#club-check-b) | :green_circle: | :green_circle: |
 | [GameRoomSDK](https://github.com/ably-labs/GameRoomSDK) | :green_circle: | [:red_circle:](#gameroomsdk-check-b) | [:red_circle:](#gameroomsdk-check-c) | [:red_circle:](#gameroomsdk-check-d) |
@@ -68,11 +69,11 @@
 | [websockets-cursor-sharing](https://github.com/ably-labs/websockets-cursor-sharing) | :green_circle: | [:red_circle:](#websockets-cursor-sharing-check-b) | [:red_circle:](#websockets-cursor-sharing-check-c) | [:red_circle:](#websockets-cursor-sharing-check-d) |
 | [whiteboard](https://github.com/ably-labs/whiteboard) | :green_circle: | [:red_circle:](#whiteboard-check-b) | [:red_circle:](#whiteboard-check-c) | [:red_circle:](#whiteboard-check-d) |
 | [word-game](https://github.com/ably-labs/word-game) | :green_circle: | [:red_circle:](#word-game-check-b) | [:red_circle:](#word-game-check-c) | [:red_circle:](#word-game-check-d) |
-| Pass | 54 | 0 | 4 | 4 |
+| Pass | 55 | 0 | 4 | 4 |
 | Warn | 0 | 0 | 0 | 0 |
-| Fail | 10 | 64 | 60 | 60 |
+| Fail | 10 | 65 | 61 | 61 |
 
-Repository Count: 64
+Repository Count: 65
 
 ## Checks
 
@@ -131,6 +132,28 @@ Validates the configuration of the Merge button.
 - :red_circle: Does not automatically delete head branches.
 - :red_circle: Allows rebase merging.
 - :red_circle: Allows squash merging.
+
+### [Ably.Healthcheck](https://github.com/ably-labs/Ably.Healthcheck) check B
+
+:red_circle: Default branch protection rule:
+
+- :red_circle: Does not restrict push.
+- :yellow_circle: Required approving reviewer count is too low.
+- :yellow_circle: Does not require status checks to pass.
+
+### [Ably.Healthcheck](https://github.com/ably-labs/Ably.Healthcheck) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Projects are enabled.
+- :red_circle: Wiki is enabled.
+
+### [Ably.Healthcheck](https://github.com/ably-labs/Ably.Healthcheck) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Allows squash merging.
+- :red_circle: Does not allow merge commits.
 
 ### [AblyD](https://github.com/ably-labs/AblyD) check B
 
