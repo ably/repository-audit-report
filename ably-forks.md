@@ -327,6 +327,7 @@ Validates the configuration of the Merge button.
 
 :yellow_circle: Default branch protection rule:
 
+- :yellow_circle: Required approving reviewer count is too low.
 - :yellow_circle: Does not require conversations to be resolved before merging.
 - :yellow_circle: Does not require status checks to pass.
 
