@@ -55,7 +55,7 @@
 | [presence-collection](https://github.com/ably-labs/presence-collection) | :green_circle: | [:red_circle:](#presence-collection-check-b) | [:red_circle:](#presence-collection-check-c) | [:red_circle:](#presence-collection-check-d) |
 | [react-hooks](https://github.com/ably-labs/react-hooks) | :green_circle: | [:red_circle:](#react-hooks-check-b) | [:red_circle:](#react-hooks-check-c) | [:red_circle:](#react-hooks-check-d) |
 | [realtime-midi-player](https://github.com/ably-labs/realtime-midi-player) | :green_circle: | [:red_circle:](#realtime-midi-player-check-b) | :green_circle: | :green_circle: |
-| [realtime-multiplayer-space-invaders](https://github.com/ably-labs/realtime-multiplayer-space-invaders) | [:red_circle:](#realtime-multiplayer-space-invaders-check-a) | [:red_circle:](#realtime-multiplayer-space-invaders-check-b) | [:red_circle:](#realtime-multiplayer-space-invaders-check-c) | [:red_circle:](#realtime-multiplayer-space-invaders-check-d) |
+| [realtime-multiplayer-space-invaders](https://github.com/ably-labs/realtime-multiplayer-space-invaders) | :green_circle: | [:red_circle:](#realtime-multiplayer-space-invaders-check-b) | [:red_circle:](#realtime-multiplayer-space-invaders-check-c) | [:red_circle:](#realtime-multiplayer-space-invaders-check-d) |
 | [realtime-quiz-framework](https://github.com/ably-labs/realtime-quiz-framework) | :green_circle: | [:red_circle:](#realtime-quiz-framework-check-b) | [:red_circle:](#realtime-quiz-framework-check-c) | [:red_circle:](#realtime-quiz-framework-check-d) |
 | [realtime-voting-angular](https://github.com/ably-labs/realtime-voting-angular) | [:red_circle:](#realtime-voting-angular-check-a) | [:red_circle:](#realtime-voting-angular-check-b) | [:red_circle:](#realtime-voting-angular-check-c) | [:red_circle:](#realtime-voting-angular-check-d) |
 | [realtime-voting-js-ably-fusion-charts](https://github.com/ably-labs/realtime-voting-js-ably-fusion-charts) | :green_circle: | [:red_circle:](#realtime-voting-js-ably-fusion-charts-check-b) | [:red_circle:](#realtime-voting-js-ably-fusion-charts-check-c) | [:red_circle:](#realtime-voting-js-ably-fusion-charts-check-d) |
@@ -70,9 +70,9 @@
 | [websockets-cursor-sharing](https://github.com/ably-labs/websockets-cursor-sharing) | :green_circle: | [:red_circle:](#websockets-cursor-sharing-check-b) | [:red_circle:](#websockets-cursor-sharing-check-c) | [:red_circle:](#websockets-cursor-sharing-check-d) |
 | [whiteboard](https://github.com/ably-labs/whiteboard) | :green_circle: | [:red_circle:](#whiteboard-check-b) | [:red_circle:](#whiteboard-check-c) | [:red_circle:](#whiteboard-check-d) |
 | [word-game](https://github.com/ably-labs/word-game) | :green_circle: | [:red_circle:](#word-game-check-b) | [:red_circle:](#word-game-check-c) | [:red_circle:](#word-game-check-d) |
-| Pass | 56 | 0 | 4 | 4 |
+| Pass | 57 | 0 | 4 | 4 |
 | Warn | 0 | 0 | 0 | 0 |
-| Fail | 10 | 66 | 62 | 62 |
+| Fail | 9 | 66 | 62 | 62 |
 
 Repository Count: 66
 
@@ -1040,13 +1040,9 @@ Validates the configuration of the Merge button.
 
 :red_circle: There is no branch protection rule defined for pattern `main`.
 
-### [realtime-multiplayer-space-invaders](https://github.com/ably-labs/realtime-multiplayer-space-invaders) check A
-
-:red_circle: Non-standard name `master`. Assumed to be something non-inclusive.
-
 ### [realtime-multiplayer-space-invaders](https://github.com/ably-labs/realtime-multiplayer-space-invaders) check B
 
-:red_circle: There is no branch protection rule defined for pattern `master`.
+:red_circle: There is no branch protection rule defined for pattern `main`.
 
 ### [realtime-multiplayer-space-invaders](https://github.com/ably-labs/realtime-multiplayer-space-invaders) check C
 
