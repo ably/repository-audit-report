@@ -64,17 +64,18 @@
 | [sms-in-the-browser](https://github.com/ably-labs/sms-in-the-browser) | :green_circle: | [:red_circle:](#sms-in-the-browser-check-b) | [:red_circle:](#sms-in-the-browser-check-c) | [:red_circle:](#sms-in-the-browser-check-d) |
 | [snowpack-plugin-dotenv-azure](https://github.com/ably-labs/snowpack-plugin-dotenv-azure) | :green_circle: | [:red_circle:](#snowpack-plugin-dotenv-azure-check-b) | [:red_circle:](#snowpack-plugin-dotenv-azure-check-c) | [:red_circle:](#snowpack-plugin-dotenv-azure-check-d) |
 | [spring-boot-auth0](https://github.com/ably-labs/spring-boot-auth0) | :green_circle: | [:red_circle:](#spring-boot-auth0-check-b) | [:red_circle:](#spring-boot-auth0-check-c) | [:red_circle:](#spring-boot-auth0-check-d) |
+| [sync-edit](https://github.com/ably-labs/sync-edit) | :green_circle: | [:red_circle:](#sync-edit-check-b) | [:red_circle:](#sync-edit-check-c) | [:red_circle:](#sync-edit-check-d) |
 | [tamagotrain](https://github.com/ably-labs/tamagotrain) | [:red_circle:](#tamagotrain-check-a) | [:red_circle:](#tamagotrain-check-b) | [:red_circle:](#tamagotrain-check-c) | [:red_circle:](#tamagotrain-check-d) |
 | [test-observability](https://github.com/ably-labs/test-observability) | :green_circle: | [:red_circle:](#test-observability-check-b) | [:red_circle:](#test-observability-check-c) | [:red_circle:](#test-observability-check-d) |
 | [vonage-vercel-voting](https://github.com/ably-labs/vonage-vercel-voting) | :green_circle: | [:red_circle:](#vonage-vercel-voting-check-b) | [:red_circle:](#vonage-vercel-voting-check-c) | [:red_circle:](#vonage-vercel-voting-check-d) |
 | [websockets-cursor-sharing](https://github.com/ably-labs/websockets-cursor-sharing) | :green_circle: | [:red_circle:](#websockets-cursor-sharing-check-b) | [:red_circle:](#websockets-cursor-sharing-check-c) | [:red_circle:](#websockets-cursor-sharing-check-d) |
 | [whiteboard](https://github.com/ably-labs/whiteboard) | :green_circle: | [:red_circle:](#whiteboard-check-b) | [:red_circle:](#whiteboard-check-c) | [:red_circle:](#whiteboard-check-d) |
 | [word-game](https://github.com/ably-labs/word-game) | :green_circle: | [:red_circle:](#word-game-check-b) | [:red_circle:](#word-game-check-c) | [:red_circle:](#word-game-check-d) |
-| Pass | 57 | 0 | 4 | 4 |
+| Pass | 58 | 0 | 4 | 4 |
 | Warn | 0 | 0 | 0 | 0 |
-| Fail | 9 | 66 | 62 | 62 |
+| Fail | 9 | 67 | 63 | 63 |
 
-Repository Count: 66
+Repository Count: 67
 
 ## Checks
 
@@ -1208,6 +1209,25 @@ Validates the configuration of the Merge button.
 - :red_circle: Wiki is enabled.
 
 ### [spring-boot-auth0](https://github.com/ably-labs/spring-boot-auth0) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
+
+### [sync-edit](https://github.com/ably-labs/sync-edit) check B
+
+:red_circle: There is no branch protection rule defined for pattern `main`.
+
+### [sync-edit](https://github.com/ably-labs/sync-edit) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Projects are enabled.
+- :red_circle: Wiki is enabled.
+
+### [sync-edit](https://github.com/ably-labs/sync-edit) check D
 
 :red_circle: Merge button switches:
 
