@@ -53,6 +53,7 @@
 | [mapbox-gtfs](https://github.com/ably-labs/mapbox-gtfs) | :green_circle: | [:red_circle:](#mapbox-gtfs-check-b) | [:red_circle:](#mapbox-gtfs-check-c) | [:red_circle:](#mapbox-gtfs-check-d) |
 | [multiplayer-flappy-bird](https://github.com/ably-labs/multiplayer-flappy-bird) | [:red_circle:](#multiplayer-flappy-bird-check-a) | [:red_circle:](#multiplayer-flappy-bird-check-b) | [:red_circle:](#multiplayer-flappy-bird-check-c) | [:red_circle:](#multiplayer-flappy-bird-check-d) |
 | [multiplayer-games-scalable-networking-framework](https://github.com/ably-labs/multiplayer-games-scalable-networking-framework) | :green_circle: | [:red_circle:](#multiplayer-games-scalable-networking-framework-check-b) | [:red_circle:](#multiplayer-games-scalable-networking-framework-check-c) | [:red_circle:](#multiplayer-games-scalable-networking-framework-check-d) |
+| [netlify-identity-auth](https://github.com/ably-labs/netlify-identity-auth) | :green_circle: | [:red_circle:](#netlify-identity-auth-check-b) | [:red_circle:](#netlify-identity-auth-check-c) | [:red_circle:](#netlify-identity-auth-check-d) |
 | [ouija](https://github.com/ably-labs/ouija) | :green_circle: | [:red_circle:](#ouija-check-b) | [:red_circle:](#ouija-check-c) | [:red_circle:](#ouija-check-d) |
 | [presence-collection](https://github.com/ably-labs/presence-collection) | :green_circle: | [:red_circle:](#presence-collection-check-b) | [:red_circle:](#presence-collection-check-c) | [:red_circle:](#presence-collection-check-d) |
 | [react-hooks](https://github.com/ably-labs/react-hooks) | :green_circle: | [:red_circle:](#react-hooks-check-b) | [:red_circle:](#react-hooks-check-c) | [:red_circle:](#react-hooks-check-d) |
@@ -68,16 +69,17 @@
 | [spring-boot-auth0](https://github.com/ably-labs/spring-boot-auth0) | :green_circle: | [:red_circle:](#spring-boot-auth0-check-b) | [:red_circle:](#spring-boot-auth0-check-c) | [:red_circle:](#spring-boot-auth0-check-d) |
 | [sync-edit](https://github.com/ably-labs/sync-edit) | :green_circle: | [:red_circle:](#sync-edit-check-b) | [:red_circle:](#sync-edit-check-c) | [:red_circle:](#sync-edit-check-d) |
 | [tamagotrain](https://github.com/ably-labs/tamagotrain) | [:red_circle:](#tamagotrain-check-a) | [:red_circle:](#tamagotrain-check-b) | [:red_circle:](#tamagotrain-check-c) | [:red_circle:](#tamagotrain-check-d) |
-| [test-observability](https://github.com/ably-labs/test-observability) | :green_circle: | [:red_circle:](#test-observability-check-b) | [:red_circle:](#test-observability-check-c) | [:red_circle:](#test-observability-check-d) |
+| [test-observability](https://github.com/ably-labs/test-observability) | :green_circle: | [:red_circle:](#test-observability-check-b) | :green_circle: | [:red_circle:](#test-observability-check-d) |
 | [vonage-vercel-voting](https://github.com/ably-labs/vonage-vercel-voting) | :green_circle: | [:red_circle:](#vonage-vercel-voting-check-b) | [:red_circle:](#vonage-vercel-voting-check-c) | [:red_circle:](#vonage-vercel-voting-check-d) |
+| [vscode-ably](https://github.com/ably-labs/vscode-ably) | :green_circle: | [:red_circle:](#vscode-ably-check-b) | [:red_circle:](#vscode-ably-check-c) | [:red_circle:](#vscode-ably-check-d) |
 | [websockets-cursor-sharing](https://github.com/ably-labs/websockets-cursor-sharing) | :green_circle: | [:red_circle:](#websockets-cursor-sharing-check-b) | [:red_circle:](#websockets-cursor-sharing-check-c) | [:red_circle:](#websockets-cursor-sharing-check-d) |
 | [whiteboard](https://github.com/ably-labs/whiteboard) | :green_circle: | [:red_circle:](#whiteboard-check-b) | [:red_circle:](#whiteboard-check-c) | [:red_circle:](#whiteboard-check-d) |
 | [word-game](https://github.com/ably-labs/word-game) | :green_circle: | [:red_circle:](#word-game-check-b) | [:red_circle:](#word-game-check-c) | [:red_circle:](#word-game-check-d) |
-| Pass | 60 | 0 | 5 | 4 |
+| Pass | 62 | 0 | 6 | 4 |
 | Warn | 0 | 0 | 0 | 0 |
-| Fail | 9 | 69 | 64 | 65 |
+| Fail | 9 | 71 | 65 | 67 |
 
-Repository Count: 69
+Repository Count: 71
 
 ## Checks
 
@@ -1012,6 +1014,25 @@ Validates the configuration of the Merge button.
 - :red_circle: Allows rebase merging.
 - :red_circle: Allows squash merging.
 
+### [netlify-identity-auth](https://github.com/ably-labs/netlify-identity-auth) check B
+
+:red_circle: There is no branch protection rule defined for pattern `main`.
+
+### [netlify-identity-auth](https://github.com/ably-labs/netlify-identity-auth) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Projects are enabled.
+- :red_circle: Wiki is enabled.
+
+### [netlify-identity-auth](https://github.com/ably-labs/netlify-identity-auth) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
+
 ### [ouija](https://github.com/ably-labs/ouija) check B
 
 :red_circle: There is no branch protection rule defined for pattern `main`.
@@ -1295,13 +1316,6 @@ Validates the configuration of the Merge button.
 
 :red_circle: There is no branch protection rule defined for pattern `main`.
 
-### [test-observability](https://github.com/ably-labs/test-observability) check C
-
-:red_circle: GitHub feature switches:
-
-- :red_circle: Projects are enabled.
-- :red_circle: Wiki is enabled.
-
 ### [test-observability](https://github.com/ably-labs/test-observability) check D
 
 :red_circle: Merge button switches:
@@ -1328,6 +1342,24 @@ Validates the configuration of the Merge button.
 - :red_circle: Does not automatically delete head branches.
 - :red_circle: Allows rebase merging.
 - :red_circle: Allows squash merging.
+
+### [vscode-ably](https://github.com/ably-labs/vscode-ably) check B
+
+:red_circle: There is no branch protection rule defined for pattern `main`.
+
+### [vscode-ably](https://github.com/ably-labs/vscode-ably) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Projects are enabled.
+- :red_circle: Wiki is enabled.
+
+### [vscode-ably](https://github.com/ably-labs/vscode-ably) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Allows squash merging.
+- :red_circle: Does not allow merge commits.
 
 ### [websockets-cursor-sharing](https://github.com/ably-labs/websockets-cursor-sharing) check B
 
