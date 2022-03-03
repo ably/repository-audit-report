@@ -23,6 +23,7 @@
 | [ably-datadog-lambda](https://github.com/ably-labs/ably-datadog-lambda) | :green_circle: | [:red_circle:](#ably-datadog-lambda-check-b) | [:red_circle:](#ably-datadog-lambda-check-c) | [:red_circle:](#ably-datadog-lambda-check-d) |
 | [ably-labs-template-repo](https://github.com/ably-labs/ably-labs-template-repo) | :green_circle: | [:red_circle:](#ably-labs-template-repo-check-b) | :green_circle: | [:red_circle:](#ably-labs-template-repo-check-d) |
 | [ably-locust](https://github.com/ably-labs/ably-locust) | :green_circle: | [:red_circle:](#ably-locust-check-b) | [:red_circle:](#ably-locust-check-c) | [:red_circle:](#ably-locust-check-d) |
+| [ably-playground](https://github.com/ably-labs/ably-playground) | :green_circle: | [:red_circle:](#ably-playground-check-b) | [:red_circle:](#ably-playground-check-c) | [:red_circle:](#ably-playground-check-d) |
 | [ably-postgres-connector](https://github.com/ably-labs/ably-postgres-connector) | :green_circle: | [:red_circle:](#ably-postgres-connector-check-b) | [:red_circle:](#ably-postgres-connector-check-c) | [:red_circle:](#ably-postgres-connector-check-d) |
 | [ably-react-examples](https://github.com/ably-labs/ably-react-examples) | [:red_circle:](#ably-react-examples-check-a) | [:red_circle:](#ably-react-examples-check-b) | [:red_circle:](#ably-react-examples-check-c) | [:red_circle:](#ably-react-examples-check-d) |
 | [ably-rock-paper-scissors](https://github.com/ably-labs/ably-rock-paper-scissors) | [:red_circle:](#ably-rock-paper-scissors-check-a) | [:red_circle:](#ably-rock-paper-scissors-check-b) | [:red_circle:](#ably-rock-paper-scissors-check-c) | [:red_circle:](#ably-rock-paper-scissors-check-d) |
@@ -43,6 +44,7 @@
 | [fragmenting-ably](https://github.com/ably-labs/fragmenting-ably) | [:red_circle:](#fragmenting-ably-check-a) | [:red_circle:](#fragmenting-ably-check-b) | [:red_circle:](#fragmenting-ably-check-c) | [:red_circle:](#fragmenting-ably-check-d) |
 | [fully-featured-scalable-chat-app](https://github.com/ably-labs/fully-featured-scalable-chat-app) | :green_circle: | [:red_circle:](#fully-featured-scalable-chat-app-check-b) | [:red_circle:](#fully-featured-scalable-chat-app-check-c) | [:red_circle:](#fully-featured-scalable-chat-app-check-d) |
 | [go-chat](https://github.com/ably-labs/go-chat) | :green_circle: | [:red_circle:](#go-chat-check-b) | [:red_circle:](#go-chat-check-c) | [:red_circle:](#go-chat-check-d) |
+| [go-ebiten-blog-example](https://github.com/ably-labs/go-ebiten-blog-example) | :green_circle: | [:red_circle:](#go-ebiten-blog-example-check-b) | [:red_circle:](#go-ebiten-blog-example-check-c) | [:red_circle:](#go-ebiten-blog-example-check-d) |
 | [graphql-ably-pubsub](https://github.com/ably-labs/graphql-ably-pubsub) | [:red_circle:](#graphql-ably-pubsub-check-a) | [:red_circle:](#graphql-ably-pubsub-check-b) | [:red_circle:](#graphql-ably-pubsub-check-c) | [:red_circle:](#graphql-ably-pubsub-check-d) |
 | [homebrew-tap](https://github.com/ably-labs/homebrew-tap) | :green_circle: | [:red_circle:](#homebrew-tap-check-b) | [:red_circle:](#homebrew-tap-check-c) | [:red_circle:](#homebrew-tap-check-d) |
 | [ingester](https://github.com/ably-labs/ingester) | :green_circle: | [:red_circle:](#ingester-check-b) | [:red_circle:](#ingester-check-c) | [:red_circle:](#ingester-check-d) |
@@ -70,16 +72,17 @@
 | [sync-edit](https://github.com/ably-labs/sync-edit) | :green_circle: | [:red_circle:](#sync-edit-check-b) | [:red_circle:](#sync-edit-check-c) | [:red_circle:](#sync-edit-check-d) |
 | [tamagotrain](https://github.com/ably-labs/tamagotrain) | [:red_circle:](#tamagotrain-check-a) | [:red_circle:](#tamagotrain-check-b) | [:red_circle:](#tamagotrain-check-c) | [:red_circle:](#tamagotrain-check-d) |
 | [test-observability](https://github.com/ably-labs/test-observability) | :green_circle: | [:red_circle:](#test-observability-check-b) | :green_circle: | [:red_circle:](#test-observability-check-d) |
+| [vim-mqtt-livecode](https://github.com/ably-labs/vim-mqtt-livecode) | :green_circle: | [:red_circle:](#vim-mqtt-livecode-check-b) | [:red_circle:](#vim-mqtt-livecode-check-c) | [:red_circle:](#vim-mqtt-livecode-check-d) |
 | [vonage-vercel-voting](https://github.com/ably-labs/vonage-vercel-voting) | :green_circle: | [:red_circle:](#vonage-vercel-voting-check-b) | [:red_circle:](#vonage-vercel-voting-check-c) | [:red_circle:](#vonage-vercel-voting-check-d) |
 | [vscode-ably](https://github.com/ably-labs/vscode-ably) | :green_circle: | [:red_circle:](#vscode-ably-check-b) | [:red_circle:](#vscode-ably-check-c) | [:red_circle:](#vscode-ably-check-d) |
 | [websockets-cursor-sharing](https://github.com/ably-labs/websockets-cursor-sharing) | :green_circle: | [:red_circle:](#websockets-cursor-sharing-check-b) | [:red_circle:](#websockets-cursor-sharing-check-c) | [:red_circle:](#websockets-cursor-sharing-check-d) |
 | [whiteboard](https://github.com/ably-labs/whiteboard) | :green_circle: | [:red_circle:](#whiteboard-check-b) | [:red_circle:](#whiteboard-check-c) | [:red_circle:](#whiteboard-check-d) |
 | [word-game](https://github.com/ably-labs/word-game) | :green_circle: | [:red_circle:](#word-game-check-b) | [:red_circle:](#word-game-check-c) | [:red_circle:](#word-game-check-d) |
-| Pass | 62 | 0 | 6 | 4 |
+| Pass | 65 | 0 | 6 | 4 |
 | Warn | 0 | 0 | 0 | 0 |
-| Fail | 9 | 71 | 65 | 67 |
+| Fail | 9 | 74 | 68 | 70 |
 
-Repository Count: 71
+Repository Count: 74
 
 ## Checks
 
@@ -424,6 +427,25 @@ Validates the configuration of the Merge button.
 - :red_circle: Wiki is enabled.
 
 ### [ably-locust](https://github.com/ably-labs/ably-locust) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
+
+### [ably-playground](https://github.com/ably-labs/ably-playground) check B
+
+:red_circle: There is no branch protection rule defined for pattern `main`.
+
+### [ably-playground](https://github.com/ably-labs/ably-playground) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Projects are enabled.
+- :red_circle: Wiki is enabled.
+
+### [ably-playground](https://github.com/ably-labs/ably-playground) check D
 
 :red_circle: Merge button switches:
 
@@ -805,6 +827,25 @@ Validates the configuration of the Merge button.
 - :red_circle: Wiki is enabled.
 
 ### [go-chat](https://github.com/ably-labs/go-chat) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
+
+### [go-ebiten-blog-example](https://github.com/ably-labs/go-ebiten-blog-example) check B
+
+:red_circle: There is no branch protection rule defined for pattern `main`.
+
+### [go-ebiten-blog-example](https://github.com/ably-labs/go-ebiten-blog-example) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Projects are enabled.
+- :red_circle: Wiki is enabled.
+
+### [go-ebiten-blog-example](https://github.com/ably-labs/go-ebiten-blog-example) check D
 
 :red_circle: Merge button switches:
 
@@ -1317,6 +1358,25 @@ Validates the configuration of the Merge button.
 :red_circle: There is no branch protection rule defined for pattern `main`.
 
 ### [test-observability](https://github.com/ably-labs/test-observability) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
+
+### [vim-mqtt-livecode](https://github.com/ably-labs/vim-mqtt-livecode) check B
+
+:red_circle: There is no branch protection rule defined for pattern `main`.
+
+### [vim-mqtt-livecode](https://github.com/ably-labs/vim-mqtt-livecode) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Projects are enabled.
+- :red_circle: Wiki is enabled.
+
+### [vim-mqtt-livecode](https://github.com/ably-labs/vim-mqtt-livecode) check D
 
 :red_circle: Merge button switches:
 
