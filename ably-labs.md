@@ -18,7 +18,6 @@
 | [Realtime-ticket-booking-solution](https://github.com/ably-labs/Realtime-ticket-booking-solution) | :green_circle: | [:red_circle:](#realtime-ticket-booking-solution-check-b) | [:red_circle:](#realtime-ticket-booking-solution-check-c) | [:red_circle:](#realtime-ticket-booking-solution-check-d) |
 | [ably-airtable-starter-kit](https://github.com/ably-labs/ably-airtable-starter-kit) | :green_circle: | [:red_circle:](#ably-airtable-starter-kit-check-b) | [:red_circle:](#ably-airtable-starter-kit-check-c) | [:red_circle:](#ably-airtable-starter-kit-check-d) |
 | [ably-arcade](https://github.com/ably-labs/ably-arcade) | :green_circle: | [:red_circle:](#ably-arcade-check-b) | [:red_circle:](#ably-arcade-check-c) | [:red_circle:](#ably-arcade-check-d) |
-| [ably-authentication](https://github.com/ably-labs/ably-authentication) | :green_circle: | [:red_circle:](#ably-authentication-check-b) | [:red_circle:](#ably-authentication-check-c) | [:red_circle:](#ably-authentication-check-d) |
 | [ably-chat-component](https://github.com/ably-labs/ably-chat-component) | :green_circle: | [:red_circle:](#ably-chat-component-check-b) | [:red_circle:](#ably-chat-component-check-c) | [:red_circle:](#ably-chat-component-check-d) |
 | [ably-control-api-action](https://github.com/ably-labs/ably-control-api-action) | :green_circle: | [:red_circle:](#ably-control-api-action-check-b) | [:red_circle:](#ably-control-api-action-check-c) | [:red_circle:](#ably-control-api-action-check-d) |
 | [ably-datadog-lambda](https://github.com/ably-labs/ably-datadog-lambda) | :green_circle: | [:red_circle:](#ably-datadog-lambda-check-b) | [:red_circle:](#ably-datadog-lambda-check-c) | [:red_circle:](#ably-datadog-lambda-check-d) |
@@ -80,11 +79,11 @@
 | [websockets-cursor-sharing](https://github.com/ably-labs/websockets-cursor-sharing) | :green_circle: | [:red_circle:](#websockets-cursor-sharing-check-b) | [:red_circle:](#websockets-cursor-sharing-check-c) | [:red_circle:](#websockets-cursor-sharing-check-d) |
 | [whiteboard](https://github.com/ably-labs/whiteboard) | :green_circle: | [:red_circle:](#whiteboard-check-b) | [:red_circle:](#whiteboard-check-c) | [:red_circle:](#whiteboard-check-d) |
 | [word-game](https://github.com/ably-labs/word-game) | :green_circle: | [:red_circle:](#word-game-check-b) | [:red_circle:](#word-game-check-c) | [:red_circle:](#word-game-check-d) |
-| Pass | 67 | 0 | 6 | 4 |
+| Pass | 66 | 0 | 6 | 4 |
 | Warn | 0 | 0 | 0 | 0 |
-| Fail | 9 | 76 | 70 | 72 |
+| Fail | 9 | 75 | 69 | 71 |
 
-Repository Count: 76
+Repository Count: 75
 
 ## Checks
 
@@ -342,25 +341,6 @@ Validates the configuration of the Merge button.
 - :red_circle: Wiki is enabled.
 
 ### [ably-arcade](https://github.com/ably-labs/ably-arcade) check D
-
-:red_circle: Merge button switches:
-
-- :red_circle: Does not automatically delete head branches.
-- :red_circle: Allows rebase merging.
-- :red_circle: Allows squash merging.
-
-### [ably-authentication](https://github.com/ably-labs/ably-authentication) check B
-
-:red_circle: There is no branch protection rule defined for pattern `main`.
-
-### [ably-authentication](https://github.com/ably-labs/ably-authentication) check C
-
-:red_circle: GitHub feature switches:
-
-- :red_circle: Projects are enabled.
-- :red_circle: Wiki is enabled.
-
-### [ably-authentication](https://github.com/ably-labs/ably-authentication) check D
 
 :red_circle: Merge button switches:
 
