@@ -59,6 +59,7 @@
 | [netlify-identity-auth](https://github.com/ably-labs/netlify-identity-auth) | :green_circle: | [:red_circle:](#netlify-identity-auth-check-b) | [:red_circle:](#netlify-identity-auth-check-c) | [:red_circle:](#netlify-identity-auth-check-d) |
 | [ouija](https://github.com/ably-labs/ouija) | :green_circle: | [:red_circle:](#ouija-check-b) | [:red_circle:](#ouija-check-c) | [:red_circle:](#ouija-check-d) |
 | [presence-collection](https://github.com/ably-labs/presence-collection) | :green_circle: | [:red_circle:](#presence-collection-check-b) | [:red_circle:](#presence-collection-check-c) | [:red_circle:](#presence-collection-check-d) |
+| [pubsub-demo-dotnet](https://github.com/ably-labs/pubsub-demo-dotnet) | :green_circle: | [:red_circle:](#pubsub-demo-dotnet-check-b) | [:red_circle:](#pubsub-demo-dotnet-check-c) | [:red_circle:](#pubsub-demo-dotnet-check-d) |
 | [react-hooks](https://github.com/ably-labs/react-hooks) | :green_circle: | [:red_circle:](#react-hooks-check-b) | [:red_circle:](#react-hooks-check-c) | [:red_circle:](#react-hooks-check-d) |
 | [realtime-midi-player](https://github.com/ably-labs/realtime-midi-player) | :green_circle: | [:red_circle:](#realtime-midi-player-check-b) | :green_circle: | :green_circle: |
 | [realtime-multiplayer-space-invaders](https://github.com/ably-labs/realtime-multiplayer-space-invaders) | :green_circle: | [:red_circle:](#realtime-multiplayer-space-invaders-check-b) | [:red_circle:](#realtime-multiplayer-space-invaders-check-c) | [:red_circle:](#realtime-multiplayer-space-invaders-check-d) |
@@ -79,11 +80,11 @@
 | [websockets-cursor-sharing](https://github.com/ably-labs/websockets-cursor-sharing) | :green_circle: | [:red_circle:](#websockets-cursor-sharing-check-b) | [:red_circle:](#websockets-cursor-sharing-check-c) | [:red_circle:](#websockets-cursor-sharing-check-d) |
 | [whiteboard](https://github.com/ably-labs/whiteboard) | :green_circle: | [:red_circle:](#whiteboard-check-b) | [:red_circle:](#whiteboard-check-c) | [:red_circle:](#whiteboard-check-d) |
 | [word-game](https://github.com/ably-labs/word-game) | :green_circle: | [:red_circle:](#word-game-check-b) | [:red_circle:](#word-game-check-c) | [:red_circle:](#word-game-check-d) |
-| Pass | 66 | 0 | 6 | 4 |
+| Pass | 67 | 0 | 6 | 4 |
 | Warn | 0 | 0 | 0 | 0 |
-| Fail | 9 | 75 | 69 | 71 |
+| Fail | 9 | 76 | 70 | 72 |
 
-Repository Count: 75
+Repository Count: 76
 
 ## Checks
 
@@ -629,9 +630,8 @@ Validates the configuration of the Merge button.
 
 :red_circle: Merge button switches:
 
-- :red_circle: Does not automatically delete head branches.
-- :red_circle: Allows rebase merging.
 - :red_circle: Allows squash merging.
+- :red_circle: Does not allow merge commits.
 
 ### [async-api-template-ably-nodejs](https://github.com/ably-labs/async-api-template-ably-nodejs) check B
 
@@ -1125,6 +1125,25 @@ Validates the configuration of the Merge button.
 - :red_circle: Wiki is enabled.
 
 ### [presence-collection](https://github.com/ably-labs/presence-collection) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
+
+### [pubsub-demo-dotnet](https://github.com/ably-labs/pubsub-demo-dotnet) check B
+
+:red_circle: There is no branch protection rule defined for pattern `main`.
+
+### [pubsub-demo-dotnet](https://github.com/ably-labs/pubsub-demo-dotnet) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Projects are enabled.
+- :red_circle: Wiki is enabled.
+
+### [pubsub-demo-dotnet](https://github.com/ably-labs/pubsub-demo-dotnet) check D
 
 :red_circle: Merge button switches:
 
