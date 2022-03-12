@@ -18,7 +18,7 @@
 | [ably-go](https://github.com/ably/ably-go) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
 | [ably-java](https://github.com/ably/ably-java) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
 | [ably-jmeter](https://github.com/ably/ably-jmeter) | :green_circle: | [:red_circle:](#ably-jmeter-check-b) | [:red_circle:](#ably-jmeter-check-c) | [:red_circle:](#ably-jmeter-check-d) |
-| [ably-js](https://github.com/ably/ably-js) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
+| [ably-js](https://github.com/ably/ably-js) | :green_circle: | [:yellow_circle:](#ably-js-check-b) | :green_circle: | :green_circle: |
 | [ably-js-nativescript](https://github.com/ably/ably-js-nativescript) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
 | [ably-js-react-native](https://github.com/ably/ably-js-react-native) | :green_circle: | [:yellow_circle:](#ably-js-react-native-check-b) | :green_circle: | :green_circle: |
 | [ably-php](https://github.com/ably/ably-php) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
@@ -73,8 +73,8 @@
 | [tutorials](https://github.com/ably/tutorials) | :green_circle: | [:red_circle:](#tutorials-check-b) | :green_circle: | [:red_circle:](#tutorials-check-d) |
 | [wiki-site](https://github.com/ably/wiki-site) | :green_circle: | [:red_circle:](#wiki-site-check-b) | :green_circle: | [:red_circle:](#wiki-site-check-d) |
 | [xdelta-async-nodejs-addon](https://github.com/ably/xdelta-async-nodejs-addon) | :green_circle: | [:red_circle:](#xdelta-async-nodejs-addon-check-b) | :green_circle: | [:red_circle:](#xdelta-async-nodejs-addon-check-d) |
-| Pass | 68 | 19 | 57 | 27 |
-| Warn | 1 | 6 | 0 | 0 |
+| Pass | 68 | 18 | 57 | 27 |
+| Warn | 1 | 7 | 0 | 0 |
 | Fail | 0 | 44 | 12 | 42 |
 
 Repository Count: 69
@@ -149,6 +149,12 @@ Validates the configuration of the Merge button.
 - :red_circle: Does not automatically delete head branches.
 - :red_circle: Allows rebase merging.
 - :red_circle: Allows squash merging.
+
+### [ably-js](https://github.com/ably/ably-js) check B
+
+:yellow_circle: Default branch protection rule:
+
+- :yellow_circle: Required approving reviewer count is too low.
 
 ### [ably-js-react-native](https://github.com/ably/ably-js-react-native) check B
 

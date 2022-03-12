@@ -36,6 +36,7 @@
 | [async-api-template-ably-nodejs](https://github.com/ably-labs/async-api-template-ably-nodejs) | :green_circle: | [:red_circle:](#async-api-template-ably-nodejs-check-b) | [:red_circle:](#async-api-template-ably-nodejs-check-c) | [:red_circle:](#async-api-template-ably-nodejs-check-d) |
 | [broadcasting-redis-go](https://github.com/ably-labs/broadcasting-redis-go) | :green_circle: | [:red_circle:](#broadcasting-redis-go-check-b) | [:red_circle:](#broadcasting-redis-go-check-c) | [:red_circle:](#broadcasting-redis-go-check-d) |
 | [codepen](https://github.com/ably-labs/codepen) | :green_circle: | [:red_circle:](#codepen-check-b) | [:red_circle:](#codepen-check-c) | [:red_circle:](#codepen-check-d) |
+| [coin-game](https://github.com/ably-labs/coin-game) | :green_circle: | [:red_circle:](#coin-game-check-b) | [:red_circle:](#coin-game-check-c) | [:red_circle:](#coin-game-check-d) |
 | [control-api-client](https://github.com/ably-labs/control-api-client) | :green_circle: | [:red_circle:](#control-api-client-check-b) | [:red_circle:](#control-api-client-check-c) | [:red_circle:](#control-api-client-check-d) |
 | [cttransit-ably-mapbox-demo](https://github.com/ably-labs/cttransit-ably-mapbox-demo) | :green_circle: | [:red_circle:](#cttransit-ably-mapbox-demo-check-b) | [:red_circle:](#cttransit-ably-mapbox-demo-check-c) | [:red_circle:](#cttransit-ably-mapbox-demo-check-d) |
 | [decorate-a-tree-2020](https://github.com/ably-labs/decorate-a-tree-2020) | :green_circle: | [:red_circle:](#decorate-a-tree-2020-check-b) | [:red_circle:](#decorate-a-tree-2020-check-c) | [:red_circle:](#decorate-a-tree-2020-check-d) |
@@ -80,11 +81,11 @@
 | [websockets-cursor-sharing](https://github.com/ably-labs/websockets-cursor-sharing) | :green_circle: | [:red_circle:](#websockets-cursor-sharing-check-b) | [:red_circle:](#websockets-cursor-sharing-check-c) | [:red_circle:](#websockets-cursor-sharing-check-d) |
 | [whiteboard](https://github.com/ably-labs/whiteboard) | :green_circle: | [:red_circle:](#whiteboard-check-b) | [:red_circle:](#whiteboard-check-c) | [:red_circle:](#whiteboard-check-d) |
 | [word-game](https://github.com/ably-labs/word-game) | :green_circle: | [:red_circle:](#word-game-check-b) | [:red_circle:](#word-game-check-c) | [:red_circle:](#word-game-check-d) |
-| Pass | 67 | 0 | 6 | 4 |
+| Pass | 68 | 0 | 6 | 4 |
 | Warn | 0 | 0 | 0 | 0 |
-| Fail | 9 | 76 | 70 | 72 |
+| Fail | 9 | 77 | 71 | 73 |
 
-Repository Count: 76
+Repository Count: 77
 
 ## Checks
 
@@ -383,9 +384,8 @@ Validates the configuration of the Merge button.
 
 :red_circle: Merge button switches:
 
-- :red_circle: Does not automatically delete head branches.
-- :red_circle: Allows rebase merging.
 - :red_circle: Allows squash merging.
+- :red_circle: Does not allow merge commits.
 
 ### [ably-datadog-lambda](https://github.com/ably-labs/ably-datadog-lambda) check B
 
@@ -683,6 +683,25 @@ Validates the configuration of the Merge button.
 - :red_circle: Wiki is enabled.
 
 ### [codepen](https://github.com/ably-labs/codepen) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
+
+### [coin-game](https://github.com/ably-labs/coin-game) check B
+
+:red_circle: There is no branch protection rule defined for pattern `main`.
+
+### [coin-game](https://github.com/ably-labs/coin-game) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Projects are enabled.
+- :red_circle: Wiki is enabled.
+
+### [coin-game](https://github.com/ably-labs/coin-game) check D
 
 :red_circle: Merge button switches:
 
