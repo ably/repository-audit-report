@@ -76,17 +76,18 @@
 | [sync-edit](https://github.com/ably-labs/sync-edit) | :green_circle: | [:red_circle:](#sync-edit-check-b) | [:red_circle:](#sync-edit-check-c) | [:red_circle:](#sync-edit-check-d) |
 | [tamagotrain](https://github.com/ably-labs/tamagotrain) | [:red_circle:](#tamagotrain-check-a) | [:red_circle:](#tamagotrain-check-b) | [:red_circle:](#tamagotrain-check-c) | [:red_circle:](#tamagotrain-check-d) |
 | [test-observability](https://github.com/ably-labs/test-observability) | :green_circle: | [:red_circle:](#test-observability-check-b) | :green_circle: | [:red_circle:](#test-observability-check-d) |
+| [test-observability-publish](https://github.com/ably-labs/test-observability-publish) | :green_circle: | [:red_circle:](#test-observability-publish-check-b) | [:red_circle:](#test-observability-publish-check-c) | [:red_circle:](#test-observability-publish-check-d) |
 | [vim-mqtt-livecode](https://github.com/ably-labs/vim-mqtt-livecode) | :green_circle: | [:red_circle:](#vim-mqtt-livecode-check-b) | [:red_circle:](#vim-mqtt-livecode-check-c) | [:red_circle:](#vim-mqtt-livecode-check-d) |
 | [vonage-vercel-voting](https://github.com/ably-labs/vonage-vercel-voting) | :green_circle: | [:red_circle:](#vonage-vercel-voting-check-b) | [:red_circle:](#vonage-vercel-voting-check-c) | [:red_circle:](#vonage-vercel-voting-check-d) |
 | [vscode-ably](https://github.com/ably-labs/vscode-ably) | :green_circle: | [:red_circle:](#vscode-ably-check-b) | [:red_circle:](#vscode-ably-check-c) | [:red_circle:](#vscode-ably-check-d) |
 | [websockets-cursor-sharing](https://github.com/ably-labs/websockets-cursor-sharing) | :green_circle: | [:red_circle:](#websockets-cursor-sharing-check-b) | [:red_circle:](#websockets-cursor-sharing-check-c) | [:red_circle:](#websockets-cursor-sharing-check-d) |
 | [whiteboard](https://github.com/ably-labs/whiteboard) | :green_circle: | [:red_circle:](#whiteboard-check-b) | [:red_circle:](#whiteboard-check-c) | [:red_circle:](#whiteboard-check-d) |
 | [word-game](https://github.com/ably-labs/word-game) | :green_circle: | [:red_circle:](#word-game-check-b) | [:red_circle:](#word-game-check-c) | [:red_circle:](#word-game-check-d) |
-| Pass | 68 | 0 | 6 | 4 |
+| Pass | 69 | 0 | 6 | 4 |
 | Warn | 0 | 0 | 0 | 0 |
-| Fail | 10 | 78 | 72 | 74 |
+| Fail | 10 | 79 | 73 | 75 |
 
-Repository Count: 78
+Repository Count: 79
 
 ## Checks
 
@@ -1439,6 +1440,25 @@ Validates the configuration of the Merge button.
 :red_circle: There is no branch protection rule defined for pattern `main`.
 
 ### [test-observability](https://github.com/ably-labs/test-observability) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
+
+### [test-observability-publish](https://github.com/ably-labs/test-observability-publish) check B
+
+:red_circle: There is no branch protection rule defined for pattern `main`.
+
+### [test-observability-publish](https://github.com/ably-labs/test-observability-publish) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Projects are enabled.
+- :red_circle: Wiki is enabled.
+
+### [test-observability-publish](https://github.com/ably-labs/test-observability-publish) check D
 
 :red_circle: Merge button switches:
 
