@@ -75,8 +75,8 @@
 | [spring-boot-auth0](https://github.com/ably-labs/spring-boot-auth0) | :green_circle: | [:red_circle:](#spring-boot-auth0-check-b) | [:red_circle:](#spring-boot-auth0-check-c) | [:red_circle:](#spring-boot-auth0-check-d) |
 | [sync-edit](https://github.com/ably-labs/sync-edit) | :green_circle: | [:red_circle:](#sync-edit-check-b) | [:red_circle:](#sync-edit-check-c) | [:red_circle:](#sync-edit-check-d) |
 | [tamagotrain](https://github.com/ably-labs/tamagotrain) | [:red_circle:](#tamagotrain-check-a) | [:red_circle:](#tamagotrain-check-b) | [:red_circle:](#tamagotrain-check-c) | [:red_circle:](#tamagotrain-check-d) |
-| [test-observability](https://github.com/ably-labs/test-observability) | :green_circle: | [:red_circle:](#test-observability-check-b) | :green_circle: | [:red_circle:](#test-observability-check-d) |
-| [test-observability-publish](https://github.com/ably-labs/test-observability-publish) | :green_circle: | [:red_circle:](#test-observability-publish-check-b) | [:red_circle:](#test-observability-publish-check-c) | [:red_circle:](#test-observability-publish-check-d) |
+| [test-observability-action](https://github.com/ably-labs/test-observability-action) | :green_circle: | [:red_circle:](#test-observability-action-check-b) | [:red_circle:](#test-observability-action-check-c) | [:red_circle:](#test-observability-action-check-d) |
+| [test-observability-server](https://github.com/ably-labs/test-observability-server) | :green_circle: | [:red_circle:](#test-observability-server-check-b) | :green_circle: | [:red_circle:](#test-observability-server-check-d) |
 | [vim-mqtt-livecode](https://github.com/ably-labs/vim-mqtt-livecode) | :green_circle: | [:red_circle:](#vim-mqtt-livecode-check-b) | [:red_circle:](#vim-mqtt-livecode-check-c) | [:red_circle:](#vim-mqtt-livecode-check-d) |
 | [vonage-vercel-voting](https://github.com/ably-labs/vonage-vercel-voting) | :green_circle: | [:red_circle:](#vonage-vercel-voting-check-b) | [:red_circle:](#vonage-vercel-voting-check-c) | [:red_circle:](#vonage-vercel-voting-check-d) |
 | [vscode-ably](https://github.com/ably-labs/vscode-ably) | :green_circle: | [:red_circle:](#vscode-ably-check-b) | [:red_circle:](#vscode-ably-check-c) | [:red_circle:](#vscode-ably-check-d) |
@@ -1178,7 +1178,12 @@ Validates the configuration of the Merge button.
 
 ### [pubsub-demo-dotnet](https://github.com/ably-labs/pubsub-demo-dotnet) check B
 
-:red_circle: There is no branch protection rule defined for pattern `main`.
+:red_circle: Default branch protection rule:
+
+- :red_circle: Does not restrict push.
+- :yellow_circle: Required approving reviewer count is too low.
+- :yellow_circle: Does not require conversations to be resolved before merging.
+- :yellow_circle: Does not require status checks to pass.
 
 ### [pubsub-demo-dotnet](https://github.com/ably-labs/pubsub-demo-dotnet) check C
 
@@ -1435,11 +1440,18 @@ Validates the configuration of the Merge button.
 - :red_circle: Allows rebase merging.
 - :red_circle: Allows squash merging.
 
-### [test-observability](https://github.com/ably-labs/test-observability) check B
+### [test-observability-action](https://github.com/ably-labs/test-observability-action) check B
 
 :red_circle: There is no branch protection rule defined for pattern `main`.
 
-### [test-observability](https://github.com/ably-labs/test-observability) check D
+### [test-observability-action](https://github.com/ably-labs/test-observability-action) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Projects are enabled.
+- :red_circle: Wiki is enabled.
+
+### [test-observability-action](https://github.com/ably-labs/test-observability-action) check D
 
 :red_circle: Merge button switches:
 
@@ -1447,22 +1459,18 @@ Validates the configuration of the Merge button.
 - :red_circle: Allows rebase merging.
 - :red_circle: Allows squash merging.
 
-### [test-observability-publish](https://github.com/ably-labs/test-observability-publish) check B
+### [test-observability-server](https://github.com/ably-labs/test-observability-server) check B
 
-:red_circle: There is no branch protection rule defined for pattern `main`.
+:red_circle: Default branch protection rule:
 
-### [test-observability-publish](https://github.com/ably-labs/test-observability-publish) check C
+- :red_circle: Does not restrict push.
+- :yellow_circle: Required approving reviewer count is too low.
+- :yellow_circle: Does not require conversations to be resolved before merging.
 
-:red_circle: GitHub feature switches:
-
-- :red_circle: Projects are enabled.
-- :red_circle: Wiki is enabled.
-
-### [test-observability-publish](https://github.com/ably-labs/test-observability-publish) check D
+### [test-observability-server](https://github.com/ably-labs/test-observability-server) check D
 
 :red_circle: Merge button switches:
 
-- :red_circle: Does not automatically delete head branches.
 - :red_circle: Allows rebase merging.
 - :red_circle: Allows squash merging.
 
