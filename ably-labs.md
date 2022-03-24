@@ -34,6 +34,7 @@
 | [ablyd-client](https://github.com/ably-labs/ablyd-client) | :green_circle: | [:red_circle:](#ablyd-client-check-b) | [:red_circle:](#ablyd-client-check-c) | [:red_circle:](#ablyd-client-check-d) |
 | [agile-flush-vue-app](https://github.com/ably-labs/agile-flush-vue-app) | :green_circle: | [:red_circle:](#agile-flush-vue-app-check-b) | [:red_circle:](#agile-flush-vue-app-check-c) | [:red_circle:](#agile-flush-vue-app-check-d) |
 | [async-api-template-ably-nodejs](https://github.com/ably-labs/async-api-template-ably-nodejs) | :green_circle: | [:red_circle:](#async-api-template-ably-nodejs-check-b) | [:red_circle:](#async-api-template-ably-nodejs-check-c) | [:red_circle:](#async-api-template-ably-nodejs-check-d) |
+| [azurewebsubpub-ably-dotnet](https://github.com/ably-labs/azurewebsubpub-ably-dotnet) | :green_circle: | [:red_circle:](#azurewebsubpub-ably-dotnet-check-b) | [:red_circle:](#azurewebsubpub-ably-dotnet-check-c) | [:red_circle:](#azurewebsubpub-ably-dotnet-check-d) |
 | [broadcasting-redis-go](https://github.com/ably-labs/broadcasting-redis-go) | :green_circle: | [:red_circle:](#broadcasting-redis-go-check-b) | [:red_circle:](#broadcasting-redis-go-check-c) | [:red_circle:](#broadcasting-redis-go-check-d) |
 | [christmas-jumper](https://github.com/ably-labs/christmas-jumper) | [:red_circle:](#christmas-jumper-check-a) | [:red_circle:](#christmas-jumper-check-b) | [:red_circle:](#christmas-jumper-check-c) | [:red_circle:](#christmas-jumper-check-d) |
 | [codepen](https://github.com/ably-labs/codepen) | :green_circle: | [:red_circle:](#codepen-check-b) | [:red_circle:](#codepen-check-c) | [:red_circle:](#codepen-check-d) |
@@ -83,11 +84,11 @@
 | [websockets-cursor-sharing](https://github.com/ably-labs/websockets-cursor-sharing) | :green_circle: | [:red_circle:](#websockets-cursor-sharing-check-b) | [:red_circle:](#websockets-cursor-sharing-check-c) | [:red_circle:](#websockets-cursor-sharing-check-d) |
 | [whiteboard](https://github.com/ably-labs/whiteboard) | :green_circle: | [:red_circle:](#whiteboard-check-b) | [:red_circle:](#whiteboard-check-c) | [:red_circle:](#whiteboard-check-d) |
 | [word-game](https://github.com/ably-labs/word-game) | :green_circle: | [:red_circle:](#word-game-check-b) | [:red_circle:](#word-game-check-c) | [:red_circle:](#word-game-check-d) |
-| Pass | 69 | 0 | 6 | 4 |
+| Pass | 70 | 0 | 6 | 4 |
 | Warn | 0 | 0 | 0 | 0 |
-| Fail | 10 | 79 | 73 | 75 |
+| Fail | 10 | 80 | 74 | 76 |
 
-Repository Count: 79
+Repository Count: 80
 
 ## Checks
 
@@ -647,6 +648,25 @@ Validates the configuration of the Merge button.
 - :red_circle: Wiki is enabled.
 
 ### [async-api-template-ably-nodejs](https://github.com/ably-labs/async-api-template-ably-nodejs) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
+
+### [azurewebsubpub-ably-dotnet](https://github.com/ably-labs/azurewebsubpub-ably-dotnet) check B
+
+:red_circle: There is no branch protection rule defined for pattern `main`.
+
+### [azurewebsubpub-ably-dotnet](https://github.com/ably-labs/azurewebsubpub-ably-dotnet) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Projects are enabled.
+- :red_circle: Wiki is enabled.
+
+### [azurewebsubpub-ably-dotnet](https://github.com/ably-labs/azurewebsubpub-ably-dotnet) check D
 
 :red_circle: Merge button switches:
 
