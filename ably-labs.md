@@ -882,7 +882,6 @@ Validates the configuration of the Merge button.
 :red_circle: Default branch protection rule:
 
 - :red_circle: Does not restrict push.
-- :yellow_circle: Required approving reviewer count is too low.
 - :yellow_circle: Does not require status checks to pass.
 
 ### [fully-featured-scalable-chat-app](https://github.com/ably-labs/fully-featured-scalable-chat-app) check C
@@ -1201,7 +1200,6 @@ Validates the configuration of the Merge button.
 :red_circle: Default branch protection rule:
 
 - :red_circle: Does not restrict push.
-- :yellow_circle: Required approving reviewer count is too low.
 - :yellow_circle: Does not require conversations to be resolved before merging.
 - :yellow_circle: Does not require status checks to pass.
 
@@ -1484,7 +1482,6 @@ Validates the configuration of the Merge button.
 :red_circle: Default branch protection rule:
 
 - :red_circle: Does not restrict push.
-- :yellow_circle: Required approving reviewer count is too low.
 - :yellow_circle: Does not require conversations to be resolved before merging.
 
 ### [test-observability-server](https://github.com/ably-labs/test-observability-server) check D
