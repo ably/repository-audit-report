@@ -10,28 +10,28 @@
 | [ably-asset-tracking-js](https://github.com/ably/ably-asset-tracking-js) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
 | [ably-asset-tracking-swift](https://github.com/ably/ably-asset-tracking-swift) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
 | [ably-boomer](https://github.com/ably/ably-boomer) | :green_circle: | [:red_circle:](#ably-boomer-check-b) | [:red_circle:](#ably-boomer-check-c) | [:red_circle:](#ably-boomer-check-d) |
-| [ably-cocoa](https://github.com/ably/ably-cocoa) | :green_circle: | [:yellow_circle:](#ably-cocoa-check-b) | :green_circle: | :green_circle: |
+| [ably-cocoa](https://github.com/ably/ably-cocoa) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
 | [ably-common](https://github.com/ably/ably-common) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
 | [ably-common-go](https://github.com/ably/ably-common-go) | :green_circle: | [:red_circle:](#ably-common-go-check-b) | :green_circle: | :green_circle: |
-| [ably-dotnet](https://github.com/ably/ably-dotnet) | :green_circle: | [:yellow_circle:](#ably-dotnet-check-b) | :green_circle: | :green_circle: |
-| [ably-flutter](https://github.com/ably/ably-flutter) | :green_circle: | [:yellow_circle:](#ably-flutter-check-b) | :green_circle: | :green_circle: |
-| [ably-go](https://github.com/ably/ably-go) | :green_circle: | [:yellow_circle:](#ably-go-check-b) | :green_circle: | :green_circle: |
-| [ably-java](https://github.com/ably/ably-java) | :green_circle: | [:yellow_circle:](#ably-java-check-b) | :green_circle: | :green_circle: |
+| [ably-dotnet](https://github.com/ably/ably-dotnet) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
+| [ably-flutter](https://github.com/ably/ably-flutter) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
+| [ably-go](https://github.com/ably/ably-go) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
+| [ably-java](https://github.com/ably/ably-java) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
 | [ably-jmeter](https://github.com/ably/ably-jmeter) | :green_circle: | [:red_circle:](#ably-jmeter-check-b) | [:red_circle:](#ably-jmeter-check-c) | [:red_circle:](#ably-jmeter-check-d) |
-| [ably-js](https://github.com/ably/ably-js) | :green_circle: | [:yellow_circle:](#ably-js-check-b) | :green_circle: | :green_circle: |
-| [ably-js-nativescript](https://github.com/ably/ably-js-nativescript) | :green_circle: | [:yellow_circle:](#ably-js-nativescript-check-b) | :green_circle: | :green_circle: |
+| [ably-js](https://github.com/ably/ably-js) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
+| [ably-js-nativescript](https://github.com/ably/ably-js-nativescript) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
 | [ably-js-react-native](https://github.com/ably/ably-js-react-native) | :green_circle: | [:yellow_circle:](#ably-js-react-native-check-b) | :green_circle: | :green_circle: |
-| [ably-php](https://github.com/ably/ably-php) | :green_circle: | [:yellow_circle:](#ably-php-check-b) | :green_circle: | :green_circle: |
-| [ably-php-laravel](https://github.com/ably/ably-php-laravel) | :green_circle: | [:yellow_circle:](#ably-php-laravel-check-b) | :green_circle: | :green_circle: |
-| [ably-python](https://github.com/ably/ably-python) | :green_circle: | [:yellow_circle:](#ably-python-check-b) | :green_circle: | :green_circle: |
+| [ably-php](https://github.com/ably/ably-php) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
+| [ably-php-laravel](https://github.com/ably/ably-php-laravel) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
+| [ably-python](https://github.com/ably/ably-python) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
 | [ably-roku](https://github.com/ably/ably-roku) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
-| [ably-ruby](https://github.com/ably/ably-ruby) | :green_circle: | [:yellow_circle:](#ably-ruby-check-b) | :green_circle: | :green_circle: |
+| [ably-ruby](https://github.com/ably/ably-ruby) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
 | [ably-ruby-rest](https://github.com/ably/ably-ruby-rest) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
 | [ably-ui](https://github.com/ably/ably-ui) | :green_circle: | [:red_circle:](#ably-ui-check-b) | [:red_circle:](#ably-ui-check-c) | :green_circle: |
 | [apns-cert-parser](https://github.com/ably/apns-cert-parser) | :green_circle: | [:red_circle:](#apns-cert-parser-check-b) | :green_circle: | [:red_circle:](#apns-cert-parser-check-d) |
 | [cassandra](https://github.com/ably/cassandra) | [:yellow_circle:](#cassandra-check-a) | [:red_circle:](#cassandra-check-b) | [:red_circle:](#cassandra-check-c) | [:red_circle:](#cassandra-check-d) |
 | [comply](https://github.com/ably/comply) | :green_circle: | [:red_circle:](#comply-check-b) | [:red_circle:](#comply-check-c) | [:red_circle:](#comply-check-d) |
-| [delta-codec-cocoa](https://github.com/ably/delta-codec-cocoa) | :green_circle: | [:yellow_circle:](#delta-codec-cocoa-check-b) | :green_circle: | [:red_circle:](#delta-codec-cocoa-check-d) |
+| [delta-codec-cocoa](https://github.com/ably/delta-codec-cocoa) | :green_circle: | :green_circle: | :green_circle: | [:red_circle:](#delta-codec-cocoa-check-d) |
 | [delta-codec-dotnet](https://github.com/ably/delta-codec-dotnet) | :green_circle: | [:red_circle:](#delta-codec-dotnet-check-b) | :green_circle: | [:red_circle:](#delta-codec-dotnet-check-d) |
 | [delta-codec-java](https://github.com/ably/delta-codec-java) | :green_circle: | [:red_circle:](#delta-codec-java-check-b) | :green_circle: | [:red_circle:](#delta-codec-java-check-d) |
 | [delta-codec-js](https://github.com/ably/delta-codec-js) | :green_circle: | [:red_circle:](#delta-codec-js-check-b) | :green_circle: | [:red_circle:](#delta-codec-js-check-d) |
@@ -66,15 +66,15 @@
 | [queue-demo](https://github.com/ably/queue-demo) | :green_circle: | [:red_circle:](#queue-demo-check-b) | :green_circle: | [:red_circle:](#queue-demo-check-d) |
 | [realtime-pong](https://github.com/ably/realtime-pong) | :green_circle: | [:red_circle:](#realtime-pong-check-b) | :green_circle: | [:red_circle:](#realtime-pong-check-d) |
 | [realtime-use-case-devrel-collaborations](https://github.com/ably/realtime-use-case-devrel-collaborations) | :green_circle: | [:red_circle:](#realtime-use-case-devrel-collaborations-check-b) | :green_circle: | [:red_circle:](#realtime-use-case-devrel-collaborations-check-d) |
-| [repository-audit](https://github.com/ably/repository-audit) | :green_circle: | [:yellow_circle:](#repository-audit-check-b) | :green_circle: | :green_circle: |
+| [repository-audit](https://github.com/ably/repository-audit) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
 | [repository-audit-report](https://github.com/ably/repository-audit-report) | :green_circle: | [:red_circle:](#repository-audit-report-check-b) | [:red_circle:](#repository-audit-report-check-c) | :green_circle: |
 | [sdk-upload-action](https://github.com/ably/sdk-upload-action) | :green_circle: | [:yellow_circle:](#sdk-upload-action-check-b) | :green_circle: | :green_circle: |
 | [sysdig-chisels](https://github.com/ably/sysdig-chisels) | :green_circle: | [:red_circle:](#sysdig-chisels-check-b) | :green_circle: | [:red_circle:](#sysdig-chisels-check-d) |
 | [tutorials](https://github.com/ably/tutorials) | :green_circle: | [:red_circle:](#tutorials-check-b) | :green_circle: | [:red_circle:](#tutorials-check-d) |
 | [wiki-site](https://github.com/ably/wiki-site) | :green_circle: | [:red_circle:](#wiki-site-check-b) | :green_circle: | [:red_circle:](#wiki-site-check-d) |
 | [xdelta-async-nodejs-addon](https://github.com/ably/xdelta-async-nodejs-addon) | :green_circle: | [:red_circle:](#xdelta-async-nodejs-addon-check-b) | :green_circle: | [:red_circle:](#xdelta-async-nodejs-addon-check-d) |
-| Pass | 68 | 8 | 57 | 27 |
-| Warn | 1 | 17 | 0 | 0 |
+| Pass | 68 | 21 | 57 | 27 |
+| Warn | 1 | 4 | 0 | 0 |
 | Fail | 0 | 44 | 12 | 42 |
 
 Repository Count: 69
@@ -128,39 +128,9 @@ Validates the configuration of the Merge button.
 - :red_circle: Allows rebase merging.
 - :red_circle: Allows squash merging.
 
-### [ably-cocoa](https://github.com/ably/ably-cocoa) check B
-
-:yellow_circle: Default branch protection rule:
-
-- :yellow_circle: Required approving reviewer count is too low.
-
 ### [ably-common-go](https://github.com/ably/ably-common-go) check B
 
 :red_circle: There is no branch protection rule defined for pattern `main`.
-
-### [ably-dotnet](https://github.com/ably/ably-dotnet) check B
-
-:yellow_circle: Default branch protection rule:
-
-- :yellow_circle: Required approving reviewer count is too low.
-
-### [ably-flutter](https://github.com/ably/ably-flutter) check B
-
-:yellow_circle: Default branch protection rule:
-
-- :yellow_circle: Required approving reviewer count is too low.
-
-### [ably-go](https://github.com/ably/ably-go) check B
-
-:yellow_circle: Default branch protection rule:
-
-- :yellow_circle: Required approving reviewer count is too low.
-
-### [ably-java](https://github.com/ably/ably-java) check B
-
-:yellow_circle: Default branch protection rule:
-
-- :yellow_circle: Required approving reviewer count is too low.
 
 ### [ably-jmeter](https://github.com/ably/ably-jmeter) check B
 
@@ -180,18 +150,6 @@ Validates the configuration of the Merge button.
 - :red_circle: Allows rebase merging.
 - :red_circle: Allows squash merging.
 
-### [ably-js](https://github.com/ably/ably-js) check B
-
-:yellow_circle: Default branch protection rule:
-
-- :yellow_circle: Required approving reviewer count is too low.
-
-### [ably-js-nativescript](https://github.com/ably/ably-js-nativescript) check B
-
-:yellow_circle: Default branch protection rule:
-
-- :yellow_circle: Required approving reviewer count is too low.
-
 ### [ably-js-react-native](https://github.com/ably/ably-js-react-native) check B
 
 :yellow_circle: Default branch protection rule:
@@ -201,37 +159,12 @@ Validates the configuration of the Merge button.
 - :yellow_circle: Does not require conversations to be resolved before merging.
 - :yellow_circle: Does not require status checks to pass.
 
-### [ably-php](https://github.com/ably/ably-php) check B
-
-:yellow_circle: Default branch protection rule:
-
-- :yellow_circle: Required approving reviewer count is too low.
-
-### [ably-php-laravel](https://github.com/ably/ably-php-laravel) check B
-
-:yellow_circle: Default branch protection rule:
-
-- :yellow_circle: Required approving reviewer count is too low.
-
-### [ably-python](https://github.com/ably/ably-python) check B
-
-:yellow_circle: Default branch protection rule:
-
-- :yellow_circle: Required approving reviewer count is too low.
-
-### [ably-ruby](https://github.com/ably/ably-ruby) check B
-
-:yellow_circle: Default branch protection rule:
-
-- :yellow_circle: Required approving reviewer count is too low.
-
 ### [ably-ui](https://github.com/ably/ably-ui) check B
 
 :red_circle: Default branch protection rule:
 
 - :red_circle: Allows force push.
 - :red_circle: Does not restrict push.
-- :yellow_circle: Required approving reviewer count is too low.
 - :yellow_circle: Does not require conversations to be resolved before merging.
 - :yellow_circle: Does not require branches to be up to date before merging.
 
@@ -292,12 +225,6 @@ Validates the configuration of the Merge button.
 - :red_circle: Does not automatically delete head branches.
 - :red_circle: Allows rebase merging.
 - :red_circle: Allows squash merging.
-
-### [delta-codec-cocoa](https://github.com/ably/delta-codec-cocoa) check B
-
-:yellow_circle: Default branch protection rule:
-
-- :yellow_circle: Required approving reviewer count is too low.
 
 ### [delta-codec-cocoa](https://github.com/ably/delta-codec-cocoa) check D
 
@@ -463,7 +390,6 @@ Validates the configuration of the Merge button.
 
 :yellow_circle: Default branch protection rule:
 
-- :yellow_circle: Required approving reviewer count is too low.
 - :yellow_circle: Does not require conversations to be resolved before merging.
 
 ### [docs](https://github.com/ably/docs) check D
@@ -578,7 +504,6 @@ Validates the configuration of the Merge button.
 
 :yellow_circle: Default branch protection rule:
 
-- :yellow_circle: Required approving reviewer count is too low.
 - :yellow_circle: Does not require status checks to pass.
 
 ### [jwt-auth-node-tutorial](https://github.com/ably/jwt-auth-node-tutorial) check B
@@ -722,12 +647,6 @@ Validates the configuration of the Merge button.
 - :red_circle: Allows rebase merging.
 - :red_circle: Allows squash merging.
 
-### [repository-audit](https://github.com/ably/repository-audit) check B
-
-:yellow_circle: Default branch protection rule:
-
-- :yellow_circle: Required approving reviewer count is too low.
-
 ### [repository-audit-report](https://github.com/ably/repository-audit-report) check B
 
 :red_circle: There is no branch protection rule defined for pattern `main`.
@@ -742,7 +661,6 @@ Validates the configuration of the Merge button.
 
 :yellow_circle: Default branch protection rule:
 
-- :yellow_circle: Required approving reviewer count is too low.
 - :yellow_circle: Does not require status checks to pass.
 
 ### [sysdig-chisels](https://github.com/ably/sysdig-chisels) check B
