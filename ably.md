@@ -28,6 +28,7 @@
 | [ably-ruby](https://github.com/ably/ably-ruby) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
 | [ably-ruby-rest](https://github.com/ably/ably-ruby-rest) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
 | [ably-ui](https://github.com/ably/ably-ui) | :green_circle: | [:red_circle:](#ably-ui-check-b) | [:red_circle:](#ably-ui-check-c) | :green_circle: |
+| [actions](https://github.com/ably/actions) | :green_circle: | [:red_circle:](#actions-check-b) | [:red_circle:](#actions-check-c) | [:red_circle:](#actions-check-d) |
 | [apns-cert-parser](https://github.com/ably/apns-cert-parser) | :green_circle: | [:red_circle:](#apns-cert-parser-check-b) | :green_circle: | [:red_circle:](#apns-cert-parser-check-d) |
 | [cassandra](https://github.com/ably/cassandra) | [:yellow_circle:](#cassandra-check-a) | [:red_circle:](#cassandra-check-b) | [:red_circle:](#cassandra-check-c) | [:red_circle:](#cassandra-check-d) |
 | [comply](https://github.com/ably/comply) | :green_circle: | [:red_circle:](#comply-check-b) | [:red_circle:](#comply-check-c) | [:red_circle:](#comply-check-d) |
@@ -73,11 +74,11 @@
 | [tutorials](https://github.com/ably/tutorials) | :green_circle: | [:red_circle:](#tutorials-check-b) | :green_circle: | [:red_circle:](#tutorials-check-d) |
 | [wiki-site](https://github.com/ably/wiki-site) | :green_circle: | [:red_circle:](#wiki-site-check-b) | :green_circle: | [:red_circle:](#wiki-site-check-d) |
 | [xdelta-async-nodejs-addon](https://github.com/ably/xdelta-async-nodejs-addon) | :green_circle: | [:red_circle:](#xdelta-async-nodejs-addon-check-b) | :green_circle: | [:red_circle:](#xdelta-async-nodejs-addon-check-d) |
-| Pass | 68 | 21 | 57 | 27 |
+| Pass | 69 | 21 | 57 | 27 |
 | Warn | 1 | 4 | 0 | 0 |
-| Fail | 0 | 44 | 12 | 42 |
+| Fail | 0 | 45 | 13 | 43 |
 
-Repository Count: 69
+Repository Count: 70
 
 ## Checks
 
@@ -173,6 +174,24 @@ Validates the configuration of the Merge button.
 :red_circle: GitHub feature switches:
 
 - :red_circle: Wiki is enabled.
+
+### [actions](https://github.com/ably/actions) check B
+
+:red_circle: There is no branch protection rule defined for pattern `main`.
+
+### [actions](https://github.com/ably/actions) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Wiki is enabled.
+
+### [actions](https://github.com/ably/actions) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
 
 ### [apns-cert-parser](https://github.com/ably/apns-cert-parser) check B
 
