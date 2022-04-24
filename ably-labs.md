@@ -24,6 +24,7 @@
 | [ably-labs-template-repo](https://github.com/ably-labs/ably-labs-template-repo) | :green_circle: | [:red_circle:](#ably-labs-template-repo-check-b) | :green_circle: | [:red_circle:](#ably-labs-template-repo-check-d) |
 | [ably-latency-map](https://github.com/ably-labs/ably-latency-map) | :green_circle: | [:red_circle:](#ably-latency-map-check-b) | [:red_circle:](#ably-latency-map-check-c) | [:red_circle:](#ably-latency-map-check-d) |
 | [ably-locust](https://github.com/ably-labs/ably-locust) | :green_circle: | [:red_circle:](#ably-locust-check-b) | [:red_circle:](#ably-locust-check-c) | [:red_circle:](#ably-locust-check-d) |
+| [ably-next-vercel-news](https://github.com/ably-labs/ably-next-vercel-news) | :green_circle: | [:red_circle:](#ably-next-vercel-news-check-b) | [:red_circle:](#ably-next-vercel-news-check-c) | [:red_circle:](#ably-next-vercel-news-check-d) |
 | [ably-playground](https://github.com/ably-labs/ably-playground) | :green_circle: | [:red_circle:](#ably-playground-check-b) | [:red_circle:](#ably-playground-check-c) | [:red_circle:](#ably-playground-check-d) |
 | [ably-postgres-connector](https://github.com/ably-labs/ably-postgres-connector) | :green_circle: | [:red_circle:](#ably-postgres-connector-check-b) | [:red_circle:](#ably-postgres-connector-check-c) | [:red_circle:](#ably-postgres-connector-check-d) |
 | [ably-react-examples](https://github.com/ably-labs/ably-react-examples) | [:red_circle:](#ably-react-examples-check-a) | [:red_circle:](#ably-react-examples-check-b) | [:red_circle:](#ably-react-examples-check-c) | [:red_circle:](#ably-react-examples-check-d) |
@@ -85,11 +86,11 @@
 | [websockets-cursor-sharing](https://github.com/ably-labs/websockets-cursor-sharing) | :green_circle: | [:red_circle:](#websockets-cursor-sharing-check-b) | [:red_circle:](#websockets-cursor-sharing-check-c) | [:red_circle:](#websockets-cursor-sharing-check-d) |
 | [whiteboard](https://github.com/ably-labs/whiteboard) | :green_circle: | [:red_circle:](#whiteboard-check-b) | [:red_circle:](#whiteboard-check-c) | [:red_circle:](#whiteboard-check-d) |
 | [word-game](https://github.com/ably-labs/word-game) | :green_circle: | [:red_circle:](#word-game-check-b) | [:red_circle:](#word-game-check-c) | [:red_circle:](#word-game-check-d) |
-| Pass | 71 | 0 | 6 | 4 |
+| Pass | 72 | 0 | 6 | 4 |
 | Warn | 0 | 0 | 0 | 0 |
-| Fail | 10 | 81 | 75 | 77 |
+| Fail | 10 | 82 | 76 | 78 |
 
-Repository Count: 81
+Repository Count: 82
 
 ## Checks
 
@@ -452,6 +453,25 @@ Validates the configuration of the Merge button.
 - :red_circle: Wiki is enabled.
 
 ### [ably-locust](https://github.com/ably-labs/ably-locust) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
+
+### [ably-next-vercel-news](https://github.com/ably-labs/ably-next-vercel-news) check B
+
+:red_circle: There is no branch protection rule defined for pattern `main`.
+
+### [ably-next-vercel-news](https://github.com/ably-labs/ably-next-vercel-news) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Projects are enabled.
+- :red_circle: Wiki is enabled.
+
+### [ably-next-vercel-news](https://github.com/ably-labs/ably-next-vercel-news) check D
 
 :red_circle: Merge button switches:
 
