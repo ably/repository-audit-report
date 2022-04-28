@@ -136,12 +136,13 @@
 | [websocket-driver-ruby](https://github.com/ably-forks/websocket-driver-ruby) | [:red_circle:](#websocket-driver-ruby-check-a) | [:red_circle:](#websocket-driver-ruby-check-b) | [:red_circle:](#websocket-driver-ruby-check-c) | [:red_circle:](#websocket-driver-ruby-check-d) |
 | [wobserver](https://github.com/ably-forks/wobserver) | [:red_circle:](#wobserver-check-a) | [:red_circle:](#wobserver-check-b) | [:red_circle:](#wobserver-check-c) | [:red_circle:](#wobserver-check-d) |
 | [ws](https://github.com/ably-forks/ws) | [:red_circle:](#ws-check-a) | [:red_circle:](#ws-check-b) | [:red_circle:](#ws-check-c) | [:red_circle:](#ws-check-d) |
+| [xcparse](https://github.com/ably-forks/xcparse) | [:red_circle:](#xcparse-check-a) | [:red_circle:](#xcparse-check-b) | [:red_circle:](#xcparse-check-c) | [:red_circle:](#xcparse-check-d) |
 | [xdelta](https://github.com/ably-forks/xdelta) | [:red_circle:](#xdelta-check-a) | [:red_circle:](#xdelta-check-b) | [:red_circle:](#xdelta-check-c) | [:red_circle:](#xdelta-check-d) |
 | Pass | 7 | 0 | 2 | 0 |
 | Warn | 3 | 1 | 0 | 0 |
-| Fail | 123 | 132 | 131 | 133 |
+| Fail | 124 | 133 | 132 | 134 |
 
-Repository Count: 133
+Repository Count: 134
 
 ## Checks
 
@@ -3249,6 +3250,30 @@ Validates the configuration of the Merge button.
 - :red_circle: Wiki is enabled.
 
 ### [ws](https://github.com/ably-forks/ws) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
+
+### [xcparse](https://github.com/ably-forks/xcparse) check A
+
+:red_circle: Non-standard name `master`. Assumed to be something non-inclusive.
+
+### [xcparse](https://github.com/ably-forks/xcparse) check B
+
+:red_circle: There is no branch protection rule defined for pattern `master`.
+
+### [xcparse](https://github.com/ably-forks/xcparse) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Issues are disabled.
+- :red_circle: Projects are enabled.
+- :red_circle: Wiki is enabled.
+
+### [xcparse](https://github.com/ably-forks/xcparse) check D
 
 :red_circle: Merge button switches:
 
