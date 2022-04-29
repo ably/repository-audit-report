@@ -75,6 +75,7 @@
 | [heroku-buildpack-nodejs](https://github.com/ably-forks/heroku-buildpack-nodejs) | [:red_circle:](#heroku-buildpack-nodejs-check-a) | [:red_circle:](#heroku-buildpack-nodejs-check-b) | [:red_circle:](#heroku-buildpack-nodejs-check-c) | [:red_circle:](#heroku-buildpack-nodejs-check-d) |
 | [heroku-buildpack-ruby](https://github.com/ably-forks/heroku-buildpack-ruby) | [:red_circle:](#heroku-buildpack-ruby-check-a) | [:red_circle:](#heroku-buildpack-ruby-check-b) | [:red_circle:](#heroku-buildpack-ruby-check-c) | [:red_circle:](#heroku-buildpack-ruby-check-d) |
 | [heroku-buildpack-shared-build-cache](https://github.com/ably-forks/heroku-buildpack-shared-build-cache) | [:red_circle:](#heroku-buildpack-shared-build-cache-check-a) | [:red_circle:](#heroku-buildpack-shared-build-cache-check-b) | [:red_circle:](#heroku-buildpack-shared-build-cache-check-c) | [:red_circle:](#heroku-buildpack-shared-build-cache-check-d) |
+| [heroku-deploy](https://github.com/ably-forks/heroku-deploy) | [:red_circle:](#heroku-deploy-check-a) | [:red_circle:](#heroku-deploy-check-b) | [:red_circle:](#heroku-deploy-check-c) | [:red_circle:](#heroku-deploy-check-d) |
 | [highstock-rails](https://github.com/ably-forks/highstock-rails) | [:red_circle:](#highstock-rails-check-a) | [:red_circle:](#highstock-rails-check-b) | [:red_circle:](#highstock-rails-check-c) | [:red_circle:](#highstock-rails-check-d) |
 | [hiredis](https://github.com/ably-forks/hiredis) | [:red_circle:](#hiredis-check-a) | [:red_circle:](#hiredis-check-b) | [:red_circle:](#hiredis-check-c) | [:red_circle:](#hiredis-check-d) |
 | [hiredis-node](https://github.com/ably-forks/hiredis-node) | [:red_circle:](#hiredis-node-check-a) | [:red_circle:](#hiredis-node-check-b) | [:red_circle:](#hiredis-node-check-c) | [:red_circle:](#hiredis-node-check-d) |
@@ -83,6 +84,7 @@
 | [ioredis](https://github.com/ably-forks/ioredis) | [:red_circle:](#ioredis-check-a) | [:red_circle:](#ioredis-check-b) | [:red_circle:](#ioredis-check-c) | [:red_circle:](#ioredis-check-d) |
 | [jasmine](https://github.com/ably-forks/jasmine) | [:red_circle:](#jasmine-check-a) | [:red_circle:](#jasmine-check-b) | [:red_circle:](#jasmine-check-c) | [:red_circle:](#jasmine-check-d) |
 | [jasmine-node](https://github.com/ably-forks/jasmine-node) | [:red_circle:](#jasmine-node-check-a) | [:red_circle:](#jasmine-node-check-b) | [:red_circle:](#jasmine-node-check-c) | [:red_circle:](#jasmine-node-check-d) |
+| [jq-action](https://github.com/ably-forks/jq-action) | :green_circle: | [:red_circle:](#jq-action-check-b) | [:red_circle:](#jq-action-check-c) | [:red_circle:](#jq-action-check-d) |
 | [js_bintrees](https://github.com/ably-forks/js_bintrees) | [:red_circle:](#js_bintrees-check-a) | [:red_circle:](#js_bintrees-check-b) | [:red_circle:](#js_bintrees-check-c) | [:red_circle:](#js_bintrees-check-d) |
 | [jsbin](https://github.com/ably-forks/jsbin) | [:red_circle:](#jsbin-check-a) | [:red_circle:](#jsbin-check-b) | [:red_circle:](#jsbin-check-c) | [:red_circle:](#jsbin-check-d) |
 | [json-minify-rb](https://github.com/ably-forks/json-minify-rb) | [:red_circle:](#json-minify-rb-check-a) | [:red_circle:](#json-minify-rb-check-b) | [:red_circle:](#json-minify-rb-check-c) | [:red_circle:](#json-minify-rb-check-d) |
@@ -138,11 +140,11 @@
 | [ws](https://github.com/ably-forks/ws) | [:red_circle:](#ws-check-a) | [:red_circle:](#ws-check-b) | [:red_circle:](#ws-check-c) | [:red_circle:](#ws-check-d) |
 | [xcparse](https://github.com/ably-forks/xcparse) | [:red_circle:](#xcparse-check-a) | [:red_circle:](#xcparse-check-b) | [:red_circle:](#xcparse-check-c) | [:red_circle:](#xcparse-check-d) |
 | [xdelta](https://github.com/ably-forks/xdelta) | [:red_circle:](#xdelta-check-a) | [:red_circle:](#xdelta-check-b) | [:red_circle:](#xdelta-check-c) | [:red_circle:](#xdelta-check-d) |
-| Pass | 7 | 0 | 2 | 0 |
+| Pass | 8 | 0 | 2 | 0 |
 | Warn | 3 | 1 | 0 | 0 |
-| Fail | 124 | 133 | 132 | 134 |
+| Fail | 125 | 135 | 134 | 136 |
 
-Repository Count: 134
+Repository Count: 136
 
 ## Checks
 
@@ -1819,6 +1821,30 @@ Validates the configuration of the Merge button.
 - :red_circle: Allows rebase merging.
 - :red_circle: Allows squash merging.
 
+### [heroku-deploy](https://github.com/ably-forks/heroku-deploy) check A
+
+:red_circle: Non-standard name `master`. Assumed to be something non-inclusive.
+
+### [heroku-deploy](https://github.com/ably-forks/heroku-deploy) check B
+
+:red_circle: There is no branch protection rule defined for pattern `master`.
+
+### [heroku-deploy](https://github.com/ably-forks/heroku-deploy) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Issues are disabled.
+- :red_circle: Projects are enabled.
+- :red_circle: Wiki is enabled.
+
+### [heroku-deploy](https://github.com/ably-forks/heroku-deploy) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
+
 ### [highstock-rails](https://github.com/ably-forks/highstock-rails) check A
 
 :red_circle: Non-standard name `master`. Assumed to be something non-inclusive.
@@ -2004,6 +2030,25 @@ Validates the configuration of the Merge button.
 - :red_circle: Wiki is enabled.
 
 ### [jasmine-node](https://github.com/ably-forks/jasmine-node) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
+
+### [jq-action](https://github.com/ably-forks/jq-action) check B
+
+:red_circle: There is no branch protection rule defined for pattern `main`.
+
+### [jq-action](https://github.com/ably-forks/jq-action) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Issues are disabled.
+- :red_circle: Projects are enabled.
+
+### [jq-action](https://github.com/ably-forks/jq-action) check D
 
 :red_circle: Merge button switches:
 
