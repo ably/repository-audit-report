@@ -27,7 +27,7 @@
 | [ably-roku](https://github.com/ably/ably-roku) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
 | [ably-ruby](https://github.com/ably/ably-ruby) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
 | [ably-ruby-rest](https://github.com/ably/ably-ruby-rest) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
-| [ably-rust](https://github.com/ably/ably-rust) | :green_circle: | [:yellow_circle:](#ably-rust-check-b) | [:red_circle:](#ably-rust-check-c) | [:red_circle:](#ably-rust-check-d) |
+| [ably-rust](https://github.com/ably/ably-rust) | :green_circle: | [:yellow_circle:](#ably-rust-check-b) | :green_circle: | :green_circle: |
 | [ably-ui](https://github.com/ably/ably-ui) | :green_circle: | [:red_circle:](#ably-ui-check-b) | [:red_circle:](#ably-ui-check-c) | :green_circle: |
 | [actions](https://github.com/ably/actions) | :green_circle: | [:red_circle:](#actions-check-b) | [:red_circle:](#actions-check-c) | [:red_circle:](#actions-check-d) |
 | [apns-cert-parser](https://github.com/ably/apns-cert-parser) | :green_circle: | [:red_circle:](#apns-cert-parser-check-b) | :green_circle: | [:red_circle:](#apns-cert-parser-check-d) |
@@ -75,9 +75,9 @@
 | [tutorials](https://github.com/ably/tutorials) | :green_circle: | [:red_circle:](#tutorials-check-b) | :green_circle: | [:red_circle:](#tutorials-check-d) |
 | [wiki-site](https://github.com/ably/wiki-site) | :green_circle: | [:red_circle:](#wiki-site-check-b) | :green_circle: | [:red_circle:](#wiki-site-check-d) |
 | [xdelta-async-nodejs-addon](https://github.com/ably/xdelta-async-nodejs-addon) | :green_circle: | [:red_circle:](#xdelta-async-nodejs-addon-check-b) | :green_circle: | [:red_circle:](#xdelta-async-nodejs-addon-check-d) |
-| Pass | 70 | 21 | 57 | 27 |
+| Pass | 70 | 21 | 58 | 28 |
 | Warn | 1 | 5 | 0 | 0 |
-| Fail | 0 | 45 | 14 | 44 |
+| Fail | 0 | 45 | 13 | 43 |
 
 Repository Count: 71
 
@@ -166,20 +166,6 @@ Validates the configuration of the Merge button.
 :yellow_circle: Default branch protection rule:
 
 - :yellow_circle: Does not require status checks to pass.
-
-### [ably-rust](https://github.com/ably/ably-rust) check C
-
-:red_circle: GitHub feature switches:
-
-- :red_circle: Wiki is enabled.
-
-### [ably-rust](https://github.com/ably/ably-rust) check D
-
-:red_circle: Merge button switches:
-
-- :red_circle: Does not automatically delete head branches.
-- :red_circle: Allows rebase merging.
-- :red_circle: Allows squash merging.
 
 ### [ably-ui](https://github.com/ably/ably-ui) check B
 
