@@ -72,14 +72,16 @@
 | [repository-audit-report](https://github.com/ably/repository-audit-report) | :green_circle: | [:red_circle:](#repository-audit-report-check-b) | [:red_circle:](#repository-audit-report-check-c) | :green_circle: |
 | [sdk-upload-action](https://github.com/ably/sdk-upload-action) | :green_circle: | [:yellow_circle:](#sdk-upload-action-check-b) | :green_circle: | :green_circle: |
 | [sysdig-chisels](https://github.com/ably/sysdig-chisels) | :green_circle: | [:red_circle:](#sysdig-chisels-check-b) | :green_circle: | [:red_circle:](#sysdig-chisels-check-d) |
+| [terraform-aws-privatelink](https://github.com/ably/terraform-aws-privatelink) | :green_circle: | [:red_circle:](#terraform-aws-privatelink-check-b) | [:red_circle:](#terraform-aws-privatelink-check-c) | [:red_circle:](#terraform-aws-privatelink-check-d) |
+| [terraform-aws-privatelink-dns](https://github.com/ably/terraform-aws-privatelink-dns) | :green_circle: | [:red_circle:](#terraform-aws-privatelink-dns-check-b) | [:red_circle:](#terraform-aws-privatelink-dns-check-c) | [:red_circle:](#terraform-aws-privatelink-dns-check-d) |
 | [tutorials](https://github.com/ably/tutorials) | :green_circle: | [:red_circle:](#tutorials-check-b) | :green_circle: | [:red_circle:](#tutorials-check-d) |
 | [wiki-site](https://github.com/ably/wiki-site) | :green_circle: | [:red_circle:](#wiki-site-check-b) | :green_circle: | [:red_circle:](#wiki-site-check-d) |
 | [xdelta-async-nodejs-addon](https://github.com/ably/xdelta-async-nodejs-addon) | :green_circle: | [:red_circle:](#xdelta-async-nodejs-addon-check-b) | :green_circle: | [:red_circle:](#xdelta-async-nodejs-addon-check-d) |
-| Pass | 70 | 21 | 58 | 28 |
+| Pass | 72 | 21 | 58 | 28 |
 | Warn | 1 | 5 | 0 | 0 |
-| Fail | 0 | 45 | 13 | 43 |
+| Fail | 0 | 47 | 15 | 45 |
 
-Repository Count: 71
+Repository Count: 73
 
 ## Checks
 
@@ -693,6 +695,47 @@ Validates the configuration of the Merge button.
 :red_circle: There is no branch protection rule defined for pattern `main`.
 
 ### [sysdig-chisels](https://github.com/ably/sysdig-chisels) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
+
+### [terraform-aws-privatelink](https://github.com/ably/terraform-aws-privatelink) check B
+
+:red_circle: Default branch protection rule:
+
+- :red_circle: Does not restrict push.
+
+### [terraform-aws-privatelink](https://github.com/ably/terraform-aws-privatelink) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Wiki is enabled.
+
+### [terraform-aws-privatelink](https://github.com/ably/terraform-aws-privatelink) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
+- :red_circle: Allows auto-merge.
+
+### [terraform-aws-privatelink-dns](https://github.com/ably/terraform-aws-privatelink-dns) check B
+
+:red_circle: Default branch protection rule:
+
+- :red_circle: Does not restrict push.
+
+### [terraform-aws-privatelink-dns](https://github.com/ably/terraform-aws-privatelink-dns) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Wiki is enabled.
+
+### [terraform-aws-privatelink-dns](https://github.com/ably/terraform-aws-privatelink-dns) check D
 
 :red_circle: Merge button switches:
 
