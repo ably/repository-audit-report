@@ -71,6 +71,7 @@
 | [realtime-voting-angular](https://github.com/ably-labs/realtime-voting-angular) | [:red_circle:](#realtime-voting-angular-check-a) | [:red_circle:](#realtime-voting-angular-check-b) | [:red_circle:](#realtime-voting-angular-check-c) | [:red_circle:](#realtime-voting-angular-check-d) |
 | [realtime-voting-js-ably-fusion-charts](https://github.com/ably-labs/realtime-voting-js-ably-fusion-charts) | :green_circle: | [:red_circle:](#realtime-voting-js-ably-fusion-charts-check-b) | [:red_circle:](#realtime-voting-js-ably-fusion-charts-check-c) | [:red_circle:](#realtime-voting-js-ably-fusion-charts-check-d) |
 | [scalable-serverless-editable-chat-demo](https://github.com/ably-labs/scalable-serverless-editable-chat-demo) | :green_circle: | [:red_circle:](#scalable-serverless-editable-chat-demo-check-b) | [:red_circle:](#scalable-serverless-editable-chat-demo-check-c) | [:red_circle:](#scalable-serverless-editable-chat-demo-check-d) |
+| [serverless-websockets-quest](https://github.com/ably-labs/serverless-websockets-quest) | :green_circle: | [:red_circle:](#serverless-websockets-quest-check-b) | [:red_circle:](#serverless-websockets-quest-check-c) | [:red_circle:](#serverless-websockets-quest-check-d) |
 | [sharded-channels](https://github.com/ably-labs/sharded-channels) | :green_circle: | [:red_circle:](#sharded-channels-check-b) | [:red_circle:](#sharded-channels-check-c) | [:red_circle:](#sharded-channels-check-d) |
 | [sms-in-the-browser](https://github.com/ably-labs/sms-in-the-browser) | :green_circle: | [:red_circle:](#sms-in-the-browser-check-b) | [:red_circle:](#sms-in-the-browser-check-c) | [:red_circle:](#sms-in-the-browser-check-d) |
 | [snowpack-plugin-dotenv-azure](https://github.com/ably-labs/snowpack-plugin-dotenv-azure) | :green_circle: | [:red_circle:](#snowpack-plugin-dotenv-azure-check-b) | [:red_circle:](#snowpack-plugin-dotenv-azure-check-c) | [:red_circle:](#snowpack-plugin-dotenv-azure-check-d) |
@@ -85,11 +86,11 @@
 | [websockets-cursor-sharing](https://github.com/ably-labs/websockets-cursor-sharing) | :green_circle: | [:red_circle:](#websockets-cursor-sharing-check-b) | [:red_circle:](#websockets-cursor-sharing-check-c) | [:red_circle:](#websockets-cursor-sharing-check-d) |
 | [whiteboard](https://github.com/ably-labs/whiteboard) | :green_circle: | [:red_circle:](#whiteboard-check-b) | [:red_circle:](#whiteboard-check-c) | [:red_circle:](#whiteboard-check-d) |
 | [word-game](https://github.com/ably-labs/word-game) | :green_circle: | [:red_circle:](#word-game-check-b) | [:red_circle:](#word-game-check-c) | [:red_circle:](#word-game-check-d) |
-| Pass | 71 | 0 | 6 | 4 |
+| Pass | 72 | 0 | 6 | 4 |
 | Warn | 0 | 0 | 0 | 0 |
-| Fail | 10 | 81 | 75 | 77 |
+| Fail | 10 | 82 | 76 | 78 |
 
-Repository Count: 81
+Repository Count: 82
 
 ## Checks
 
@@ -828,7 +829,6 @@ Validates the configuration of the Merge button.
 
 :red_circle: Merge button switches:
 
-- :red_circle: Does not automatically delete head branches.
 - :red_circle: Allows rebase merging.
 - :red_circle: Allows squash merging.
 
@@ -1275,7 +1275,6 @@ Validates the configuration of the Merge button.
 
 :red_circle: Merge button switches:
 
-- :red_circle: Does not automatically delete head branches.
 - :red_circle: Allows rebase merging.
 - :red_circle: Allows squash merging.
 
@@ -1352,6 +1351,25 @@ Validates the configuration of the Merge button.
 - :red_circle: Wiki is enabled.
 
 ### [scalable-serverless-editable-chat-demo](https://github.com/ably-labs/scalable-serverless-editable-chat-demo) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
+
+### [serverless-websockets-quest](https://github.com/ably-labs/serverless-websockets-quest) check B
+
+:red_circle: There is no branch protection rule defined for pattern `main`.
+
+### [serverless-websockets-quest](https://github.com/ably-labs/serverless-websockets-quest) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Projects are enabled.
+- :red_circle: Wiki is enabled.
+
+### [serverless-websockets-quest](https://github.com/ably-labs/serverless-websockets-quest) check D
 
 :red_circle: Merge button switches:
 
