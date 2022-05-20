@@ -16,6 +16,7 @@
 | [PubCrawler](https://github.com/ably-labs/PubCrawler) | :green_circle: | [:red_circle:](#pubcrawler-check-b) | :green_circle: | :green_circle: |
 | [PushInterfacePOC](https://github.com/ably-labs/PushInterfacePOC) | :green_circle: | [:red_circle:](#pushinterfacepoc-check-b) | [:red_circle:](#pushinterfacepoc-check-c) | [:red_circle:](#pushinterfacepoc-check-d) |
 | [Realtime-ticket-booking-solution](https://github.com/ably-labs/Realtime-ticket-booking-solution) | :green_circle: | [:red_circle:](#realtime-ticket-booking-solution-check-b) | [:red_circle:](#realtime-ticket-booking-solution-check-c) | [:red_circle:](#realtime-ticket-booking-solution-check-d) |
+| [Starter-Template-Typescript-and-Static-Web-Apps](https://github.com/ably-labs/Starter-Template-Typescript-and-Static-Web-Apps) | :green_circle: | [:red_circle:](#starter-template-typescript-and-static-web-apps-check-b) | [:red_circle:](#starter-template-typescript-and-static-web-apps-check-c) | [:red_circle:](#starter-template-typescript-and-static-web-apps-check-d) |
 | [ably-airtable-starter-kit](https://github.com/ably-labs/ably-airtable-starter-kit) | :green_circle: | [:red_circle:](#ably-airtable-starter-kit-check-b) | [:red_circle:](#ably-airtable-starter-kit-check-c) | [:red_circle:](#ably-airtable-starter-kit-check-d) |
 | [ably-arcade](https://github.com/ably-labs/ably-arcade) | :green_circle: | [:red_circle:](#ably-arcade-check-b) | [:red_circle:](#ably-arcade-check-c) | [:red_circle:](#ably-arcade-check-d) |
 | [ably-chat-component](https://github.com/ably-labs/ably-chat-component) | :green_circle: | [:red_circle:](#ably-chat-component-check-b) | [:red_circle:](#ably-chat-component-check-c) | [:red_circle:](#ably-chat-component-check-d) |
@@ -86,11 +87,11 @@
 | [websockets-cursor-sharing](https://github.com/ably-labs/websockets-cursor-sharing) | :green_circle: | [:red_circle:](#websockets-cursor-sharing-check-b) | [:red_circle:](#websockets-cursor-sharing-check-c) | [:red_circle:](#websockets-cursor-sharing-check-d) |
 | [whiteboard](https://github.com/ably-labs/whiteboard) | :green_circle: | [:red_circle:](#whiteboard-check-b) | [:red_circle:](#whiteboard-check-c) | [:red_circle:](#whiteboard-check-d) |
 | [word-game](https://github.com/ably-labs/word-game) | :green_circle: | [:red_circle:](#word-game-check-b) | [:red_circle:](#word-game-check-c) | [:red_circle:](#word-game-check-d) |
-| Pass | 72 | 0 | 6 | 4 |
+| Pass | 73 | 0 | 6 | 4 |
 | Warn | 0 | 0 | 0 | 0 |
-| Fail | 10 | 82 | 76 | 78 |
+| Fail | 10 | 83 | 77 | 79 |
 
-Repository Count: 82
+Repository Count: 83
 
 ## Checks
 
@@ -310,6 +311,25 @@ Validates the configuration of the Merge button.
 - :red_circle: Wiki is enabled.
 
 ### [Realtime-ticket-booking-solution](https://github.com/ably-labs/Realtime-ticket-booking-solution) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
+
+### [Starter-Template-Typescript-and-Static-Web-Apps](https://github.com/ably-labs/Starter-Template-Typescript-and-Static-Web-Apps) check B
+
+:red_circle: There is no branch protection rule defined for pattern `main`.
+
+### [Starter-Template-Typescript-and-Static-Web-Apps](https://github.com/ably-labs/Starter-Template-Typescript-and-Static-Web-Apps) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Projects are enabled.
+- :red_circle: Wiki is enabled.
+
+### [Starter-Template-Typescript-and-Static-Web-Apps](https://github.com/ably-labs/Starter-Template-Typescript-and-Static-Web-Apps) check D
 
 :red_circle: Merge button switches:
 
