@@ -75,14 +75,16 @@
 | [sysdig-chisels](https://github.com/ably/sysdig-chisels) | :green_circle: | [:red_circle:](#sysdig-chisels-check-b) | :green_circle: | [:red_circle:](#sysdig-chisels-check-d) |
 | [terraform-aws-privatelink](https://github.com/ably/terraform-aws-privatelink) | :green_circle: | [:red_circle:](#terraform-aws-privatelink-check-b) | [:red_circle:](#terraform-aws-privatelink-check-c) | [:red_circle:](#terraform-aws-privatelink-check-d) |
 | [terraform-aws-privatelink-dns](https://github.com/ably/terraform-aws-privatelink-dns) | :green_circle: | [:red_circle:](#terraform-aws-privatelink-dns-check-b) | [:red_circle:](#terraform-aws-privatelink-dns-check-c) | [:red_circle:](#terraform-aws-privatelink-dns-check-d) |
+| [test-observability-action](https://github.com/ably/test-observability-action) | [:yellow_circle:](#test-observability-action-check-a) | [:yellow_circle:](#test-observability-action-check-b) | [:red_circle:](#test-observability-action-check-c) | [:red_circle:](#test-observability-action-check-d) |
+| [test-observability-action-src](https://github.com/ably/test-observability-action-src) | :green_circle: | [:red_circle:](#test-observability-action-src-check-b) | [:red_circle:](#test-observability-action-src-check-c) | [:red_circle:](#test-observability-action-src-check-d) |
 | [tutorials](https://github.com/ably/tutorials) | :green_circle: | [:red_circle:](#tutorials-check-b) | :green_circle: | [:red_circle:](#tutorials-check-d) |
 | [wiki-site](https://github.com/ably/wiki-site) | :green_circle: | [:red_circle:](#wiki-site-check-b) | :green_circle: | [:red_circle:](#wiki-site-check-d) |
 | [xdelta-async-nodejs-addon](https://github.com/ably/xdelta-async-nodejs-addon) | :green_circle: | [:red_circle:](#xdelta-async-nodejs-addon-check-b) | :green_circle: | [:red_circle:](#xdelta-async-nodejs-addon-check-d) |
-| Pass | 73 | 21 | 58 | 28 |
-| Warn | 1 | 5 | 0 | 0 |
-| Fail | 0 | 48 | 16 | 46 |
+| Pass | 74 | 21 | 58 | 28 |
+| Warn | 2 | 6 | 0 | 0 |
+| Fail | 0 | 49 | 18 | 48 |
 
-Repository Count: 74
+Repository Count: 76
 
 ## Checks
 
@@ -755,6 +757,46 @@ Validates the configuration of the Merge button.
 - :red_circle: Wiki is enabled.
 
 ### [terraform-aws-privatelink-dns](https://github.com/ably/terraform-aws-privatelink-dns) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
+
+### [test-observability-action](https://github.com/ably/test-observability-action) check A
+
+:yellow_circle: There is no default branch defined, probably indicating this repository is empty.
+
+### [test-observability-action](https://github.com/ably/test-observability-action) check B
+
+:yellow_circle: There is no default branch defined, probably indicating this repository is empty.
+
+### [test-observability-action](https://github.com/ably/test-observability-action) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Wiki is enabled.
+
+### [test-observability-action](https://github.com/ably/test-observability-action) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
+
+### [test-observability-action-src](https://github.com/ably/test-observability-action-src) check B
+
+:red_circle: There is no branch protection rule defined for pattern `main`.
+
+### [test-observability-action-src](https://github.com/ably/test-observability-action-src) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Wiki is enabled.
+
+### [test-observability-action-src](https://github.com/ably/test-observability-action-src) check D
 
 :red_circle: Merge button switches:
 
