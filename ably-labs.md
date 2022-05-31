@@ -63,6 +63,7 @@
 | [multiplayer-games-scalable-networking-framework](https://github.com/ably-labs/multiplayer-games-scalable-networking-framework) | :green_circle: | [:red_circle:](#multiplayer-games-scalable-networking-framework-check-b) | [:red_circle:](#multiplayer-games-scalable-networking-framework-check-c) | [:red_circle:](#multiplayer-games-scalable-networking-framework-check-d) |
 | [netlify-identity-auth](https://github.com/ably-labs/netlify-identity-auth) | :green_circle: | [:red_circle:](#netlify-identity-auth-check-b) | [:red_circle:](#netlify-identity-auth-check-c) | [:red_circle:](#netlify-identity-auth-check-d) |
 | [next-and-ably](https://github.com/ably-labs/next-and-ably) | :green_circle: | [:red_circle:](#next-and-ably-check-b) | [:red_circle:](#next-and-ably-check-c) | [:red_circle:](#next-and-ably-check-d) |
+| [next.js](https://github.com/ably-labs/next.js) | [:red_circle:](#next.js-check-a) | [:red_circle:](#next.js-check-b) | [:red_circle:](#next.js-check-c) | [:red_circle:](#next.js-check-d) |
 | [ouija](https://github.com/ably-labs/ouija) | :green_circle: | [:red_circle:](#ouija-check-b) | [:red_circle:](#ouija-check-c) | [:red_circle:](#ouija-check-d) |
 | [presence-collection](https://github.com/ably-labs/presence-collection) | :green_circle: | [:red_circle:](#presence-collection-check-b) | [:red_circle:](#presence-collection-check-c) | [:red_circle:](#presence-collection-check-d) |
 | [pubsub-demo-dotnet](https://github.com/ably-labs/pubsub-demo-dotnet) | :green_circle: | [:red_circle:](#pubsub-demo-dotnet-check-b) | [:red_circle:](#pubsub-demo-dotnet-check-c) | [:red_circle:](#pubsub-demo-dotnet-check-d) |
@@ -91,9 +92,9 @@
 | [word-game](https://github.com/ably-labs/word-game) | :green_circle: | [:red_circle:](#word-game-check-b) | [:red_circle:](#word-game-check-c) | [:red_circle:](#word-game-check-d) |
 | Pass | 75 | 0 | 6 | 4 |
 | Warn | 0 | 0 | 0 | 0 |
-| Fail | 10 | 85 | 79 | 81 |
+| Fail | 11 | 86 | 80 | 82 |
 
-Repository Count: 85
+Repository Count: 86
 
 ## Checks
 
@@ -1212,6 +1213,29 @@ Validates the configuration of the Merge button.
 - :red_circle: Wiki is enabled.
 
 ### [next-and-ably](https://github.com/ably-labs/next-and-ably) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
+
+### [next.js](https://github.com/ably-labs/next.js) check A
+
+:red_circle: Non-standard name `canary`. Assumed to be something non-inclusive.
+
+### [next.js](https://github.com/ably-labs/next.js) check B
+
+:red_circle: There is no branch protection rule defined for pattern `canary`.
+
+### [next.js](https://github.com/ably-labs/next.js) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Issues are disabled.
+- :red_circle: Projects are enabled.
+
+### [next.js](https://github.com/ably-labs/next.js) check D
 
 :red_circle: Merge button switches:
 

@@ -114,6 +114,7 @@
 | [nodejs-driver](https://github.com/ably-forks/nodejs-driver) | [:red_circle:](#nodejs-driver-check-a) | [:red_circle:](#nodejs-driver-check-b) | [:red_circle:](#nodejs-driver-check-c) | [:red_circle:](#nodejs-driver-check-d) |
 | [nodeunit](https://github.com/ably-forks/nodeunit) | [:red_circle:](#nodeunit-check-a) | [:red_circle:](#nodeunit-check-b) | [:red_circle:](#nodeunit-check-c) | [:red_circle:](#nodeunit-check-d) |
 | [omniauth-github](https://github.com/ably-forks/omniauth-github) | [:red_circle:](#omniauth-github-check-a) | [:red_circle:](#omniauth-github-check-b) | [:red_circle:](#omniauth-github-check-c) | [:red_circle:](#omniauth-github-check-d) |
+| [pagerduty-exporter](https://github.com/ably-forks/pagerduty-exporter) | :green_circle: | [:red_circle:](#pagerduty-exporter-check-b) | [:red_circle:](#pagerduty-exporter-check-c) | [:red_circle:](#pagerduty-exporter-check-d) |
 | [parquetjs](https://github.com/ably-forks/parquetjs) | [:red_circle:](#parquetjs-check-a) | [:red_circle:](#parquetjs-check-b) | [:red_circle:](#parquetjs-check-c) | [:red_circle:](#parquetjs-check-d) |
 | [password_strength](https://github.com/ably-forks/password_strength) | [:red_circle:](#password_strength-check-a) | [:red_circle:](#password_strength-check-b) | [:red_circle:](#password_strength-check-c) | [:red_circle:](#password_strength-check-d) |
 | [pulsar-client-node](https://github.com/ably-forks/pulsar-client-node) | [:red_circle:](#pulsar-client-node-check-a) | [:red_circle:](#pulsar-client-node-check-b) | [:red_circle:](#pulsar-client-node-check-c) | [:red_circle:](#pulsar-client-node-check-d) |
@@ -140,11 +141,11 @@
 | [ws](https://github.com/ably-forks/ws) | [:red_circle:](#ws-check-a) | [:red_circle:](#ws-check-b) | [:red_circle:](#ws-check-c) | [:red_circle:](#ws-check-d) |
 | [xcparse](https://github.com/ably-forks/xcparse) | [:red_circle:](#xcparse-check-a) | [:red_circle:](#xcparse-check-b) | [:red_circle:](#xcparse-check-c) | [:red_circle:](#xcparse-check-d) |
 | [xdelta](https://github.com/ably-forks/xdelta) | [:red_circle:](#xdelta-check-a) | [:red_circle:](#xdelta-check-b) | [:red_circle:](#xdelta-check-c) | [:red_circle:](#xdelta-check-d) |
-| Pass | 8 | 0 | 2 | 0 |
+| Pass | 9 | 0 | 2 | 0 |
 | Warn | 3 | 1 | 0 | 0 |
-| Fail | 125 | 135 | 134 | 136 |
+| Fail | 125 | 136 | 135 | 137 |
 
-Repository Count: 136
+Repository Count: 137
 
 ## Checks
 
@@ -2729,6 +2730,26 @@ Validates the configuration of the Merge button.
 - :red_circle: Wiki is enabled.
 
 ### [omniauth-github](https://github.com/ably-forks/omniauth-github) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
+
+### [pagerduty-exporter](https://github.com/ably-forks/pagerduty-exporter) check B
+
+:red_circle: There is no branch protection rule defined for pattern `main`.
+
+### [pagerduty-exporter](https://github.com/ably-forks/pagerduty-exporter) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Issues are disabled.
+- :red_circle: Projects are enabled.
+- :red_circle: Wiki is enabled.
+
+### [pagerduty-exporter](https://github.com/ably-forks/pagerduty-exporter) check D
 
 :red_circle: Merge button switches:
 
