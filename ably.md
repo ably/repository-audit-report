@@ -32,7 +32,7 @@
 | [actions](https://github.com/ably/actions) | :green_circle: | [:red_circle:](#actions-check-b) | [:red_circle:](#actions-check-c) | [:red_circle:](#actions-check-d) |
 | [api-key-regex](https://github.com/ably/api-key-regex) | :green_circle: | [:red_circle:](#api-key-regex-check-b) | [:red_circle:](#api-key-regex-check-c) | [:red_circle:](#api-key-regex-check-d) |
 | [apns-cert-parser](https://github.com/ably/apns-cert-parser) | :green_circle: | [:red_circle:](#apns-cert-parser-check-b) | :green_circle: | [:red_circle:](#apns-cert-parser-check-d) |
-| [asset-tracking-android-customer-app-demo](https://github.com/ably/asset-tracking-android-customer-app-demo) | :green_circle: | [:red_circle:](#asset-tracking-android-customer-app-demo-check-b) | :green_circle: | :green_circle: |
+| [asset-tracking-android-customer-app-demo](https://github.com/ably/asset-tracking-android-customer-app-demo) | :green_circle: | [:red_circle:](#asset-tracking-android-customer-app-demo-check-b) | :green_circle: | [:red_circle:](#asset-tracking-android-customer-app-demo-check-d) |
 | [asset-tracking-android-rider-app-demo](https://github.com/ably/asset-tracking-android-rider-app-demo) | :green_circle: | [:red_circle:](#asset-tracking-android-rider-app-demo-check-b) | :green_circle: | :green_circle: |
 | [asset-tracking-ios-customer-app-demo](https://github.com/ably/asset-tracking-ios-customer-app-demo) | :green_circle: | [:red_circle:](#asset-tracking-ios-customer-app-demo-check-b) | :green_circle: | :green_circle: |
 | [asset-tracking-ios-rider-app-demo](https://github.com/ably/asset-tracking-ios-rider-app-demo) | :green_circle: | [:red_circle:](#asset-tracking-ios-rider-app-demo-check-b) | :green_circle: | :green_circle: |
@@ -84,9 +84,9 @@
 | [tutorials](https://github.com/ably/tutorials) | :green_circle: | [:red_circle:](#tutorials-check-b) | :green_circle: | [:red_circle:](#tutorials-check-d) |
 | [wiki-site](https://github.com/ably/wiki-site) | :green_circle: | [:red_circle:](#wiki-site-check-b) | :green_circle: | [:red_circle:](#wiki-site-check-d) |
 | [xdelta-async-nodejs-addon](https://github.com/ably/xdelta-async-nodejs-addon) | :green_circle: | [:red_circle:](#xdelta-async-nodejs-addon-check-b) | :green_circle: | [:red_circle:](#xdelta-async-nodejs-addon-check-d) |
-| Pass | 78 | 21 | 62 | 32 |
+| Pass | 78 | 21 | 62 | 31 |
 | Warn | 2 | 6 | 0 | 0 |
-| Fail | 0 | 53 | 18 | 48 |
+| Fail | 0 | 53 | 18 | 49 |
 
 Repository Count: 80
 
@@ -241,6 +241,12 @@ Validates the configuration of the Merge button.
 ### [asset-tracking-android-customer-app-demo](https://github.com/ably/asset-tracking-android-customer-app-demo) check B
 
 :red_circle: There is no branch protection rule defined for pattern `main`.
+
+### [asset-tracking-android-customer-app-demo](https://github.com/ably/asset-tracking-android-customer-app-demo) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Allows rebase merging.
 
 ### [asset-tracking-android-rider-app-demo](https://github.com/ably/asset-tracking-android-rider-app-demo) check B
 
