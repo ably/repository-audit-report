@@ -46,6 +46,7 @@
 | [distsys-class](https://github.com/ably-forks/distsys-class) | [:red_circle:](#distsys-class-check-a) | [:red_circle:](#distsys-class-check-b) | [:red_circle:](#distsys-class-check-c) | [:red_circle:](#distsys-class-check-d) |
 | [docker-api](https://github.com/ably-forks/docker-api) | [:red_circle:](#docker-api-check-a) | [:red_circle:](#docker-api-check-b) | [:red_circle:](#docker-api-check-c) | [:red_circle:](#docker-api-check-d) |
 | [docker-cassandra](https://github.com/ably-forks/docker-cassandra) | [:red_circle:](#docker-cassandra-check-a) | [:red_circle:](#docker-cassandra-check-b) | [:red_circle:](#docker-cassandra-check-c) | [:red_circle:](#docker-cassandra-check-d) |
+| [echo](https://github.com/ably-forks/echo) | [:red_circle:](#echo-check-a) | [:red_circle:](#echo-check-b) | [:red_circle:](#echo-check-c) | [:red_circle:](#echo-check-d) |
 | [em_postgresql](https://github.com/ably-forks/em_postgresql) | [:red_circle:](#em_postgresql-check-a) | [:red_circle:](#em_postgresql-check-b) | [:red_circle:](#em_postgresql-check-c) | [:red_circle:](#em_postgresql-check-d) |
 | [event-loop-stats](https://github.com/ably-forks/event-loop-stats) | [:red_circle:](#event-loop-stats-check-a) | [:red_circle:](#event-loop-stats-check-b) | [:red_circle:](#event-loop-stats-check-c) | [:red_circle:](#event-loop-stats-check-d) |
 | [farmhash](https://github.com/ably-forks/farmhash) | [:red_circle:](#farmhash-check-a) | [:red_circle:](#farmhash-check-b) | [:red_circle:](#farmhash-check-c) | [:red_circle:](#farmhash-check-d) |
@@ -57,6 +58,7 @@
 | [flynn](https://github.com/ably-forks/flynn) | [:red_circle:](#flynn-check-a) | [:red_circle:](#flynn-check-b) | [:red_circle:](#flynn-check-c) | [:red_circle:](#flynn-check-d) |
 | [fog](https://github.com/ably-forks/fog) | [:red_circle:](#fog-check-a) | [:red_circle:](#fog-check-b) | [:red_circle:](#fog-check-c) | [:red_circle:](#fog-check-d) |
 | [fog-aws](https://github.com/ably-forks/fog-aws) | [:red_circle:](#fog-aws-check-a) | [:red_circle:](#fog-aws-check-b) | [:red_circle:](#fog-aws-check-c) | [:red_circle:](#fog-aws-check-d) |
+| [framework](https://github.com/ably-forks/framework) | [:red_circle:](#framework-check-a) | [:red_circle:](#framework-check-b) | [:red_circle:](#framework-check-c) | [:red_circle:](#framework-check-d) |
 | [go-liftbridge](https://github.com/ably-forks/go-liftbridge) | [:red_circle:](#go-liftbridge-check-a) | [:red_circle:](#go-liftbridge-check-b) | [:red_circle:](#go-liftbridge-check-c) | [:red_circle:](#go-liftbridge-check-d) |
 | [gocql](https://github.com/ably-forks/gocql) | [:red_circle:](#gocql-check-a) | [:red_circle:](#gocql-check-b) | [:red_circle:](#gocql-check-c) | [:red_circle:](#gocql-check-d) |
 | [gods](https://github.com/ably-forks/gods) | [:red_circle:](#gods-check-a) | [:red_circle:](#gods-check-b) | [:red_circle:](#gods-check-c) | [:red_circle:](#gods-check-d) |
@@ -143,9 +145,9 @@
 | [xdelta](https://github.com/ably-forks/xdelta) | [:red_circle:](#xdelta-check-a) | [:red_circle:](#xdelta-check-b) | [:red_circle:](#xdelta-check-c) | [:red_circle:](#xdelta-check-d) |
 | Pass | 9 | 0 | 2 | 0 |
 | Warn | 3 | 1 | 0 | 0 |
-| Fail | 125 | 136 | 135 | 137 |
+| Fail | 127 | 138 | 137 | 139 |
 
-Repository Count: 137
+Repository Count: 139
 
 ## Checks
 
@@ -1146,6 +1148,29 @@ Validates the configuration of the Merge button.
 - :red_circle: Allows rebase merging.
 - :red_circle: Allows squash merging.
 
+### [echo](https://github.com/ably-forks/echo) check A
+
+:red_circle: Non-standard name `master`. Assumed to be something non-inclusive.
+
+### [echo](https://github.com/ably-forks/echo) check B
+
+:red_circle: There is no branch protection rule defined for pattern `master`.
+
+### [echo](https://github.com/ably-forks/echo) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Issues are disabled.
+- :red_circle: Projects are enabled.
+
+### [echo](https://github.com/ably-forks/echo) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
+
 ### [em_postgresql](https://github.com/ably-forks/em_postgresql) check A
 
 :red_circle: Non-standard name `master`. Assumed to be something non-inclusive.
@@ -1401,6 +1426,29 @@ Validates the configuration of the Merge button.
 - :red_circle: Wiki is enabled.
 
 ### [fog-aws](https://github.com/ably-forks/fog-aws) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
+
+### [framework](https://github.com/ably-forks/framework) check A
+
+:red_circle: Non-standard name `9.x`. Assumed to be something non-inclusive.
+
+### [framework](https://github.com/ably-forks/framework) check B
+
+:red_circle: There is no branch protection rule defined for pattern `9.x`.
+
+### [framework](https://github.com/ably-forks/framework) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Issues are disabled.
+- :red_circle: Projects are enabled.
+
+### [framework](https://github.com/ably-forks/framework) check D
 
 :red_circle: Merge button switches:
 
