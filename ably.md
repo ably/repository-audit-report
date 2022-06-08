@@ -80,16 +80,17 @@
 | [sysdig-chisels](https://github.com/ably/sysdig-chisels) | :green_circle: | [:red_circle:](#sysdig-chisels-check-b) | :green_circle: | [:red_circle:](#sysdig-chisels-check-d) |
 | [terraform-aws-privatelink](https://github.com/ably/terraform-aws-privatelink) | :green_circle: | [:red_circle:](#terraform-aws-privatelink-check-b) | [:red_circle:](#terraform-aws-privatelink-check-c) | [:red_circle:](#terraform-aws-privatelink-check-d) |
 | [terraform-aws-privatelink-dns](https://github.com/ably/terraform-aws-privatelink-dns) | :green_circle: | [:red_circle:](#terraform-aws-privatelink-dns-check-b) | [:red_circle:](#terraform-aws-privatelink-dns-check-c) | [:red_circle:](#terraform-aws-privatelink-dns-check-d) |
-| [test-observability-action](https://github.com/ably/test-observability-action) | [:yellow_circle:](#test-observability-action-check-a) | [:yellow_circle:](#test-observability-action-check-b) | [:red_circle:](#test-observability-action-check-c) | [:red_circle:](#test-observability-action-check-d) |
+| [test-observability](https://github.com/ably/test-observability) | :green_circle: | [:red_circle:](#test-observability-check-b) | :green_circle: | [:red_circle:](#test-observability-check-d) |
+| [test-observability-action](https://github.com/ably/test-observability-action) | :green_circle: | [:red_circle:](#test-observability-action-check-b) | [:red_circle:](#test-observability-action-check-c) | [:red_circle:](#test-observability-action-check-d) |
 | [test-observability-action-src](https://github.com/ably/test-observability-action-src) | :green_circle: | [:red_circle:](#test-observability-action-src-check-b) | [:red_circle:](#test-observability-action-src-check-c) | [:red_circle:](#test-observability-action-src-check-d) |
 | [tutorials](https://github.com/ably/tutorials) | :green_circle: | [:red_circle:](#tutorials-check-b) | :green_circle: | [:red_circle:](#tutorials-check-d) |
 | [wiki-site](https://github.com/ably/wiki-site) | :green_circle: | [:red_circle:](#wiki-site-check-b) | :green_circle: | [:red_circle:](#wiki-site-check-d) |
 | [xdelta-async-nodejs-addon](https://github.com/ably/xdelta-async-nodejs-addon) | :green_circle: | [:red_circle:](#xdelta-async-nodejs-addon-check-b) | :green_circle: | [:red_circle:](#xdelta-async-nodejs-addon-check-d) |
-| Pass | 79 | 21 | 63 | 32 |
-| Warn | 2 | 6 | 0 | 0 |
-| Fail | 0 | 54 | 18 | 49 |
+| Pass | 81 | 21 | 64 | 32 |
+| Warn | 1 | 5 | 0 | 0 |
+| Fail | 0 | 56 | 18 | 50 |
 
-Repository Count: 81
+Repository Count: 82
 
 ## Checks
 
@@ -795,13 +796,23 @@ Validates the configuration of the Merge button.
 - :red_circle: Allows rebase merging.
 - :red_circle: Allows squash merging.
 
-### [test-observability-action](https://github.com/ably/test-observability-action) check A
+### [test-observability](https://github.com/ably/test-observability) check B
 
-:yellow_circle: There is no default branch defined, probably indicating this repository is empty.
+:red_circle: Default branch protection rule:
+
+- :red_circle: Does not restrict push.
+- :yellow_circle: Does not require conversations to be resolved before merging.
+
+### [test-observability](https://github.com/ably/test-observability) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
 
 ### [test-observability-action](https://github.com/ably/test-observability-action) check B
 
-:yellow_circle: There is no default branch defined, probably indicating this repository is empty.
+:red_circle: There is no branch protection rule defined for pattern `main`.
 
 ### [test-observability-action](https://github.com/ably/test-observability-action) check C
 

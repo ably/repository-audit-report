@@ -91,6 +91,7 @@
 | [jsbin](https://github.com/ably-forks/jsbin) | [:red_circle:](#jsbin-check-a) | [:red_circle:](#jsbin-check-b) | [:red_circle:](#jsbin-check-c) | [:red_circle:](#jsbin-check-d) |
 | [json-minify-rb](https://github.com/ably-forks/json-minify-rb) | [:red_circle:](#json-minify-rb-check-a) | [:red_circle:](#json-minify-rb-check-b) | [:red_circle:](#json-minify-rb-check-c) | [:red_circle:](#json-minify-rb-check-d) |
 | [karma](https://github.com/ably-forks/karma) | [:red_circle:](#karma-check-a) | [:red_circle:](#karma-check-b) | [:red_circle:](#karma-check-c) | [:red_circle:](#karma-check-d) |
+| [laravel-docs](https://github.com/ably-forks/laravel-docs) | [:red_circle:](#laravel-docs-check-a) | [:red_circle:](#laravel-docs-check-b) | [:red_circle:](#laravel-docs-check-c) | [:red_circle:](#laravel-docs-check-d) |
 | [libvirt-cookbook](https://github.com/ably-forks/libvirt-cookbook) | [:red_circle:](#libvirt-cookbook-check-a) | [:red_circle:](#libvirt-cookbook-check-b) | [:red_circle:](#libvirt-cookbook-check-c) | [:red_circle:](#libvirt-cookbook-check-d) |
 | [liftbridge](https://github.com/ably-forks/liftbridge) | [:red_circle:](#liftbridge-check-a) | [:red_circle:](#liftbridge-check-b) | [:red_circle:](#liftbridge-check-c) | [:red_circle:](#liftbridge-check-d) |
 | [liftbridge-api](https://github.com/ably-forks/liftbridge-api) | [:red_circle:](#liftbridge-api-check-a) | [:red_circle:](#liftbridge-api-check-b) | [:red_circle:](#liftbridge-api-check-c) | [:red_circle:](#liftbridge-api-check-d) |
@@ -145,9 +146,9 @@
 | [xdelta](https://github.com/ably-forks/xdelta) | [:red_circle:](#xdelta-check-a) | [:red_circle:](#xdelta-check-b) | [:red_circle:](#xdelta-check-c) | [:red_circle:](#xdelta-check-d) |
 | Pass | 9 | 0 | 2 | 0 |
 | Warn | 3 | 1 | 0 | 0 |
-| Fail | 127 | 138 | 137 | 139 |
+| Fail | 128 | 139 | 138 | 140 |
 
-Repository Count: 139
+Repository Count: 140
 
 ## Checks
 
@@ -2191,6 +2192,29 @@ Validates the configuration of the Merge button.
 - :red_circle: Projects are enabled.
 
 ### [karma](https://github.com/ably-forks/karma) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
+
+### [laravel-docs](https://github.com/ably-forks/laravel-docs) check A
+
+:red_circle: Non-standard name `9.x`. Assumed to be something non-inclusive.
+
+### [laravel-docs](https://github.com/ably-forks/laravel-docs) check B
+
+:red_circle: There is no branch protection rule defined for pattern `9.x`.
+
+### [laravel-docs](https://github.com/ably-forks/laravel-docs) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Issues are disabled.
+- :red_circle: Projects are enabled.
+
+### [laravel-docs](https://github.com/ably-forks/laravel-docs) check D
 
 :red_circle: Merge button switches:
 
