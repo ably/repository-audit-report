@@ -274,7 +274,6 @@ Validates the configuration of the Merge button.
 
 :red_circle: Merge button switches:
 
-- :red_circle: Does not automatically delete head branches.
 - :red_circle: Allows rebase merging.
 - :red_circle: Allows squash merging.
 
@@ -1055,7 +1054,6 @@ Validates the configuration of the Merge button.
 
 :red_circle: Merge button switches:
 
-- :red_circle: Does not automatically delete head branches.
 - :red_circle: Allows rebase merging.
 - :red_circle: Allows squash merging.
 
@@ -1377,7 +1375,6 @@ Validates the configuration of the Merge button.
 
 :red_circle: Merge button switches:
 
-- :red_circle: Does not automatically delete head branches.
 - :red_circle: Allows rebase merging.
 - :red_circle: Allows squash merging.
 
