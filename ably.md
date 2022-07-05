@@ -36,6 +36,7 @@
 | [asset-tracking-android-rider-app-demo](https://github.com/ably/asset-tracking-android-rider-app-demo) | :green_circle: | [:red_circle:](#asset-tracking-android-rider-app-demo-check-b) | :green_circle: | :green_circle: |
 | [asset-tracking-android-training](https://github.com/ably/asset-tracking-android-training) | :green_circle: | [:red_circle:](#asset-tracking-android-training-check-b) | :green_circle: | :green_circle: |
 | [asset-tracking-backend-demo](https://github.com/ably/asset-tracking-backend-demo) | :green_circle: | [:red_circle:](#asset-tracking-backend-demo-check-b) | :green_circle: | :green_circle: |
+| [asset-tracking-demos](https://github.com/ably/asset-tracking-demos) | :green_circle: | [:red_circle:](#asset-tracking-demos-check-b) | [:red_circle:](#asset-tracking-demos-check-c) | [:red_circle:](#asset-tracking-demos-check-d) |
 | [asset-tracking-ios-customer-app-demo](https://github.com/ably/asset-tracking-ios-customer-app-demo) | :green_circle: | [:red_circle:](#asset-tracking-ios-customer-app-demo-check-b) | :green_circle: | :green_circle: |
 | [asset-tracking-ios-rider-app-demo](https://github.com/ably/asset-tracking-ios-rider-app-demo) | :green_circle: | [:red_circle:](#asset-tracking-ios-rider-app-demo-check-b) | :green_circle: | :green_circle: |
 | [cassandra](https://github.com/ably/cassandra) | [:yellow_circle:](#cassandra-check-a) | [:red_circle:](#cassandra-check-b) | [:red_circle:](#cassandra-check-c) | [:red_circle:](#cassandra-check-d) |
@@ -87,11 +88,11 @@
 | [tutorials](https://github.com/ably/tutorials) | :green_circle: | [:red_circle:](#tutorials-check-b) | :green_circle: | [:red_circle:](#tutorials-check-d) |
 | [wiki-site](https://github.com/ably/wiki-site) | :green_circle: | [:red_circle:](#wiki-site-check-b) | :green_circle: | [:red_circle:](#wiki-site-check-d) |
 | [xdelta-async-nodejs-addon](https://github.com/ably/xdelta-async-nodejs-addon) | :green_circle: | [:red_circle:](#xdelta-async-nodejs-addon-check-b) | :green_circle: | [:red_circle:](#xdelta-async-nodejs-addon-check-d) |
-| Pass | 82 | 21 | 65 | 33 |
+| Pass | 83 | 21 | 65 | 33 |
 | Warn | 1 | 5 | 0 | 0 |
-| Fail | 0 | 57 | 18 | 50 |
+| Fail | 0 | 58 | 19 | 51 |
 
-Repository Count: 83
+Repository Count: 84
 
 ## Checks
 
@@ -262,6 +263,24 @@ Validates the configuration of the Merge button.
 ### [asset-tracking-backend-demo](https://github.com/ably/asset-tracking-backend-demo) check B
 
 :red_circle: There is no branch protection rule defined for pattern `main`.
+
+### [asset-tracking-demos](https://github.com/ably/asset-tracking-demos) check B
+
+:red_circle: There is no branch protection rule defined for pattern `main`.
+
+### [asset-tracking-demos](https://github.com/ably/asset-tracking-demos) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Wiki is enabled.
+
+### [asset-tracking-demos](https://github.com/ably/asset-tracking-demos) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
 
 ### [asset-tracking-ios-customer-app-demo](https://github.com/ably/asset-tracking-ios-customer-app-demo) check B
 
