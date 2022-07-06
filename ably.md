@@ -36,9 +36,10 @@
 | [asset-tracking-android-rider-app-demo](https://github.com/ably/asset-tracking-android-rider-app-demo) | :green_circle: | [:red_circle:](#asset-tracking-android-rider-app-demo-check-b) | :green_circle: | :green_circle: |
 | [asset-tracking-android-training](https://github.com/ably/asset-tracking-android-training) | :green_circle: | [:red_circle:](#asset-tracking-android-training-check-b) | :green_circle: | :green_circle: |
 | [asset-tracking-backend-demo](https://github.com/ably/asset-tracking-backend-demo) | :green_circle: | [:red_circle:](#asset-tracking-backend-demo-check-b) | :green_circle: | :green_circle: |
-| [asset-tracking-demos](https://github.com/ably/asset-tracking-demos) | :green_circle: | [:red_circle:](#asset-tracking-demos-check-b) | [:red_circle:](#asset-tracking-demos-check-c) | [:red_circle:](#asset-tracking-demos-check-d) |
+| [asset-tracking-demos](https://github.com/ably/asset-tracking-demos) | :green_circle: | [:red_circle:](#asset-tracking-demos-check-b) | :green_circle: | :green_circle: |
 | [asset-tracking-ios-customer-app-demo](https://github.com/ably/asset-tracking-ios-customer-app-demo) | :green_circle: | [:red_circle:](#asset-tracking-ios-customer-app-demo-check-b) | :green_circle: | :green_circle: |
 | [asset-tracking-ios-rider-app-demo](https://github.com/ably/asset-tracking-ios-rider-app-demo) | :green_circle: | [:red_circle:](#asset-tracking-ios-rider-app-demo-check-b) | :green_circle: | :green_circle: |
+| [asset-tracking-web-customer-app-demo](https://github.com/ably/asset-tracking-web-customer-app-demo) | :green_circle: | [:red_circle:](#asset-tracking-web-customer-app-demo-check-b) | :green_circle: | :green_circle: |
 | [cassandra](https://github.com/ably/cassandra) | [:yellow_circle:](#cassandra-check-a) | [:red_circle:](#cassandra-check-b) | [:red_circle:](#cassandra-check-c) | [:red_circle:](#cassandra-check-d) |
 | [comply](https://github.com/ably/comply) | :green_circle: | [:red_circle:](#comply-check-b) | [:red_circle:](#comply-check-c) | [:red_circle:](#comply-check-d) |
 | [delta-codec-cocoa](https://github.com/ably/delta-codec-cocoa) | :green_circle: | :green_circle: | :green_circle: | [:red_circle:](#delta-codec-cocoa-check-d) |
@@ -88,11 +89,11 @@
 | [tutorials](https://github.com/ably/tutorials) | :green_circle: | [:red_circle:](#tutorials-check-b) | :green_circle: | [:red_circle:](#tutorials-check-d) |
 | [wiki-site](https://github.com/ably/wiki-site) | :green_circle: | [:red_circle:](#wiki-site-check-b) | :green_circle: | [:red_circle:](#wiki-site-check-d) |
 | [xdelta-async-nodejs-addon](https://github.com/ably/xdelta-async-nodejs-addon) | :green_circle: | [:red_circle:](#xdelta-async-nodejs-addon-check-b) | :green_circle: | [:red_circle:](#xdelta-async-nodejs-addon-check-d) |
-| Pass | 83 | 21 | 65 | 33 |
+| Pass | 84 | 21 | 67 | 35 |
 | Warn | 1 | 5 | 0 | 0 |
-| Fail | 0 | 58 | 19 | 51 |
+| Fail | 0 | 59 | 18 | 50 |
 
-Repository Count: 84
+Repository Count: 85
 
 ## Checks
 
@@ -268,25 +269,15 @@ Validates the configuration of the Merge button.
 
 :red_circle: There is no branch protection rule defined for pattern `main`.
 
-### [asset-tracking-demos](https://github.com/ably/asset-tracking-demos) check C
-
-:red_circle: GitHub feature switches:
-
-- :red_circle: Wiki is enabled.
-
-### [asset-tracking-demos](https://github.com/ably/asset-tracking-demos) check D
-
-:red_circle: Merge button switches:
-
-- :red_circle: Does not automatically delete head branches.
-- :red_circle: Allows rebase merging.
-- :red_circle: Allows squash merging.
-
 ### [asset-tracking-ios-customer-app-demo](https://github.com/ably/asset-tracking-ios-customer-app-demo) check B
 
 :red_circle: There is no branch protection rule defined for pattern `main`.
 
 ### [asset-tracking-ios-rider-app-demo](https://github.com/ably/asset-tracking-ios-rider-app-demo) check B
+
+:red_circle: There is no branch protection rule defined for pattern `main`.
+
+### [asset-tracking-web-customer-app-demo](https://github.com/ably/asset-tracking-web-customer-app-demo) check B
 
 :red_circle: There is no branch protection rule defined for pattern `main`.
 
