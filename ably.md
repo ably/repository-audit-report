@@ -29,7 +29,7 @@
 | [ably-ruby-rest](https://github.com/ably/ably-ruby-rest) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
 | [ably-rust](https://github.com/ably/ably-rust) | :green_circle: | [:yellow_circle:](#ably-rust-check-b) | :green_circle: | :green_circle: |
 | [ably-ui](https://github.com/ably/ably-ui) | :green_circle: | [:red_circle:](#ably-ui-check-b) | [:red_circle:](#ably-ui-check-c) | :green_circle: |
-| [actions](https://github.com/ably/actions) | :green_circle: | [:red_circle:](#actions-check-b) | [:red_circle:](#actions-check-c) | [:red_circle:](#actions-check-d) |
+| [actions](https://github.com/ably/actions) | :green_circle: | [:yellow_circle:](#actions-check-b) | [:red_circle:](#actions-check-c) | [:red_circle:](#actions-check-d) |
 | [api-key-regex](https://github.com/ably/api-key-regex) | :green_circle: | [:red_circle:](#api-key-regex-check-b) | [:red_circle:](#api-key-regex-check-c) | [:red_circle:](#api-key-regex-check-d) |
 | [apns-cert-parser](https://github.com/ably/apns-cert-parser) | :green_circle: | [:red_circle:](#apns-cert-parser-check-b) | :green_circle: | [:red_circle:](#apns-cert-parser-check-d) |
 | [asset-tracking-android-customer-app-demo](https://github.com/ably/asset-tracking-android-customer-app-demo) | :green_circle: | [:red_circle:](#asset-tracking-android-customer-app-demo-check-b) | :green_circle: | [:red_circle:](#asset-tracking-android-customer-app-demo-check-d) |
@@ -90,8 +90,8 @@
 | [wiki-site](https://github.com/ably/wiki-site) | :green_circle: | [:red_circle:](#wiki-site-check-b) | :green_circle: | [:red_circle:](#wiki-site-check-d) |
 | [xdelta-async-nodejs-addon](https://github.com/ably/xdelta-async-nodejs-addon) | :green_circle: | [:red_circle:](#xdelta-async-nodejs-addon-check-b) | :green_circle: | [:red_circle:](#xdelta-async-nodejs-addon-check-d) |
 | Pass | 84 | 21 | 67 | 35 |
-| Warn | 1 | 5 | 0 | 0 |
-| Fail | 0 | 59 | 18 | 50 |
+| Warn | 1 | 6 | 0 | 0 |
+| Fail | 0 | 58 | 18 | 50 |
 
 Repository Count: 85
 
@@ -198,7 +198,10 @@ Validates the configuration of the Merge button.
 
 ### [actions](https://github.com/ably/actions) check B
 
-:red_circle: There is no branch protection rule defined for pattern `main`.
+:yellow_circle: Default branch protection rule:
+
+- :yellow_circle: Does not require conversations to be resolved before merging.
+- :yellow_circle: Does not require status checks to pass.
 
 ### [actions](https://github.com/ably/actions) check C
 
