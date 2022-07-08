@@ -37,12 +37,12 @@
 | [ablyd-client](https://github.com/ably-labs/ablyd-client) | :green_circle: | [:red_circle:](#ablyd-client-check-b) | [:red_circle:](#ablyd-client-check-c) | [:red_circle:](#ablyd-client-check-d) |
 | [agile-flush-vue-app](https://github.com/ably-labs/agile-flush-vue-app) | :green_circle: | [:red_circle:](#agile-flush-vue-app-check-b) | [:red_circle:](#agile-flush-vue-app-check-c) | [:red_circle:](#agile-flush-vue-app-check-d) |
 | [async-api-template-ably-nodejs](https://github.com/ably-labs/async-api-template-ably-nodejs) | :green_circle: | [:red_circle:](#async-api-template-ably-nodejs-check-b) | [:red_circle:](#async-api-template-ably-nodejs-check-c) | [:red_circle:](#async-api-template-ably-nodejs-check-d) |
-| [azure-webpubsub-ably](https://github.com/ably-labs/azure-webpubsub-ably) | :green_circle: | [:red_circle:](#azure-webpubsub-ably-check-b) | [:red_circle:](#azure-webpubsub-ably-check-c) | [:red_circle:](#azure-webpubsub-ably-check-d) |
 | [azurewebsubpub-ably-dotnet](https://github.com/ably-labs/azurewebsubpub-ably-dotnet) | :green_circle: | [:red_circle:](#azurewebsubpub-ably-dotnet-check-b) | [:red_circle:](#azurewebsubpub-ably-dotnet-check-c) | [:red_circle:](#azurewebsubpub-ably-dotnet-check-d) |
 | [broadcasting-redis-go](https://github.com/ably-labs/broadcasting-redis-go) | :green_circle: | [:red_circle:](#broadcasting-redis-go-check-b) | [:red_circle:](#broadcasting-redis-go-check-c) | [:red_circle:](#broadcasting-redis-go-check-d) |
 | [christmas-jumper](https://github.com/ably-labs/christmas-jumper) | [:red_circle:](#christmas-jumper-check-a) | [:red_circle:](#christmas-jumper-check-b) | [:red_circle:](#christmas-jumper-check-c) | [:red_circle:](#christmas-jumper-check-d) |
 | [codepen](https://github.com/ably-labs/codepen) | :green_circle: | [:red_circle:](#codepen-check-b) | [:red_circle:](#codepen-check-c) | [:red_circle:](#codepen-check-d) |
 | [coin-game](https://github.com/ably-labs/coin-game) | :green_circle: | [:red_circle:](#coin-game-check-b) | [:red_circle:](#coin-game-check-c) | [:red_circle:](#coin-game-check-d) |
+| [collaborative-pixel-drawing](https://github.com/ably-labs/collaborative-pixel-drawing) | :green_circle: | [:red_circle:](#collaborative-pixel-drawing-check-b) | [:red_circle:](#collaborative-pixel-drawing-check-c) | [:red_circle:](#collaborative-pixel-drawing-check-d) |
 | [control-api-client](https://github.com/ably-labs/control-api-client) | :green_circle: | [:red_circle:](#control-api-client-check-b) | [:red_circle:](#control-api-client-check-c) | [:red_circle:](#control-api-client-check-d) |
 | [cttransit-ably-mapbox-demo](https://github.com/ably-labs/cttransit-ably-mapbox-demo) | :green_circle: | [:red_circle:](#cttransit-ably-mapbox-demo-check-b) | [:red_circle:](#cttransit-ably-mapbox-demo-check-c) | [:red_circle:](#cttransit-ably-mapbox-demo-check-d) |
 | [decorate-a-tree-2020](https://github.com/ably-labs/decorate-a-tree-2020) | :green_circle: | [:red_circle:](#decorate-a-tree-2020-check-b) | [:red_circle:](#decorate-a-tree-2020-check-c) | [:red_circle:](#decorate-a-tree-2020-check-d) |
@@ -720,25 +720,6 @@ Validates the configuration of the Merge button.
 - :red_circle: Allows rebase merging.
 - :red_circle: Allows squash merging.
 
-### [azure-webpubsub-ably](https://github.com/ably-labs/azure-webpubsub-ably) check B
-
-:red_circle: There is no branch protection rule defined for pattern `main`.
-
-### [azure-webpubsub-ably](https://github.com/ably-labs/azure-webpubsub-ably) check C
-
-:red_circle: GitHub feature switches:
-
-- :red_circle: Projects are enabled.
-- :red_circle: Wiki is enabled.
-
-### [azure-webpubsub-ably](https://github.com/ably-labs/azure-webpubsub-ably) check D
-
-:red_circle: Merge button switches:
-
-- :red_circle: Allows rebase merging.
-- :red_circle: Allows squash merging.
-- :red_circle: Does not allow merge commits.
-
 ### [azurewebsubpub-ably-dotnet](https://github.com/ably-labs/azurewebsubpub-ably-dotnet) check B
 
 :red_circle: There is no branch protection rule defined for pattern `main`.
@@ -837,6 +818,25 @@ Validates the configuration of the Merge button.
 - :red_circle: Does not automatically delete head branches.
 - :red_circle: Allows rebase merging.
 - :red_circle: Allows squash merging.
+
+### [collaborative-pixel-drawing](https://github.com/ably-labs/collaborative-pixel-drawing) check B
+
+:red_circle: There is no branch protection rule defined for pattern `main`.
+
+### [collaborative-pixel-drawing](https://github.com/ably-labs/collaborative-pixel-drawing) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Projects are enabled.
+- :red_circle: Wiki is enabled.
+
+### [collaborative-pixel-drawing](https://github.com/ably-labs/collaborative-pixel-drawing) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
+- :red_circle: Does not allow merge commits.
 
 ### [control-api-client](https://github.com/ably-labs/control-api-client) check B
 

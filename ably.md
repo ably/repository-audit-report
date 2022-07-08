@@ -21,6 +21,7 @@
 | [ably-js](https://github.com/ably/ably-js) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
 | [ably-js-nativescript](https://github.com/ably/ably-js-nativescript) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
 | [ably-js-react-native](https://github.com/ably/ably-js-react-native) | :green_circle: | [:yellow_circle:](#ably-js-react-native-check-b) | :green_circle: | :green_circle: |
+| [ably-messages-s3-tutorial](https://github.com/ably/ably-messages-s3-tutorial) | :green_circle: | [:red_circle:](#ably-messages-s3-tutorial-check-b) | [:red_circle:](#ably-messages-s3-tutorial-check-c) | [:red_circle:](#ably-messages-s3-tutorial-check-d) |
 | [ably-php](https://github.com/ably/ably-php) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
 | [ably-php-laravel](https://github.com/ably/ably-php-laravel) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
 | [ably-python](https://github.com/ably/ably-python) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
@@ -89,11 +90,11 @@
 | [tutorials](https://github.com/ably/tutorials) | :green_circle: | [:red_circle:](#tutorials-check-b) | :green_circle: | [:red_circle:](#tutorials-check-d) |
 | [wiki-site](https://github.com/ably/wiki-site) | :green_circle: | [:red_circle:](#wiki-site-check-b) | :green_circle: | [:red_circle:](#wiki-site-check-d) |
 | [xdelta-async-nodejs-addon](https://github.com/ably/xdelta-async-nodejs-addon) | :green_circle: | [:red_circle:](#xdelta-async-nodejs-addon-check-b) | :green_circle: | [:red_circle:](#xdelta-async-nodejs-addon-check-d) |
-| Pass | 84 | 21 | 67 | 35 |
+| Pass | 85 | 21 | 67 | 35 |
 | Warn | 1 | 6 | 0 | 0 |
-| Fail | 0 | 58 | 18 | 50 |
+| Fail | 0 | 59 | 19 | 51 |
 
-Repository Count: 85
+Repository Count: 86
 
 ## Checks
 
@@ -174,6 +175,24 @@ Validates the configuration of the Merge button.
 - :yellow_circle: Required approving reviewer count is too low.
 - :yellow_circle: Does not require conversations to be resolved before merging.
 - :yellow_circle: Does not require status checks to pass.
+
+### [ably-messages-s3-tutorial](https://github.com/ably/ably-messages-s3-tutorial) check B
+
+:red_circle: There is no branch protection rule defined for pattern `main`.
+
+### [ably-messages-s3-tutorial](https://github.com/ably/ably-messages-s3-tutorial) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Wiki is enabled.
+
+### [ably-messages-s3-tutorial](https://github.com/ably/ably-messages-s3-tutorial) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
 
 ### [ably-rust](https://github.com/ably/ably-rust) check B
 
