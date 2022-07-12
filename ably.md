@@ -60,6 +60,7 @@
 | [docs](https://github.com/ably/docs) | :green_circle: | [:yellow_circle:](#docs-check-b) | :green_circle: | [:red_circle:](#docs-check-d) |
 | [engineering](https://github.com/ably/engineering) | :green_circle: | :green_circle: | :green_circle: | :green_circle: |
 | [example-lambda-function](https://github.com/ably/example-lambda-function) | :green_circle: | [:red_circle:](#example-lambda-function-check-b) | :green_circle: | [:red_circle:](#example-lambda-function-check-d) |
+| [features](https://github.com/ably/features) | :green_circle: | [:red_circle:](#features-check-b) | [:red_circle:](#features-check-c) | [:red_circle:](#features-check-d) |
 | [firehose-kinesis-tutorial](https://github.com/ably/firehose-kinesis-tutorial) | :green_circle: | [:red_circle:](#firehose-kinesis-tutorial-check-b) | [:red_circle:](#firehose-kinesis-tutorial-check-c) | [:red_circle:](#firehose-kinesis-tutorial-check-d) |
 | [firehose-sqs-tutorial](https://github.com/ably/firehose-sqs-tutorial) | :green_circle: | [:red_circle:](#firehose-sqs-tutorial-check-b) | [:red_circle:](#firehose-sqs-tutorial-check-c) | [:red_circle:](#firehose-sqs-tutorial-check-d) |
 | [fluent-plugin-out-file-copy](https://github.com/ably/fluent-plugin-out-file-copy) | :green_circle: | [:red_circle:](#fluent-plugin-out-file-copy-check-b) | :green_circle: | [:red_circle:](#fluent-plugin-out-file-copy-check-d) |
@@ -90,11 +91,11 @@
 | [tutorials](https://github.com/ably/tutorials) | :green_circle: | [:red_circle:](#tutorials-check-b) | :green_circle: | [:red_circle:](#tutorials-check-d) |
 | [wiki-site](https://github.com/ably/wiki-site) | :green_circle: | [:red_circle:](#wiki-site-check-b) | :green_circle: | [:red_circle:](#wiki-site-check-d) |
 | [xdelta-async-nodejs-addon](https://github.com/ably/xdelta-async-nodejs-addon) | :green_circle: | [:red_circle:](#xdelta-async-nodejs-addon-check-b) | :green_circle: | [:red_circle:](#xdelta-async-nodejs-addon-check-d) |
-| Pass | 85 | 21 | 67 | 35 |
+| Pass | 86 | 21 | 67 | 35 |
 | Warn | 1 | 6 | 0 | 0 |
-| Fail | 0 | 59 | 19 | 51 |
+| Fail | 0 | 60 | 20 | 52 |
 
-Repository Count: 86
+Repository Count: 87
 
 ## Checks
 
@@ -520,6 +521,24 @@ Validates the configuration of the Merge button.
 :red_circle: There is no branch protection rule defined for pattern `main`.
 
 ### [example-lambda-function](https://github.com/ably/example-lambda-function) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
+
+### [features](https://github.com/ably/features) check B
+
+:red_circle: There is no branch protection rule defined for pattern `main`.
+
+### [features](https://github.com/ably/features) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Wiki is enabled.
+
+### [features](https://github.com/ably/features) check D
 
 :red_circle: Merge button switches:
 
