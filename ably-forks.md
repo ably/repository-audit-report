@@ -4,6 +4,7 @@
 
 | Repository | [A](#check-a) | [B](#check-b) | [C](#check-c) | [D](#check-d) |
 | ---------- | ------------- | ------------- | ------------- | ------------- |
+| [AutoRebase](https://github.com/ably-forks/AutoRebase) | :green_circle: | [:red_circle:](#autorebase-check-b) | [:red_circle:](#autorebase-check-c) | [:red_circle:](#autorebase-check-d) |
 | [DefinitelyTyped](https://github.com/ably-forks/DefinitelyTyped) | [:red_circle:](#definitelytyped-check-a) | [:red_circle:](#definitelytyped-check-b) | [:red_circle:](#definitelytyped-check-c) | [:red_circle:](#definitelytyped-check-d) |
 | [EventEmitter2](https://github.com/ably-forks/EventEmitter2) | [:red_circle:](#eventemitter2-check-a) | [:red_circle:](#eventemitter2-check-b) | [:red_circle:](#eventemitter2-check-c) | [:red_circle:](#eventemitter2-check-d) |
 | [Java-WebSocket](https://github.com/ably-forks/Java-WebSocket) | [:red_circle:](#java-websocket-check-a) | [:red_circle:](#java-websocket-check-b) | [:red_circle:](#java-websocket-check-c) | [:red_circle:](#java-websocket-check-d) |
@@ -144,11 +145,11 @@
 | [ws](https://github.com/ably-forks/ws) | [:red_circle:](#ws-check-a) | [:red_circle:](#ws-check-b) | [:red_circle:](#ws-check-c) | [:red_circle:](#ws-check-d) |
 | [xcparse](https://github.com/ably-forks/xcparse) | [:red_circle:](#xcparse-check-a) | [:red_circle:](#xcparse-check-b) | [:red_circle:](#xcparse-check-c) | [:red_circle:](#xcparse-check-d) |
 | [xdelta](https://github.com/ably-forks/xdelta) | [:red_circle:](#xdelta-check-a) | [:red_circle:](#xdelta-check-b) | [:red_circle:](#xdelta-check-c) | [:red_circle:](#xdelta-check-d) |
-| Pass | 9 | 0 | 2 | 0 |
+| Pass | 10 | 0 | 2 | 0 |
 | Warn | 3 | 1 | 0 | 0 |
-| Fail | 128 | 139 | 138 | 140 |
+| Fail | 128 | 140 | 139 | 141 |
 
-Repository Count: 140
+Repository Count: 141
 
 ## Checks
 
@@ -169,6 +170,25 @@ Validates that fundamental GitHub features are enabled or disabled as appropriat
 Validates the configuration of the Merge button.
 
 ## Failure Details
+
+### [AutoRebase](https://github.com/ably-forks/AutoRebase) check B
+
+:red_circle: There is no branch protection rule defined for pattern `main`.
+
+### [AutoRebase](https://github.com/ably-forks/AutoRebase) check C
+
+:red_circle: GitHub feature switches:
+
+- :red_circle: Issues are disabled.
+- :red_circle: Projects are enabled.
+
+### [AutoRebase](https://github.com/ably-forks/AutoRebase) check D
+
+:red_circle: Merge button switches:
+
+- :red_circle: Does not automatically delete head branches.
+- :red_circle: Allows rebase merging.
+- :red_circle: Allows squash merging.
 
 ### [DefinitelyTyped](https://github.com/ably-forks/DefinitelyTyped) check A
 
